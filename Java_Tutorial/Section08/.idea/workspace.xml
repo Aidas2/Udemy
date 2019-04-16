@@ -14,57 +14,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Bank.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
-              <folding>
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="488">
+              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +73,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -84,6 +83,7 @@
       <find>temp</find>
       <find>onFile</find>
       <find>findContactIndexByName</find>
+      <find>eq</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -106,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/ContactsList.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListExample2/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Contact.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/MobilePhone.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex_95_AutoboxingChallenge/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex_95_AutoboxingChallenge/Bank.java" />
@@ -115,20 +114,35 @@
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Bank.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Ex101_LinkedArrayExample/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Bank.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="642" />
-    <option name="y" value="44" />
-    <option name="width" value="1077" />
-    <option name="height" value="1049" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="917" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,21 +181,42 @@
               <item name="Section08" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
-              <item name="Ex95_AutoboxingExample" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedArrayList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedArrayList" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex101_LinkedArrayChallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedArrayList" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex101_LinkedArrayExample1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedArrayList" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex101_LinkedArrayExample2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="experimental" />
@@ -191,6 +226,10 @@
       <recent name="com.udemy.ArrayList.Ex_95_AutoboxingChallenge" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1" />
       <recent name="$PROJECT_DIR$/src/com/udemy/ArrayList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -209,26 +248,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Ex82_Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.array.Ex82_Challenge" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayExample1.Demo" />
       <module name="Section08" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex85_MinElementChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.array.Ex85_MinElementChallenge" />
-      <module name="Section08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.array.*" />
+          <option name="PATTERN" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayExample1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,6 +288,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayChallenge.Main" />
+      <module name="Section08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.ArrayList.Ex90_ArrayListChallenge.Main" />
       <module name="Section08" />
@@ -277,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex86_ReverseArrayChallenge" />
-        <item itemvalue="Application.Ex85_MinElementChallenge" />
-        <item itemvalue="Application.Ex82_Challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -300,16 +339,20 @@
       <workItem from="1554875180613" duration="4752000" />
       <workItem from="1554961758734" duration="14781000" />
       <workItem from="1554994452602" duration="9126000" />
+      <workItem from="1555307971166" duration="121000" />
+      <workItem from="1555312259835" duration="2523000" />
+      <workItem from="1555324115352" duration="11900000" />
+      <workItem from="1555394486541" duration="20216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38816000" />
+    <option name="totallyTimeSpent" value="73576000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="642" y="44" width="1077" height="1049" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38969874" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.41089672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,7 +380,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Run" order="9" weight="0.3586006" />
+      <window_info anchor="right" id="Run" order="9" side_tool="true" weight="0.5008301" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,17 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Contact.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListExample1/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
@@ -376,29 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/MobilePhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#2401#2402#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/MobilePhone.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListExample2/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -424,50 +435,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Bank.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#162#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
