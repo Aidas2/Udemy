@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a881449f-2539-4011-a550-2ebc6fc95d1b" name="Default Changelist" comment="" />
+    <list default="true" id="a881449f-2539-4011-a550-2ebc6fc95d1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/hero.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/hero.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/heroes/heroes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/mock-heroes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-tour-of-heroes/src/app/mock-heroes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/MobilePhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample1/GroceryList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample1/GroceryList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/MobilePhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex82_Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex82_Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex82_Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex82_Example1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex82_Example2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex82_Example2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex85_MinElementChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex85_MinElementChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex85_MinElementExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex85_MinElementExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex86_ReverseArrayChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex86_ReverseArrayChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex86_ReverseArrayExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section08/com/udemy/array/Ex86_ReverseArrayExample.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="488">
-              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+              <caret line="170" selection-start-line="170" selection-end-line="170" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="555">
               <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -42,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -59,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+            <state relative-caret-position="1140">
+              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,6 +130,9 @@
       <find>findContactIndexByName</find>
       <find>eq</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,14 +189,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedArrayList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
@@ -175,6 +274,14 @@
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
               <item name="Ex95_AutoboxingChallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section08" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex95_AutoboxingExample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section08" type="b2602c69:ProjectViewProjectNode" />
@@ -211,12 +318,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="experimental" />
@@ -248,26 +358,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayExample1.Demo" />
       <module name="Section08" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayExample1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex86_ReverseArrayChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.array.Ex86_ReverseArrayChallenge" />
-      <module name="Section08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,12 +385,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayChallenge.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayExample2.Main" />
       <module name="Section08" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayChallenge.*" />
+          <option name="PATTERN" value="com.udemy.LinkedArrayList.Ex101_LinkedArrayExample2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.ArrayList.Ex95_AutoboxingExample.Main" />
+      <module name="Section08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.ArrayList.Ex95_AutoboxingExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,11 +412,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.ArrayList.Ex90_ArrayListChallenge.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.ArrayList.Ex90_ArrayListExample2.Main" />
       <module name="Section08" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.ArrayList.Ex90_ArrayListChallenge.*" />
+          <option name="PATTERN" value="com.udemy.ArrayList.Ex90_ArrayListExample2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,11 +426,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Ex86_ReverseArrayChallenge" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,16 +453,19 @@
       <workItem from="1555312259835" duration="2523000" />
       <workItem from="1555324115352" duration="11900000" />
       <workItem from="1555394486541" duration="20813000" />
+      <workItem from="1555581492754" duration="17000" />
+      <workItem from="1555590552869" duration="161000" />
+      <workItem from="1555590889272" duration="150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74173000" />
+    <option name="totallyTimeSpent" value="74501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41089672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2877698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,10 +494,16 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Run" order="9" side_tool="true" weight="0.5008301" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32982844" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Section08$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1555590598771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.udemy.LinkedArrayList.Ex101_LinkedArrayExample1.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/udemy/array/Ex82_Example1.java" />
@@ -510,17 +629,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="450">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        <state relative-caret-position="488">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -530,31 +659,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="630">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="1140">
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
