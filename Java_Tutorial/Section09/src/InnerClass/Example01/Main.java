@@ -11,6 +11,11 @@ public class Main {
         // INNER CLASS ====================================
         Gearbox mcLaren = new Gearbox(6);
 
+        //before creating method for adding gear in constructor:
+//        mcLaren.addGear(1, 5.3);
+//        mcLaren.addGear(2, 10.6);
+//        mcLaren.addGear(3, 15.9);
+
         mcLaren.operateClutch(true);
         mcLaren.changeGear(1);
         mcLaren.operateClutch(false);
@@ -36,6 +41,7 @@ public class Main {
 //        }
 //
 //        btnPrint.setOnClickListener(new ClickListener());
+//        listen();
 
 
         // ANONYMOUS CLASS =========================================

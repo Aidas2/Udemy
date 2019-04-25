@@ -2,10 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8427f3f0-4003-4825-ba97-e2d7a40185c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section08/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section08/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListChallenge/MobilePhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample1/GroceryList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex90_ArrayListExample2/MobilePhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/ArrayList/Ex95_AutoboxingExample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/array/Ex82_Challenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/array/Ex82_Example1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/array/Ex82_Example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/array/Ex85_MinElementChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/array/Ex85_MinElementExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/array/Ex86_ReverseArrayChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/com/udemy/array/Ex86_ReverseArrayExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Album$SongList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Album$SongList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Button$OnClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Button$OnClickListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Gearbox$Gear.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Gearbox$Gear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Gearbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Gearbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Album$SongList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Album$SongList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Diablo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Diablo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Isaveable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Isaveable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Paladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Paladin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/DeskPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/DeskPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/Gearbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/Gearbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/ITelephone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/ITelephone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/MobilePhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/ISaveable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/ISaveable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Monster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/META-INF/Section09.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Challenge/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/Challenge/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/Example01/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,10 +153,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="445" />
-    <option name="y" value="228" />
-    <option name="width" value="1319" />
-    <option name="height" value="742" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="907" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -102,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -167,7 +229,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553450375107" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Section09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -318,7 +380,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17819591" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18040952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
