@@ -1,4 +1,4 @@
-package InnerClass.ChallengeAidasV2UNSOLVED;
+package InnerClass.ChallengeAidasV2;
 
 
 // Create a program that implements a playlist for songs

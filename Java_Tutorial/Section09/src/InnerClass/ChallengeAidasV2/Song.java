@@ -1,4 +1,4 @@
-package InnerClass.ChallengeAidasV2UNSOLVED;
+package InnerClass.ChallengeAidasV2;
 
 public class Song {
     private String name;

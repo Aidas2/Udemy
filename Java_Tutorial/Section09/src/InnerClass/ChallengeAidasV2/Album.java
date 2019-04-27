@@ -1,4 +1,4 @@
-package InnerClass.ChallengeAidasV2UNSOLVED;
+package InnerClass.ChallengeAidasV2;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -26,14 +26,6 @@ public class Album {
         return albumName;
     }
 
-    public SongList getSongs() {
-        return songs;
-    }
-
-    public int getSongsCount() {
-        return songs.getSongs().size();
-    }
-
     public void addNewSongToAlbum(String songName, double songDuration) {
         if (this.songs.checkIfSongExist(songName)) {
             System.out.println("This song already included in album");
@@ -54,9 +46,9 @@ public class Album {
     }
 
     public void printSongsInAlbum() {
-        System.out.println("Album " + this.albumName + " contains " + getSongsCount() + " songs:");
-        for (int i = 0; i < getSongsCount(); i++) {
-            System.out.println("Song Nr." + (i + 1) + " " + this.songs.getSongs().get(i).getName() + ", duration: " + this.songs.getSongs().get(i).getDuration());
+        System.out.println("Album " + this.albumName + " contains " + songs.getSongs().size() + " songs:");
+        for (int i = 0; i < songs.getSongs().size(); i++) {
+            System.out.println("Song Nr." + (i + 1) + " " + songs.getSongs().get(i).getName() + ", duration: " + songs.getSongs().get(i).getDuration());
         }
         System.out.println();
     }
@@ -72,7 +64,6 @@ public class Album {
         }
 
 
-
         public ArrayList<Song> getSongs() {
             return songs;
         }
@@ -81,6 +72,7 @@ public class Album {
             if(this.songs.contains(song)){
                 return false;
             } else {
+                this.songs.add(song);
                 return true;
             }
         }
@@ -104,14 +96,6 @@ public class Album {
             }
             return null;
         }
-
-
-
-
-
-
-
-
 
     }
 
