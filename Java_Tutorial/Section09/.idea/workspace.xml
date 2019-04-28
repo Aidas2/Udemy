@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168b6374-52d7-4910-aa63-929a17d2f91f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/ListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/NodeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart3/ListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart3/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart3/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart3/NodeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart3/SearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/Example/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/Example/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/Example/CanFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/Example/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/Example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/Example/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/Example/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/CompareTo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section09/AbstractClass/ChallengeAidas/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/CompareTo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="360">
               <caret line="28" column="44" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="62" />
             </state>
           </provider>
@@ -113,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/ListItem.java" />
         <option value="$PROJECT_DIR$/src/AbstractClass/Example/Main.java" />
         <option value="$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/CompareTo.java" />
       </list>
     </option>
   </component>
@@ -130,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -211,7 +196,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.CompareTo">
+    <configuration name="CompareTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractClass.ChallengeAidas.CompareTo" />
+      <module name="Section09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AbstractClass.ChallengeAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractClass.ChallengeAidas.Main" />
       <module name="Section09" />
@@ -305,6 +303,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareTo" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -334,7 +333,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" x="810" y="107" width="366" height="901" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.20586608" />
+      <window_info content_ui="combo" x="810" y="107" width="366" height="901" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.2080797" />
       <window_info id="Structure" order="1" sideWeight="0.5014451" side_tool="true" weight="0.19701162" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,8 +341,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" side_tool="true" weight="0.31853497" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991699" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5008301" side_tool="true" weight="0.31853497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,20 +607,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/CompareTo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="62" />
         </state>
       </provider>
     </entry>
