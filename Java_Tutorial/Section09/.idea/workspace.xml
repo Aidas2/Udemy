@@ -2,45 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168b6374-52d7-4910-aa63-929a17d2f91f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/ListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/NodeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV1/Album$SongList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV1/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV1/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV2/Album$SongList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV2/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeAidasV2/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeTim/Album$SongList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeTim/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeTim/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/ChallengeTim/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/Example/Button$OnClickListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/Example/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/Example/Gearbox$Gear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/Example/Gearbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/Example/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/InnerClass/Example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeAidas/Diablo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeAidas/Isaveable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeAidas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeAidas/Paladin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeTim/ISaveable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeTim/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeTim/Monster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/ChallengeTim/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/Example/DeskPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/Example/Gearbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/Example/ITelephone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/Example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section09/Interfaces/Example/MobilePhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidas/CompareTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/CompareTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/Team.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/CompareTo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="75">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="56" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="795">
+              <caret line="57" column="5" selection-start-line="56" selection-end-line="56" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -89,14 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,16 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -122,22 +88,19 @@
         <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/NodeList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/MyLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/InnerClass/ChallengeAidasV1/Album.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1233#1234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +119,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>can't be added to playlist</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="83" />
     <option name="y" value="52" />
     <option name="width" value="887" />
@@ -224,6 +188,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,34 +205,26 @@
               <item name="Section09" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClass" type="462c0819:PsiDirectoryNode" />
+              <item name="InnerClass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section09" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClass" type="462c0819:PsiDirectoryNode" />
-              <item name="ChallengeAidasUNSOLVED" type="462c0819:PsiDirectoryNode" />
+              <item name="InnerClass" type="462c0819:PsiDirectoryNode" />
+              <item name="ChallengeAidasV1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section09" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClass" type="462c0819:PsiDirectoryNode" />
-              <item name="ChallengeTimPart2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section09" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClass" type="462c0819:PsiDirectoryNode" />
-              <item name="ChallengeTimPart3" type="462c0819:PsiDirectoryNode" />
+              <item name="InnerClass" type="462c0819:PsiDirectoryNode" />
+              <item name="ChallengeAidasV2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +232,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Section08" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="experimental" />
@@ -412,7 +369,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CompareTo" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -434,17 +390,17 @@
       <workItem from="1556285641561" duration="3690000" />
       <workItem from="1556516705062" duration="2179000" />
       <workItem from="1556532602598" duration="5283000" />
+      <workItem from="1556607368153" duration="168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21864000" />
+    <option name="totallyTimeSpent" value="22032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="52" width="887" height="1028" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="810" y="107" width="366" height="901" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.31510106" />
+      <window_info active="true" content_ui="combo" x="810" y="107" width="366" height="901" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.15052573" />
       <window_info id="Structure" order="1" sideWeight="0.5014451" side_tool="true" weight="0.19701162" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -620,24 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InnerClass/ChallengeAidasV1/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
-          <folding>
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InnerClass/ChallengeAidasV1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InnerClass/ChallengeAidasV1/Song.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -711,23 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/CompareTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/ListItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -735,25 +656,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/NodeList.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/CompareTo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="795">
+          <caret line="57" column="5" selection-start-line="56" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -772,23 +695,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="56" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/NodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractClass/ChallengeAidasUNSOLVED/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="339">
+          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
             <element signature="e#1924#1925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InnerClass/ChallengeAidasV1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1830">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InnerClass/ChallengeAidasV1/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
           </folding>
         </state>
       </provider>

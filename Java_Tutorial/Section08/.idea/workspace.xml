@@ -2,45 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a881449f-2539-4011-a550-2ebc6fc95d1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Album$SongList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Challenge/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Button$OnClickListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Gearbox$Gear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Gearbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example01/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Album$SongList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example02/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Diablo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Isaveable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Challenge/Paladin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/DeskPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/Gearbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/ITelephone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example1/MobilePhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/ISaveable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Monster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example2/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Challenge/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV1/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Challenge/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV1/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example01/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/Example/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example01/Gearbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/Example/Gearbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/Example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example02/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeTim/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeTim/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example02/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeTim/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeAidas/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeAidas/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/ChallengeTim/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/ChallengeTim/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/Generics/Example/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section10/Generics/Example/Team.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+            <state relative-caret-position="705">
+              <caret line="61" column="22" selection-start-line="61" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -356,16 +339,18 @@
       <workItem from="1555590889272" duration="150000" />
       <workItem from="1556085088946" duration="22000" />
       <workItem from="1556257384299" duration="183000" />
+      <workItem from="1556607537515" duration="785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74706000" />
+    <option name="totallyTimeSpent" value="75491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31211954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20586608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -563,20 +548,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="61" column="22" selection-start-line="61" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
