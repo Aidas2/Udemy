@@ -7,40 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="565afd2f-e47d-495b-a02e-64701f72f745" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyFirstPackage_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/.idea/artifacts/MyFirstpackage_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/.idea/libraries/PackageDemo1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/packages/challengeAidas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyFirstPackage/com/udemy/section11/packages/Series.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyFirstPackage/com/udemy/section11/packages/Series.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/Section10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/Section10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/BaseballPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/BaseballPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/FootballPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/FootballPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/League.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/League.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/SoccerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/SoccerPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/BaseballPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/BaseballPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/FootballPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/FootballPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/League.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/League.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/SoccerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/SoccerPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/BaseballPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/BaseballPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/FootballPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/FootballPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/SoccerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/SoccerPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/example/MyWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/example/MyWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/example02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/example02/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/challengeAidas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/challengeAidas/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/packages/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/packages/challengeAidas/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,21 +23,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="810">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -72,12 +51,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="451" />
     <option name="y" value="70" />
     <option name="width" value="1205" />
@@ -89,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +109,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,6 +117,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Section10" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -188,45 +168,46 @@
       <option name="presentableId" value="Default" />
       <updated>1556802421666</updated>
       <workItem from="1556802424652" duration="603000" />
+      <workItem from="1556864988733" duration="978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="603000" />
+    <option name="totallyTimeSpent" value="1581000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="451" y="70" width="1205" height="1028" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38912857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25401217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32951945" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32951945" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32852387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32852387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,15 +216,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>

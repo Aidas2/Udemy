@@ -27,7 +27,7 @@ public class Series {
 
 
     public static long nSum (int n) {
-        int sum = 0;
+        long sum = 0;
         int[] numbers = new int[] {0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55};
 
         if (n >= 1 && n <= numbers.length) {
@@ -42,6 +42,15 @@ public class Series {
         }
         //System.out.println(("Sum of first " + n + " numbers is " + sum));
         return sum;
+    }
+
+    public static void nSum2 (int n) {
+        long sum = 0;
+        System.out.print("Sum2: ");
+        for (int i = 0; i <= n; i++) {
+            sum += i;
+            System.out.print(sum + ", ");
+        }
     }
 
     public static long factorial (int n) {

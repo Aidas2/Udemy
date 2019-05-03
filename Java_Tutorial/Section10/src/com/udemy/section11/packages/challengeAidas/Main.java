@@ -2,6 +2,8 @@ package com.udemy.section11.packages.challengeAidas;
 
 import com.udemy.section11.packages.Series;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,6 +11,9 @@ public class Main {
         for(int i=1; i <=11; i++) {
             System.out.print(Series.nSum(i) + ", ");
         }
+
+        System.out.println();
+        Series.nSum2(10);
 
         System.out.println();
         System.out.print("Factorial: ");
