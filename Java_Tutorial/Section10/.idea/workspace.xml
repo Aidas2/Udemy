@@ -7,12 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MyFirstPackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyFirstPackage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyFirstPackage/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MyFirstPackage/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyFirstPackage/out/production/MyFirstPackage/com/udemy/section11/packages/Series.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyFirstPackage/out/production/MyFirstPackage/com/udemy/section11/packages/Series.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyFirstPackage/src/com/udemy/section11/packages/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyFirstPackage/src/com/udemy/section11/packages/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/ScopeCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/Example/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/Example/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/Example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/Example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/Example/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/generics/Example/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/mylibrary/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/mylibrary/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/example01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/example01/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example01/MyWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/example02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example02/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +51,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/X.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -48,7 +97,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/mylibrary/Series.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/mylibrary/Series.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -57,7 +106,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="31" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="35" />
@@ -114,6 +163,11 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/myFirstPackage/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/myFirstPackage/Series.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/packages/challengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section11/packages2/packages/challengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/Main.java" />
       </list>
     </option>
   </component>
@@ -175,23 +229,7 @@
               <item name="Section10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="challengeAidas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="challengeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="PackagesAndScope" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
@@ -212,7 +250,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyFirstPackage/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -226,11 +264,11 @@
       <recent name="com.udemy.section13.challengeAidas" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/mylibrary" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim" />
       <recent name="$PROJECT_DIR$/out/artifacts" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section11/packages/example02" />
-      <recent name="$PROJECT_DIR$/src/com/udemy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,25 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.example02.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section10.Generics.challengeAidas.Main" />
       <module name="Section10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section11.packages.example02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.challengeAidas.Main" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section11.packages.challengeAidas.*" />
+          <option name="PATTERN" value="com.udemy.section10.Generics.challengeAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,11 +311,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section10.generics.ChallengeAidas.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.packages.example02.Main" />
       <module name="Section10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section10.generics.ChallengeAidas.*" />
+          <option name="PATTERN" value="com.udemy.section11.packages.packages.example02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.packages.challengeAidas.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section11.packages.packages.challengeAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,11 +375,12 @@
       <workItem from="1556776864110" duration="174000" />
       <workItem from="1556794124465" duration="8493000" />
       <workItem from="1556865637938" duration="326000" />
+      <workItem from="1556869082310" duration="667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22456000" />
+    <option name="totallyTimeSpent" value="23123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,9 +393,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.2097399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.21195352" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,74 +430,74 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Generics/Example/ChalengeTim/ChallengeAidas.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/Example/BaseballPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/example/BaseballPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/Example/FootballPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/example/FootballPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/Example/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/Example/SoccerPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/example/SoccerPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/FootballPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/FootballPlayer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/SoccerPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/SoccerPlayer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Team.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/Example/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/BaseballPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/BaseballPlayer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/BaseballPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/BaseballPlayer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11.java" />
     <entry file="file://$PROJECT_DIR$/src/section13.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section18.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeTim/League.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/League.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/Example/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="67" column="34" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/League.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/League.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
@@ -475,14 +513,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/generics/ChallengeAidas/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
@@ -493,11 +531,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section13/challengeAidas/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/challengeAidas/Main.java" />
     <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.desktop/java/awt/event/WindowEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/example01/MyWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example01/MyWindow.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/example02/Diablo.java" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/PackageDemo_jar/Diablo.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/example/MainGameTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/example01/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example01/Main.java" />
     <entry file="jar://$USER_HOME$/Downloads/Naming-Conventions-and-Packages-Packages-Part-3-Source-code/PackageDemo/out/artifacts/PackageDemo_jar/PackageDemo.jar!/com/example/game/Monster.class" />
     <entry file="jar://$PROJECT_DIR$/out/artifacts/PackageDemo_jar/PackageDemo.jar!/com/example/game/Player.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,7 +559,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/myFirstPackage/aaa.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/example02/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -532,6 +570,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/myFirstPackage/Series.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../MyFirstPackage/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar!/com/udemy/section11/packages/Series.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -539,27 +584,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/mylibrary/Series.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/mylibrary/Series.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/challengeAidas/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/X.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
