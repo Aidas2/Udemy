@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/out/artifacts/PackageDemo_jar/PackageDemo.jar!/" />
       <root url="jar://$PROJECT_DIR$/../MyFirstPackage/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/PackageDemo_jar/MyFirstPackage.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

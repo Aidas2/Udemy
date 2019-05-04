@@ -7,13 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="565afd2f-e47d-495b-a02e-64701f72f745" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/PackagesAndScope/scope/ChalengeAidasUNSOLVED/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/PackagesAndScope/scope/ChalengeAidasUNSOLVED/X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyFirstPackage_jar/MyFirstPackage.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyFirstPackage/META-INF/MyFirstPackage.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyFirstPackage/com/udemy/section11/packages/Series.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyFirstPackage/com/udemy/section11/packages/Series.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/.idea/libraries/PackageDemo1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/.idea/libraries/PackageDemo1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/challengeAidas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/challengeAidas/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/packages/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/packages/challengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/BaseballPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/FootballPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/League.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/SoccerPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeAidas/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/BaseballPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/FootballPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/League.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/SoccerPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/ChallengeTim/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/BaseballPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/FootballPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/SoccerPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section10/generics/Example/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/out/production/Section10/com/udemy/section11/packages/example02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Section10/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,6 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,7 +135,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,7 +142,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Section10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -177,9 +202,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25401217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2567792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -214,17 +238,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/Series.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
