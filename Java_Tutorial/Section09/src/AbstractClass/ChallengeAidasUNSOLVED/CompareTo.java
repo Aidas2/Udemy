@@ -8,8 +8,8 @@ public class CompareTo {
 
         List<String> list = new ArrayList<>();
 
-        //String stringData = "5 7 3 9 8 2 1 0 4 6";
-        String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
+        String stringData = "5 7 3 9 8 2 1 0 4 6";
+        //String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 
         String[] data = stringData.split(" ");
         for (String s : data) {
@@ -24,9 +24,9 @@ public class CompareTo {
 //        int comparison = data[0].compareTo(data[1]);
 //        System.out.println(comparison);
 
-        int comparison2 = list.get(0).compareTo(list.get(5));
+        int comparison2 = list.get(0).compareTo(list.get(3));
 
-        System.out.println(list.get(0) + " compare to " + list.get(5) + " is equal = " + comparison2);
+        System.out.println(list.get(0) + " compare to " + list.get(3) + " is equal = " + comparison2);
 
     }
 
