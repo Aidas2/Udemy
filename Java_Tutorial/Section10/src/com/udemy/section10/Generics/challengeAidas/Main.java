@@ -45,7 +45,7 @@ public class Main {
         System.out.println(melbourne.compareTo(fremantle));
 
         //ArrayList<Team> teams;
-        //Collections.sort(teams);
+        //collections.sort(teams);
         System.out.println("=============================");
 
         League <Team<FootballPlayer>> footballLeague = new League("FIFA"); //this is good

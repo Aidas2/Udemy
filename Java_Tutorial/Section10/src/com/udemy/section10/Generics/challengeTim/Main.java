@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    // ArrayList<Team> teams;
-        // Collections.sort(teams);
+        // collections.sort(teams);
         // Create a generic class to implement a league table for a sport.
         // The class should allow teams to be added to the list, and store
         // a list of teams that belong to the league.

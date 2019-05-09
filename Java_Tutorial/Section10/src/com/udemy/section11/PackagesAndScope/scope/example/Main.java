@@ -3,7 +3,7 @@ package com.udemy.section11.PackagesAndScope.scope.example;
 public class Main {
 
     public static void main(String[] args) {
-	    String varFour = "this is private to main()";
+	    String varFour = "this is private to Main()";
 
         ScopeCheck scopeInstance = new ScopeCheck();
         scopeInstance.useInner();
