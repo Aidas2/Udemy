@@ -7,42 +7,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Expiration/src/com/udemy/section11/packages/Expiration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeTim/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141Maps/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143_ImmutableClass/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143_ImmutableClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/HeavenlyBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/challengeAidas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/challengeAidas/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/challengeAidas/Seat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/challengeAidas/Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/challengeAidas/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example135CollectionsOverview/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example135CollectionsOverview/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example135CollectionsOverview/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example135CollectionsOverview/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example136BinarySearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example136BinarySearch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example136BinarySearch/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example136BinarySearch/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example137ListMethods/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example137ListMethods/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example137ListMethods/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example137ListMethods/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example138ComparableAndComparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example138ComparableAndComparator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example138ComparableAndComparator/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example138ComparableAndComparator/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example139Maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example139Maps/MapProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/MapProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example139Maps/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example140Maps/Adventure/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Adventure/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example140Maps/Adventure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Adventure/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example140Maps/Maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example140Maps/Maps/MapProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/MapProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example140Maps/Maps/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example141Maps/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeTim/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/Collections/example141Maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141Maps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/challengeAidas/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Seat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/challengeAidas/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example135CollectionsOverview/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example135CollectionsOverview/Theatre$Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example135CollectionsOverview/Theatre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example136BinarySearch/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example136BinarySearch/Theatre$Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example136BinarySearch/Theatre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example137ListMethods/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example137ListMethods/Theatre$Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example137ListMethods/Theatre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example138ComparableAndComparator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example138ComparableAndComparator/Theatre$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example138ComparableAndComparator/Theatre$Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example138ComparableAndComparator/Theatre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example139Maps/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example139Maps/MapProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example139Maps/Theatre$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example139Maps/Theatre$Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example139Maps/Theatre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example140Maps/Adventure/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example140Maps/Adventure/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example140Maps/Maps/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example140Maps/Maps/MapProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example140Maps/Maps/Theatre$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example140Maps/Maps/Theatre$Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example140Maps/Maps/Theatre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example141Maps/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/example141Maps/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/exampleAidas/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/exampleAidas/Seat$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/exampleAidas/Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/Collections/exampleAidas/Theatre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/challengeAidas/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/challengeAidas/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeTim/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGETim/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGETim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example135CollectionsOverview/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture135_CollectionsOverview/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example135CollectionsOverview/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture135_CollectionsOverview/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example136BinarySearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture136_BinarySearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example136BinarySearch/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture136_BinarySearch/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example137ListMethods/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture137_ListMethods/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example137ListMethods/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture137_ListMethods/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example138ComparableAndComparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture138_ComparableAndComparator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example138ComparableAndComparator/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture138_ComparableAndComparator/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/MapProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/MapProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Adventure/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Adventure/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Adventure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Adventure/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Maps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/MapProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Maps/MapProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Maps/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141Maps/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_Maps/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141Maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_Maps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_MapsAllAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_MapsAllAidas/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_MapsAllAidas/Theatre.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="76" column="53" lean-forward="true" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+            <state relative-caret-position="200">
+              <caret line="99" column="46" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,21 +98,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Location.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/HeavenlyBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="155">
+              <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143_ImmutableClass/Location.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -99,6 +135,9 @@
     <findStrings>
       <find>sort</find>
     </findStrings>
+    <replaceStrings>
+      <replace>tempExits.put</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -106,14 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section11/Example01/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section11/Packages/Example01/MyWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section11/Packages/example/MyWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/example/MyWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section13/challengeAidas/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/challengeAidas/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/example02/Diablo.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/MainGameTest.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/example/MainGameTest.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/example02/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section11/packages/challengeTim/mylibrary/Main.java" />
@@ -157,12 +188,20 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section12/Collections/challengeAidas/Location.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Location.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challenge01Aidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challenge02Aidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challenge02Aidas/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/example145SetsAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/example145SetsAidas/HeavenlyBody.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/example143ImmutableClass/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143ImmutableClass/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143_ImmutableClass/Location.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="67" />
-    <option name="y" value="27" />
+    <option name="y" value="52" />
     <option name="width" value="927" />
     <option name="height" value="1028" />
   </component>
@@ -176,6 +215,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,18 +239,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +254,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section12/challengeTim" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section12/collections/example143ImmutableClass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -236,11 +268,11 @@
       <recent name="com.udemy.section13.challengeAidas" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/udemy/section12/collections/example143ImmutableClass" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section12/collections/challenge02Aidas" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section12/challengeTim" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section12/Collections/example141Maps" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section12/Collections/example140Maps/Maps/Adventure" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section12/Collections/example140Maps" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section12/Collections/example139Maps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section12.challengeAidas.Main" />
       <module name="Section10" />
@@ -275,6 +307,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udemy.section12.exampleAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture144_CHALLENGEAidas.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section12.collections.lecture144_CHALLENGEAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture145_SetsAidas.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section12.collections.lecture145_SetsAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,10 +433,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.MapProgram" />
       </list>
     </recent_temporary>
@@ -403,11 +461,12 @@
       <workItem from="1556869082310" duration="667000" />
       <workItem from="1557124339773" duration="20141000" />
       <workItem from="1557381232975" duration="8956000" />
+      <workItem from="1557467295903" duration="12829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52220000" />
+    <option name="totallyTimeSpent" value="65049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,10 +478,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="52" width="927" height="1028" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.31820697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.9148695" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,8 +489,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2508324" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.402746" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
@@ -441,8 +499,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32963374" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32852387" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3291714" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32837528" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,6 +509,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3291714" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,40 +521,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/League.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/challengeAidas/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section13/challengeAidas/Main.java" />
-    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.desktop/java/awt/event/WindowEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example01/MyWindow.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/example02/Diablo.java" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/PackageDemo_jar/Diablo.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/packages/example/MainGameTest.java" />
@@ -571,17 +595,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example136BinarySearch/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture136_BinarySearch/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/Collections/example137/example138Comparators.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example137ListMethods/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture137_ListMethods/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example138ComparableAndComparator/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture138_ComparableAndComparator/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java">
@@ -619,55 +643,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/Theatre.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Maps/Theatre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Adventure/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Adventure/Location.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Maps/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Maps/MapProgram.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Maps/MapProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example141Maps/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_Maps/Location.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example135CollectionsOverview/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture135_CollectionsOverview/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example135CollectionsOverview/Theatre.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture135_CollectionsOverview/Theatre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example136BinarySearch/Theatre.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture136_BinarySearch/Theatre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_MapsAllAidas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
@@ -677,7 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Theatre.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_MapsAllAidas/Theatre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
@@ -687,7 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example141MapsAidas/Seat.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_MapsAllAidas/Seat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
@@ -697,55 +721,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example139Maps/MapProgram.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/MapProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example140Maps/Adventure/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture140_Maps/Adventure/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="12" selection-start-line="12" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/example141Maps/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture141_Maps/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-end-line="37" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/challengeTim/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGETim/Location.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="76" column="53" lean-forward="true" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+        <state relative-caret-position="201">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+          <folding>
+            <element signature="e#5877#5878#0" expanded="true" />
+            <element signature="e#5913#5914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="990" column="34" lean-forward="true" selection-start-line="990" selection-start-column="34" selection-end-line="990" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="99" column="46" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/HeavenlyBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143_ImmutableClass/Location.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
