@@ -1,4 +1,4 @@
-package com.udemy.section12.collections.lecture145_SetsAidas;
+package com.udemy.section12.collections.lecture145_Sets;
 
 import java.util.HashMap;
 import java.util.HashSet;

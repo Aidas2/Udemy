@@ -13,7 +13,7 @@ public class Location {
         this.description = description;
         //this.exits = new HashMap<String, Integer>(); //not immutable :(
         //this.exits = exits; // almost immutable ...
-        //this.exits = new HashMap<>(exits); //immutable :) ! But crash if null is passed ir Main, so we need that check:
+        //this.exits = new HashMap<>(exits); //immutable :) ! But crash if null is passed ir MainDog, so we need that check:
         if(exits != null) {
             this.exits = new HashMap<>(exits);  //map with data
         } else {
