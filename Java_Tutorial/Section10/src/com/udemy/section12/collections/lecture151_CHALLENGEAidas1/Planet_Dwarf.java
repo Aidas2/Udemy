@@ -1,4 +1,4 @@
-package com.udemy.section12.collections.lecture151_CHALLENGEAidas;
+package com.udemy.section12.collections.lecture151_CHALLENGEAidas1;
 
 public class Planet_Dwarf extends HeavenlyBody{
 
