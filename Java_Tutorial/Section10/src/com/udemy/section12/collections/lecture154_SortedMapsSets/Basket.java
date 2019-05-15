@@ -3,6 +3,7 @@ package com.udemy.section12.collections.lecture154_SortedMapsSets;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Basket {
     private final String name; //name of Basket
@@ -10,7 +11,7 @@ public class Basket {
 
     public Basket(String name) {
         this.name = name;
-        this.list = new HashMap<>();
+        this.list = new TreeMap<>();
     }
 
     public int addToBasket(StockItem item, int quantity) {

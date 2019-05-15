@@ -1,6 +1,5 @@
-package com.udemy.section12.collections.lecture154_SortedMapsSets;
+package com.udemy.section12.collections.lecture158_CHALLENGEAidas;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
@@ -70,6 +69,36 @@ public class Main {
         System.out.println(stockList);
 
         System.out.println("=================================================================");
+        System.out.println("========This is for aidasBasket ==================================");
+        Basket aidasBasket = new Basket("Aidas");
+        sellItem(aidasBasket, "cup", 100);
+        sellItem(aidasBasket, "juice", 5);
+        removeItem(aidasBasket, "cup", 1);
+        System.out.println(aidasBasket);
+
+        removeItem(timsBasket, "car", 1);
+        removeItem(timsBasket, "cup", 9);
+        removeItem(timsBasket, "car", 1);
+        System.out.println("cars removed: " + removeItem(timsBasket, "car", 1)); //should not remove any
+
+        System.out.println(timsBasket);
+
+        //remove all items from timsBasket
+        removeItem(timsBasket, "bread", 1);
+        removeItem(timsBasket, "cup", 3);
+        removeItem(timsBasket, "juice", 4);
+        removeItem(timsBasket, "cup", 3);
+        System.out.println(timsBasket);
+
+        System.out.println("\nDisplay stock list before and after checkout");
+        System.out.println(aidasBasket);
+        System.out.println(stockList);
+        checkOut(aidasBasket);
+        System.out.println(aidasBasket);
+        System.out.println(stockList);
+
+
+        System.out.println("=================================================================");
         // this is test (should not allow add using another method then defined):
 //        temp = new StockItem("pen", 1.12);
 //        stockList.addStock(temp); // right method
@@ -85,13 +114,10 @@ public class Main {
             System.out.println(price.getKey() + " costs " + price.getValue());
         }
 
-
-
-
-
-
-
-
+        System.out.println("=================================================================");
+        System.out.println("=================================================================");
+        checkOut(timsBasket);
+        System.out.println(timsBasket);
 
 
     }
@@ -103,12 +129,32 @@ public class Main {
             System.out.println("We do not sell " + item + " (it isn't in stockList).");
             return 0;
         }
-        if(stockList.sellStock(item, quantity) != 0) {
-            basket.addToBasket(stockItem, quantity);
-            return quantity;
+        if(stockList.reserveStock(item, quantity) != 0) {
+            return basket.addToBasket(stockItem, quantity);
 
         }
         return 0; //means we didn't have sufficient stock
+    }
+
+    public static int removeItem(Basket basket, String item, int quantity) {
+        //retrieve the item from the stock first
+        StockItem stockItem = stockList.getStockItem(item);
+        if(stockItem == null) {
+            System.out.println("We do not sell " + item + " (it isn't in stockList).");
+            return 0;
+        }
+        if(basket.removeFromBasket(stockItem, quantity) == quantity) {
+            return stockList.unreserveStock(item, quantity);
+
+        }
+        return 0; //means we didn't have sufficient stock
+    }
+
+    public static void checkOut(Basket basket ) {
+        for(Map.Entry<StockItem, Integer> item : basket.Items().entrySet()) {
+            stockList.sellStock(item.getKey().getName(), item.getValue());
+        }
+        basket.clearBasket();
     }
 
 }
