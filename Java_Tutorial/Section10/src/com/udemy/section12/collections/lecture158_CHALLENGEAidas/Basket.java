@@ -13,31 +13,32 @@ public class Basket {
         this.list = new TreeMap<>();
     }
 
+    //this method increases quantity of item in basket:
     public int addToBasket(StockItem item, int quantityToAdd) {
         if ((item != null) && (quantityToAdd > 0)) {
             int inBasket = list.getOrDefault(item, 0);
-            list.put(item, inBasket + quantityToAdd);
+            list.put(item, inBasket + quantityToAdd); //it means that we updating
 
-            return inBasket;
+            return inBasket; //shows quantity before adding, why ? Why not quantityToAdd e.c. quantity to increase ?
         }
         return 0;
     }
 
-    //this method removes (or adjust) quantity, not item itself:
+    //this method decreases quantity of item in basket (not removes item itself (only in case then newQuantity becomes 0)):
     public int removeFromBasket(StockItem item, int quantityToRemove) {
         if((item != null) && (quantityToRemove > 0)) {
             //check if we already have the item in the basket:
-            int inBasket = list.getOrDefault(item, 0);
-            int newQuantity = inBasket - quantityToRemove; //why not minus ????? cha cha, fixed later :)
+            int inBasket = list.getOrDefault(item, 0); //returns int (value of map by key)
+            int newQuantity = inBasket - quantityToRemove; //why not minus ????? --> cha cha, Tim fixed later :)
 
-            if(newQuantity > 0) //it means that quantity increased (and item should be added (updated ?)
+            if(newQuantity > 0) //it means that some quantity still left and therefore must be updated according to new value)
             {
-                list.put(item, newQuantity); //why put if we need to remove ?????
-                return quantityToRemove;
-            } else if (newQuantity == 0) //it means that quantity decreased to 0 and item should be removed
+                list.put(item, newQuantity); //why put if we need to remove ????? --> just updating quantity of existing item
+                return quantityToRemove; // shows how much quantity will bee decreased
+            } else if (newQuantity == 0) //it means that quantity decreased to 0 and threrefore it makes sense to remove item
             {
                 list.remove(item);
-                return quantityToRemove;
+                return quantityToRemove; // shows how much quantity will bee decreased
             }
         }
         return 0;

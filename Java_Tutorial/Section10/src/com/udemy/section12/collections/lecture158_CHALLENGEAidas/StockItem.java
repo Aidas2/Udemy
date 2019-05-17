@@ -48,19 +48,19 @@ public class StockItem implements Comparable<StockItem> {
         }
     }
 
-    // those two methods only returns how mush reserved increased/decreased (not how many left in stock)
+    // those two methods only returns how much reserved increased/decreased (not how many left in stock)
     public int reserveStock (int quantityToReserve) {
         if (quantityToReserve <= availableQuantity()) //use the method, not field !
         {
             reserved += quantityToReserve;
-            return quantityToReserve; //why ? why not reserved ?
+            return quantityToReserve; //shows how much reserved will be increased
         }
         return 0;
     }
 
     public  int unreserveStock (int quantityToUnreserve) {
         if (quantityToUnreserve <= reserved) {
-            reserved -= quantityToUnreserve;
+            reserved -= quantityToUnreserve;    //shows how much reserved will be decreased
             return quantityToUnreserve;
         }
         return 0;
@@ -71,7 +71,7 @@ public class StockItem implements Comparable<StockItem> {
         if(quantityForCheckout <= reserved) {
             quantityInStock -= quantityForCheckout;
             reserved -= quantityForCheckout;
-            return quantityForCheckout;
+            return quantityForCheckout; //shows how much (in int) quantityInStock and reserved will be decreased (after checkout)
         }
         return 0;
     }

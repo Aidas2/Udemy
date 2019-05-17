@@ -105,8 +105,19 @@ public class Main {
 //        stockList.Items().put(temp.getName(), temp); //wrong method
 
         // this shows, that though list is unmodifiable, but list elements isn't:
+        //version without checking (throws NullPointerException of there is no items):
         stockList.Items().get("car").adjustStock(2000);         // one way
         stockList.getStockItem("car").adjustStock(-1000); //another way
+
+        // version with checking if get("car") not returning null:
+        StockItem car = stockList.Items().get("car");
+        if(car != null) {
+            car.adjustStock(2000);
+        }
+        if(car != null) {
+            car.adjustStock(-1000);
+        }
+
         System.out.println(stockList);
 
         // this shows, that list is unmodifiable, list elements are too:
@@ -122,6 +133,7 @@ public class Main {
 
     }
 
+    //this method just "moves" item from stock to basket (not selling, not checkouted yet)
     public static int sellItem(Basket basket, String item, int quantity) {
         //retrieve the item from the stock first
         StockItem stockItem = stockList.getStockItem(item);
@@ -136,6 +148,7 @@ public class Main {
         return 0; //means we didn't have sufficient stock
     }
 
+    //this method just "moves" item from basket back to stock
     public static int removeItem(Basket basket, String item, int quantity) {
         //retrieve the item from the stock first
         StockItem stockItem = stockList.getStockItem(item);
@@ -149,6 +162,8 @@ public class Main {
         }
         return 0; //means we didn't have sufficient stock
     }
+
+    //this method sells (finally  :) !!! )
 
     public static void checkOut(Basket basket ) {
         for(Map.Entry<StockItem, Integer> item : basket.Items().entrySet()) {

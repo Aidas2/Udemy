@@ -7,57 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/ChallengeText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/MainChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/StockItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/StockList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingBat/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingBat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section13/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/HeavenlyBody$BodyType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/HeavenlyBody$Key.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/HeavenlyBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Moon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Planet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Planet_Dwarf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/SetChallenge.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Asteroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/BodyType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Challenge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/HeavenlyBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Moon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Planet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/PlanetDwarf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/SetChallenge.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/Basket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/Basket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/StockItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/StockItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/StockList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture154_SortedMapsSets/StockList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/HeavenlyBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Moon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Moon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/Planet_Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Planet_Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1/SetChallenge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/SetChallenge.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Asteroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/BodyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/BodyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Challenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/HeavenlyBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Moon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Moon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/PlanetDwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/PlanetDwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2UNSOLVED/SetChallenge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/SetChallenge.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/StockItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/StockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,29 +32,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/ChallengeText.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
+            <state relative-caret-position="825">
               <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="117" column="96" selection-start-line="117" selection-start-column="96" selection-end-line="117" selection-end-column="96" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="147">
+              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
               <folding>
-                <element signature="e#1620#1621#0" expanded="true" />
-                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
                 <element signature="e#1781#1782#0" expanded="true" />
               </folding>
             </state>
@@ -106,9 +63,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            <state relative-caret-position="196">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
+                <element signature="e#2437#2438#0" expanded="true" />
                 <element signature="e#2473#2474#0" expanded="true" />
               </folding>
             </state>
@@ -118,16 +76,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="70">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding>
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#2613#2614#0" expanded="true" />
                 <element signature="e#2661#2662#0" expanded="true" />
-                <element signature="e#3100#3101#0" expanded="true" />
-                <element signature="e#3164#3165#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,6 +114,7 @@
       <find>jupiterMoon</find>
       <find>De</find>
       <find>get(</find>
+      <find>purcha</find>
     </findStrings>
     <replaceStrings>
       <replace>tempExits.put</replace>
@@ -225,14 +179,14 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockList.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/ChallengeText.txt" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="68" />
-    <option name="y" value="32" />
+    <option name="x" value="991" />
+    <option name="y" value="52" />
     <option name="width" value="771" />
     <option name="height" value="1028" />
   </component>
@@ -245,45 +199,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture154_SortedMapsSets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,7 +223,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -373,6 +296,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.example.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section11.packages.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture148_Sets.MainDog" />
       <module name="Section10" />
@@ -400,11 +336,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.packages.example02.Main" />
       <module name="Section10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section11.packages.example.*" />
+          <option name="PATTERN" value="com.udemy.section11.packages.packages.example02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.packages.challengeAidas.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section11.packages.packages.challengeAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -516,32 +465,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.packages.example02.Main" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section11.packages.packages.example02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.packages.challengeAidas.Main" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section11.packages.packages.challengeAidas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (3)" />
@@ -576,12 +499,13 @@
       <workItem from="1557726590333" duration="2059000" />
       <workItem from="1557728904773" duration="15000" />
       <workItem from="1557745997110" duration="23966000" />
-      <workItem from="1557903419871" duration="18115000" />
+      <workItem from="1557903419871" duration="18769000" />
+      <workItem from="1558014214235" duration="7918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109204000" />
+    <option name="totallyTimeSpent" value="117776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,7 +520,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" weight="0.28278914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.29773104" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -605,7 +529,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49833518" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46947837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -875,55 +799,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/ChallengeText.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="196">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
+            <element signature="e#2437#2438#0" expanded="true" />
             <element signature="e#2473#2474#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/ChallengeText.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="70">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#2661#2662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="147">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
           <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3164#3165#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="117" column="96" selection-start-line="117" selection-start-column="96" selection-end-line="117" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
