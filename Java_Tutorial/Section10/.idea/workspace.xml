@@ -7,106 +7,734 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_log4j_over_slf4j_1_8_0_beta4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casual/expiration/Expiration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casual/expiration/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section03/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex1_SpeedConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex2_MegaBytesConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex3_BarkingDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex4_LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex5_DecimalComparator_v01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex5_DecimalComparator_v02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex6_EqualSumChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex7_TeenNumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex10_IntEqualityPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex11_PlayingCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex8_AreaCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex9_MinutesToYearsDaysCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/FeetsInchesCentimeters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/SecondsAndMinutes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/SecondsAndMinutes_v02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/DigitNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex12_NumberInWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex13_Sum3And5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex14_SumOddRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex15_NumberPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex16_FirstLastDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex17_EvenDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex18_SharedDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex19_LastDigitChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex20_GreatestCommonDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex21_FactorPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex22_PerfectNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex23_NumberToWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex24_FlourPacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex25_LargestPrime_UNSOLVED.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex26_DiagonalStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex26_MinAndMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex26_ReadingUserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex27_InputCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex28_PaintJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/NumberOfDaysInMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex29/Ex29_SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex30/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex30/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex30/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex30/VipPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex31/Ex31_Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex32/Ex32_Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex33/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex33/Carpet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex33/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex33/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex34/ComplexNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex34/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Animal/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Animal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Cylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Cylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Cylinder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Ford.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Peugeot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Cuboid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge1_NOT_SOLVED/DeluxeHamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge1_NOT_SOLVED/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge1_NOT_SOLVED/HealthyBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge1_NOT_SOLVED/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge2/DeluxeHamburger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge2/Hamburger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge2/HealthyBurger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge2/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterExample/DeluxeBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterExample/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterExample/HealthyBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Glass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Tv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Bed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Ceiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Lamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Resolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/encapsulationChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/encapsulationChallenge/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/encapsulationExample1/EnhancedPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/encapsulationExample1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/encapsulationExample1/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/encapsulationExample2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/encapsulationExample2/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/polymorphismChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/polymorphismExample1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section07/composition/polymorphismExample2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/Array/Ex82_Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/Array/Ex82_Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/Array/Ex82_Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/Array/Ex85_MinElementChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/Array/Ex85_MinElementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/Array/Ex86_ReverseArrayChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/Array/Ex86_ReverseArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListChallenge/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListChallenge/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListExample1/GroceryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListExample1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListExample2/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListExample2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex90_ArrayListExample2/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingChallenge/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingChallenge/Branch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingChallenge/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingExample/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingExample/Branch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingExample/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayExample1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayExample1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayExample2/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayExample2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section08/arrays/LinkedArrayList/Ex101_LinkedArrayExample2/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeAidasUNSOLVED/CompareTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeAidasUNSOLVED/ListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeAidasUNSOLVED/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeAidasUNSOLVED/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeAidasUNSOLVED/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeAidasUNSOLVED/NodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart2/ListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart2/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart2/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart2/NodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart3/ListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart3/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart3/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart3/NodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/ChallengeTimPart3/SearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/Example/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/Example/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/Example/CanFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/Example/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/Example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/Example/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/AbstractClass/Example/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeAidasV1/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeAidasV1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeAidasV1/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeAidasV2/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeAidasV2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeAidasV2/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeTim/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeTim/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeTim/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/Example/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/Example/Gearbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/Example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeAidas/Diablo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeAidas/Isaveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeAidas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeAidas/Paladin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeTim/ISaveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeTim/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeTim/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/ChallengeTim/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/Example/DeskPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/Example/Gearbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/Example/ITelephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/Example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section09/interfaces/Interfaces/Example/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson275/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson279/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson279/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson280/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson280/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson281Functions/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson281Functions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson282/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson282/Lambda-Expressions-Chaining-java.util.function-Functions-table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson282/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson283Streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson284/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson285/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson285/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson285/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson286CHALLENGES/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/ByteShortInt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/out/production/ByteShortInt/com/udemy/lecture17/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/src/com/udemy/lecture17/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/CodingExercises_12_28.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/META-INF/CodingExercises_12_28.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/DigitNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex12_NumberInWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex13_Sum3And5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex14_SumOddRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex15_NumberPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex16_FirstLastDigitSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex17_EvenDigitSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex18_SharedDigit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex19_LastDigitChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex20_GreatestCommonDivisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex21_FactorPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex22_PerfectNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex23_NumberToWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex24_FlourPacker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex25_LargestPrime_UNSOLVED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex26_DiagonalStar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex26_MinAndMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex26_ReadingUserInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex27_InputCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Ex28_PaintJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/NumberOfDaysInMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/out/production/CodingExercises_12_28/com/udemy/section5/PrimeNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/DigitNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex12_NumberInWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex13_Sum3And5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex14_SumOddRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex15_NumberPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex16_FirstLastDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex17_EvenDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex18_SharedDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex19_LastDigitChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex20_GreatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex21_FactorPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex22_PerfectNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex23_NumberToWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex24_FlourPacker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex25_LargestPrime_UNSOLVED.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex26_DiagonalStar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex26_MinAndMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex26_ReadingUserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex27_InputCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Ex28_PaintJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/NumberOfDaysInMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_12_28/src/com/udemy/section5/PrimeNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/CodingExercises_1_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex1_SpeedConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex2_MegaBytesConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex3_BarkingDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex4_LeapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex5_DecimalComparator_v01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex5_DecimalComparator_v02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex6_EqualSumChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Ex7_TeenNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_1_7/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/.idea/libraries/org_slf4j_log4j_over_slf4j_1_8_0_alpha0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/CodingExercises_29_36.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/META-INF/CodingExercises_29_36.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex29/Ex29_SimpleCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex30/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex30/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex30/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex30/VipPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex31/Ex31_Wall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex32/Ex32_Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex33/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex33/Carpet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex33/Floor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex33/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex34/ComplexNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex34/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Animal/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Animal/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Animal/Fish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Animal/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Cylinder/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Cylinder/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Cylinder/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Vehicle/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Vehicle/Ford.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Vehicle/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Vehicle/Peugeot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex35_Vehicle/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex36_PoolArea/Cuboid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex36_PoolArea/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/com/udemy/Ex36_PoolArea/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/out/production/CodingExercises_29_36/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex29/Ex29_SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex30/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex30/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex30/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex30/VipPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex31/Ex31_Wall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex32/Ex32_Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex33/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex33/Carpet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex33/Floor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex33/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex34/ComplexNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex34/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Animal/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Animal/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Animal/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Cylinder/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Cylinder/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Cylinder/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Vehicle/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Vehicle/Ford.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Vehicle/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Vehicle/Peugeot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex35_Vehicle/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex36_PoolArea/Cuboid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex36_PoolArea/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/com/udemy/Ex36_PoolArea/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_29_36/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/CodingExercises_8_11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/AreaCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/FeetsInchesCentimeters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/IntEqualityPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/MinutesToYearsDaysCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/PlayingCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/SecondsAndMinutes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/out/production/CodingExercises_8_11/SecondsAndMinutes_v02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/Ex10_IntEqualityPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/Ex11_PlayingCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/Ex8_AreaCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/Ex9_MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/FeetsInchesCentimeters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/SecondsAndMinutes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercises_8_11/src/SecondsAndMinutes_v02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/Expiration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/out/production/Expiration/com/udemy/section11/packages/Expiration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/out/production/Expiration/com/udemy/section11/packages/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/src/com/udemy/section11/packages/Expiration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Expiration/src/com/udemy/section11/packages/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/src/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/Section07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/META-INF/Section07.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge1_NOT_SOLVED/DeluxeHamburger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge1_NOT_SOLVED/Hamburger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge1_NOT_SOLVED/HealthyBurger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge1_NOT_SOLVED/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge2/DeluxeHamburger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge2/Hamburger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge2/HealthyBurger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterChallenge2/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterExample/DeluxeBurger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterExample/Hamburger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterExample/HealthyBurger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/WMasterExample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionChallenge/Glass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionChallenge/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionChallenge/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionChallenge/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionChallenge/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionChallenge/Tv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionChallenge/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Bed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Bedroom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Ceiling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Dimensions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Lamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Motherboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Resolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/compositionExample/Wall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/encapsulationChallenge/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/encapsulationChallenge/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/encapsulationExample1/EnhancedPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/encapsulationExample1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/encapsulationExample1/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/encapsulationExample2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/encapsulationExample2/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismChallenge/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismChallenge/Ford.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismChallenge/Holden.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismChallenge/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismChallenge/Mitsubishi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample1/Forgetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample1/IndependenceDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample1/Jaws.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample1/MazeRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample1/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample1/StarWars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample2/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample2/Ford.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample2/Holden.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/out/production/Section07/com/udemy/polymorphismExample2/Mitsubishi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge1_NOT_SOLVED/DeluxeHamburger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge1_NOT_SOLVED/Hamburger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge1_NOT_SOLVED/HealthyBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge1_NOT_SOLVED/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge2/DeluxeHamburger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge2/Hamburger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge2/HealthyBurger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterChallenge2/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterExample/DeluxeBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterExample/Hamburger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterExample/HealthyBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/WMasterExample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionChallenge/Glass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionChallenge/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionChallenge/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionChallenge/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionChallenge/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionChallenge/Tv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionChallenge/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Bed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Bedroom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Ceiling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Dimensions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Lamp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Motherboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/PC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Resolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/compositionExample/Wall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/encapsulationChallenge/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/encapsulationChallenge/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/encapsulationExample1/EnhancedPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/encapsulationExample1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/encapsulationExample1/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/encapsulationExample2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/encapsulationExample2/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/polymorphismChallenge/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/polymorphismExample1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section07/src/com/udemy/polymorphismExample2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/Section08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/out/production/Section08/META-INF/Section08.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/Array/Ex82_Challenge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/Array/Ex82_Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/Array/Ex82_Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/Array/Ex85_MinElementChallenge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/Array/Ex85_MinElementExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/Array/Ex86_ReverseArrayChallenge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/Array/Ex86_ReverseArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListChallenge/MobilePhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListExample1/GroceryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListExample1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListExample2/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListExample2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex90_ArrayListExample2/MobilePhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Branch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingChallenge/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Branch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/ArrayList/Ex95_AutoboxingExample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayChallenge/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section08/src/com/udemy/LinkedArrayList/Ex101_LinkedArrayExample2/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/Section09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeAidasUNSOLVED/CompareTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeAidasUNSOLVED/ListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeAidasUNSOLVED/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeAidasUNSOLVED/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeAidasUNSOLVED/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeAidasUNSOLVED/NodeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart2/ListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart2/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart2/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart2/NodeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart3/ListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart3/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart3/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart3/NodeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/ChallengeTimPart3/SearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/Example/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/Example/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/Example/CanFly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/Example/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/Example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/Example/Parrot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/AbstractClass/Example/Penguin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV1/Album$SongList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV1/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV1/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV2/Album$SongList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV2/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeAidasV2/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeTim/Album$SongList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeTim/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeTim/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/ChallengeTim/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example/Button$OnClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example/Gearbox$Gear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example/Gearbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/InnerClass/Example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeAidas/Diablo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeAidas/Isaveable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeAidas/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeAidas/Paladin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeTim/ISaveable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeTim/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeTim/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/ChallengeTim/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example/DeskPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example/Gearbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example/ITelephone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/Interfaces/Example/MobilePhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/out/production/Section09/META-INF/Section09.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeAidasUNSOLVED/CompareTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeAidasUNSOLVED/ListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeAidasUNSOLVED/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeAidasUNSOLVED/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeAidasUNSOLVED/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeAidasUNSOLVED/NodeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart2/ListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart2/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart2/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart2/NodeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart3/ListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart3/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart3/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart3/NodeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/ChallengeTimPart3/SearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/Example/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/Example/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/Example/CanFly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/Example/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/Example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/Example/Parrot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/AbstractClass/Example/Penguin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV1/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV1/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV2/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeAidasV2/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeTim/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeTim/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/ChallengeTim/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example/Gearbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/InnerClass/Example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeAidas/Diablo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeAidas/Isaveable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeAidas/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeAidas/Paladin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeTim/ISaveable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeTim/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeTim/Monster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/ChallengeTim/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/Example/DeskPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/Example/Gearbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/Example/ITelephone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/Example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section09/src/Interfaces/Example/MobilePhone.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeAidas/BaseballPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeAidas/FootballPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeAidas/League.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeAidas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeAidas/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeAidas/SoccerPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeAidas/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeTim/BaseballPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeTim/FootballPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeTim/League.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeTim/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeTim/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeTim/SoccerPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/challengeTim/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/example/BaseballPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/example/FootballPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/example/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/example/SoccerPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section10/Generics/example/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/packages/challengeTim/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/packages/challengeTim/mylibrary/Series.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/packages/example01/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/packages/example01/MyWindow$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/packages/example01/MyWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/packages/example02/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/ChalengeAidasUNSOLVED/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/ChalengeAidasUNSOLVED/X.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/challengeTim/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/challengeTim/X.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/example/ScopeCheck$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section11/PackagesAndScope/scope/example/ScopeCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture135_CollectionsOverview/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture135_CollectionsOverview/Theatre$Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture135_CollectionsOverview/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture136_BinarySearch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture136_BinarySearch/Theatre$Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture136_BinarySearch/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture137_ListMethods/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture137_ListMethods/Theatre$Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture137_ListMethods/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture138_ComparableAndComparator/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture138_ComparableAndComparator/Theatre$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture138_ComparableAndComparator/Theatre$Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture138_ComparableAndComparator/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture139_Maps/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture139_Maps/MapProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture139_Maps/Theatre$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture139_Maps/Theatre$Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture139_Maps/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture140_Maps/Adventure/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture140_Maps/Adventure/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture140_Maps/Maps/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture140_Maps/Maps/MapProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture140_Maps/Maps/Theatre$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture140_Maps/Maps/Theatre$Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture140_Maps/Maps/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture141_Maps/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture141_Maps/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture141_MapsAllAidas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture141_MapsAllAidas/Seat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture141_MapsAllAidas/Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture141_MapsAllAidas/Theatre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture142_CHALLENGETim/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture142_CHALLENGETim/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture143_ImmutableClass/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture143_ImmutableClass/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Challenge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture145_Sets/Challenge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture145_Sets/HeavenlyBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture145_Sets/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture148_Sets/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture148_Sets/Labrador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture148_Sets/MainDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture148_Sets/MainSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/HeavenlyBody$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/HeavenlyBody$BodyType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/HeavenlyBody$Key.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/HeavenlyBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/Moon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/Planet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGEAidas/Planet_Dwarf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/DwarfPlanet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/HeavenlyBody$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/HeavenlyBody$BodyTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/HeavenlyBody$Key.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/HeavenlyBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/Moon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/Planet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section10/com/udemy/section12/collections/lecture151_CHALLENGETim/SetChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Section10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeAidas/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeAidas/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeAidas/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeAidas/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeAidas/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeAidas/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeAidas/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeTim/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeTim/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeTim/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeTim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeTim/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeTim/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/challengeTim/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/challengeTim/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/example/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/example/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/example/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section10/Generics/example/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section10/generics/example/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeAidas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/packages/challengeAidas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/packages/challengeTim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/challengeTim/mylibrary/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/packages/challengeTim/mylibrary/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/packages/example01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example01/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/packages/example01/MyWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/packages/example02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/packages/example02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/ChalengeAidasUNSOLVED/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/scope/ChalengeAidasUNSOLVED/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/ChalengeAidasUNSOLVED/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/scope/ChalengeAidasUNSOLVED/X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/scope/challengeTim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/challengeTim/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/scope/challengeTim/X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/scope/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section11/PackagesAndScope/scope/example/ScopeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section11/packagesAndScope/scope/example/ScopeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/Section16LambdaExpressions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/out/production/Section16LambdaExpressions/META-INF/Section16LambdaExpressions.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/out/production/Section16LambdaExpressions/com/company/lambdaExpressions/AnotherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/out/production/Section16LambdaExpressions/com/company/lambdaExpressions/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/out/production/Section16LambdaExpressions/com/company/lambdaExpressions/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/out/production/Section16LambdaExpressions/com/company/lambdaExpressions/UpperConcat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson275/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson279/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson279/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson280/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson280/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson281Functions/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson281Functions/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson282/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson282/Lambda-Expressions-Chaining-java.util.function-Functions-table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson282/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson283Streams/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson284/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson285/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson285/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson285/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson286CHALLENGE/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson286CHALLENGE/anonymousrunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson286CHALLENGE/stringbuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson287CHALLENGE/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson287CHALLENGE/chain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section16LambdaExpressions/src/com/udemy/lambdaExpressions/lesson287CHALLENGE/top15babynameslist.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,52 +747,64 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/ChallengeText.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section03/Main.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2473#2474#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section03/Hello.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/casual/expiration/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/casual/expiration/Expiration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex31/Ex31_Wall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -213,23 +853,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/challengeTim/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/Collections/challengeAidas/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challengeAidas/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challenge01Aidas/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challenge02Aidas/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/challenge02Aidas/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/example145SetsAidas/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/example145SetsAidas/HeavenlyBody.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/example143ImmutableClass/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143ImmutableClass/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143_ImmutableClass/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/Labrador.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/Labrador.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/MainDog.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/MainSet.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_SetsAidas/Challenge.java" />
@@ -264,14 +887,31 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section16/challengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section16/lambdaExpressions/lesson281Functions/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section09/AbstractClass/ChallengeAidasUNSOLVED/NodeList.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section08/arrays/ArrayList/Ex95_AutoboxingExample/Bank.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge2/Main2.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section05/excercises_22_28/Ex13_Sum3And5.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section04/excercises_08_12/section04/excrecises_01_07/Ex8_AreaCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section04/excercises_08_12/Ex8_AreaCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section04/excercises_08_12/excersises_08_11/Ex8_AreaCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section04/excercises_08_12/excrecises_01_07/Ex3_BarkingDog.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section03/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex31/Ex31_Wall.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section03/Hello.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casual/expiration/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1299" />
-    <option name="height" value="743" />
+    <option name="x" value="195" />
+    <option name="y" value="177" />
+    <option name="width" value="1329" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -282,6 +922,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,42 +930,64 @@
               <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section10" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="expiration" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="section10" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/casual" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.udemy.section03" />
       <recent name="com.udemy.section14.challengeAidas" />
       <recent name="com.udemy.section13.challengeAidas" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGETim" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_ChallengeAidas" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/casual" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section03" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section04/excercises_08_12/excrecises_01_07" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section04/excercises_08_12/section04/excrecises_01_07" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section05/excercises_22_28" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -340,12 +1003,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.challengeAidas.Main" />
+    <configuration name="Ex86_ReverseArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section08.arrays.Array.Ex86_ReverseArrayExample" />
       <module name="Section10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section12.challengeAidas.*" />
+          <option name="PATTERN" value="com.udemy.section08.arrays.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section09.Interfaces.ChallengeTim.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section09.Interfaces.ChallengeTim.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,11 +1030,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture154_SortedMapsSets.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section08.arrays.LinkedArrayList.Ex101_LinkedArrayChallenge.Main" />
       <module name="Section10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section12.collections.lecture154_SortedMapsSets.*" />
+          <option name="PATTERN" value="com.udemy.section08.arrays.LinkedArrayList.Ex101_LinkedArrayChallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,11 +1043,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture158_CHALLENGEAidas.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section03.Main" />
       <module name="Section10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section12.collections.lecture158_CHALLENGEAidas.*" />
+          <option name="PATTERN" value="com.udemy.section03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,38 +1055,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section11.packages.example.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section09.Interfaces.ChallengeAidas.Main" />
       <module name="Section10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section11.packages.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture148_Sets.MainDog" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section12.collections.lecture148_Sets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture148_Sets.MainSet" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section12.collections.lecture148_Sets.*" />
+          <option name="PATTERN" value="com.udemy.section09.Interfaces.ChallengeAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -552,9 +1202,9 @@
       <list>
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.MainSet" />
-        <item itemvalue="Application.MainDog" />
+        <item itemvalue="Application.Ex86_ReverseArrayExample" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -584,11 +1234,16 @@
       <workItem from="1557745997110" duration="23966000" />
       <workItem from="1557903419871" duration="18769000" />
       <workItem from="1558014214235" duration="7918000" />
+      <workItem from="1558356389241" duration="735000" />
+      <workItem from="1558357162409" duration="41000" />
+      <workItem from="1558442482814" duration="126000" />
+      <workItem from="1558442691344" duration="3000" />
+      <workItem from="1558442704158" duration="3533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117776000" />
+    <option name="totallyTimeSpent" value="122214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,9 +1255,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.30247405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.21250692" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -610,8 +1265,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46947837" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31742507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15843858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,7 +1276,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32963374" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32519424" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3249139" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -643,280 +1298,214 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture142_CHALLENGEAidas/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
-          <folding>
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Object.java" />
-    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_Sets/HeavenlyBody.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/Dog.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/Labrador.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/MainDog.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture143_ImmutableClass/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/compositionChallenge/Window.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture148_Sets/MainSet.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_Sets/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGETim/SetMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGETim/Challenge.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGETim/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture144_CHALLENGEAidas/Challenge.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGETim/SetChallenge.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas/SetChallenge.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture145_Sets/Challenge.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas/BodyType.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Planet_Dwarf.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/SetChallenge.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Challenge.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/polymorphismExample2/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/HeavenlyBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge2/Main2.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Moon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Dimensions.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/PlanetDwarf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/compositionExample/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/Planet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge1_NOT_SOLVED/HealthyBurger.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge1_NOT_SOLVED/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section07/composition/WMasterChallenge1_NOT_SOLVED/Hamburger.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex34/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Car.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex33/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex30/VipPerson.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Animal/Animal.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex30/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex29/Ex29_SimpleCalculator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Cylinder/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex35_Vehicle/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex28_PaintJob.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/NumberOfDaysInMonth.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/PrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex24_FlourPacker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex26_DiagonalStar.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex27_InputCalculator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex26_MinAndMax.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex13_Sum3And5.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex15_NumberPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section05/excercises_12_28/Ex18_SharedDigit.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex8_AreaCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Planet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex9_MinutesToYearsDaysCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Moon.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex10_IntEqualityPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/BodyType.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Ex11_PlayingCat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Asteroid.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/FeetsInchesCentimeters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/SetChallenge.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/HeavenlyBody.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/SecondsAndMinutes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="62" column="93" selection-start-line="62" selection-start-column="93" selection-end-line="62" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2_UNSOLVED/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excersises_08_11/SecondsAndMinutes_v02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        <state relative-caret-position="15">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/StockItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/StockList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/Basket.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture154_SortedMapsSets/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex1_SpeedConverter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex7_TeenNumberChecker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex2_MegaBytesConverter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex5_DecimalComparator_v01.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex4_LeapYear.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex5_DecimalComparator_v02.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex3_BarkingDog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex6_EqualSumChecker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex31/Ex31_Wall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" selection-start-line="65" selection-end-line="66" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section03/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/StockList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section06/excercises_29_36/Ex36_PoolArea/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/StockItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGETim/MainChallenge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/ChallengeText.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/StockItem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section03/Hello.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/casual/expiration/Expiration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture158_CHALLENGEAidas/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/casual/expiration/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -983,7 +1572,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>MyFirstPackage</last-edited>
+          <last-edited>org.slf4j:log4j-over-slf4j:1.8.0-beta4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

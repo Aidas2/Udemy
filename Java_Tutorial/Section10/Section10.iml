@@ -10,5 +10,6 @@
     <orderEntry type="library" name="PackageDemo" level="project" />
     <orderEntry type="library" name="PackageDemo1" level="project" />
     <orderEntry type="library" name="MyFirstPackage" level="project" />
+    <orderEntry type="library" name="org.slf4j:log4j-over-slf4j:1.8.0-beta4" level="project" />
   </component>
 </module>
