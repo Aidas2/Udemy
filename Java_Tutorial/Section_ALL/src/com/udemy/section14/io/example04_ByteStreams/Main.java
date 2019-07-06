@@ -1,4 +1,6 @@
-package com.udemy.section14.io.example02;
+package com.udemy.section14.io.example04_ByteStreams;
+
+import com.udemy.section14.io.example02_BuferedReader.Locations;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,7 +28,8 @@ public class Main {
         vocabulary.put("EAST", "E");
 
 
-        int loc = 1;
+        int loc = 64;
+//        int loc = 1;
         while(true) {
             System.out.println(locations.get(loc).getDescription());
 
