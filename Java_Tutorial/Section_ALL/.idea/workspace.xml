@@ -7,37 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/txt/directions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/txt/directions_big.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/txt/locations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/txt/locations_big.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions_big.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/txt/directions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/txt/directions_big.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/txt/locations_big.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example01/Simplest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example01/textfile001.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/Locations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/exx/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/exx/Locations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/exx/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/txt/directions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example02/txt/locations.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx/Locations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/txt/directions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example02/txt/locations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Location.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -63,40 +37,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+            <state relative-caret-position="150">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#337#356#0" expanded="true" />
-                <element signature="e#2771#2788#0" expanded="true" />
-                <element signature="e#3829#3830#0" expanded="true" />
-                <element signature="e#3868#3869#0" expanded="true" />
-                <element signature="e#3914#3915#0" expanded="true" />
-                <element signature="e#3956#3957#0" expanded="true" />
-                <element signature="e#4016#4017#0" expanded="true" />
-                <element signature="e#4065#4066#0" expanded="true" />
-                <element signature="e#4129#4130#0" expanded="true" />
-                <element signature="e#4182#4183#0" expanded="true" />
-                <element signature="e#4235#4236#0" expanded="true" />
-                <element signature="e#4276#4277#0" expanded="true" />
-                <element signature="e#4346#4347#0" expanded="true" />
-                <element signature="e#4394#4395#0" expanded="true" />
-                <element signature="e#4450#4451#0" expanded="true" />
-                <element signature="e#4494#4495#0" expanded="true" />
-                <element signature="e#4712#4713#0" expanded="true" />
-                <element signature="e#4753#4754#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/Locations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#6356#6357#0" expanded="true" />
+                <element signature="e#6395#6396#0" expanded="true" />
+                <element signature="e#6441#6442#0" expanded="true" />
+                <element signature="e#6483#6484#0" expanded="true" />
+                <element signature="e#6543#6544#0" expanded="true" />
+                <element signature="e#6592#6593#0" expanded="true" />
+                <element signature="e#6656#6657#0" expanded="true" />
+                <element signature="e#6709#6710#0" expanded="true" />
+                <element signature="e#6762#6763#0" expanded="true" />
+                <element signature="e#6803#6804#0" expanded="true" />
+                <element signature="e#6873#6874#0" expanded="true" />
+                <element signature="e#6921#6922#0" expanded="true" />
+                <element signature="e#6977#6978#0" expanded="true" />
+                <element signature="e#7021#7022#0" expanded="true" />
+                <element signature="e#7239#7240#0" expanded="true" />
+                <element signature="e#7280#7281#0" expanded="true" />
+                <element signature="e#7338#7339#0" expanded="true" />
+                <element signature="e#7379#7380#0" expanded="true" />
+                <element signature="e#7448#7449#0" expanded="true" />
+                <element signature="e#7491#7492#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,8 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2/Moon.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2/PlanetDwarf.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2/Planet.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2/SetChallenge.txt" />
         <option value="$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas2/Asteroid.java" />
@@ -201,6 +163,8 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Location.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example01/textfile001.txt" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example01/Simplest.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" />
       </list>
     </option>
@@ -212,9 +176,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1433" />
+    <option name="x" value="67" />
     <option name="y" value="25" />
-    <option name="width" value="1853" />
+    <option name="width" value="927" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -226,6 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,14 +223,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example02_BuferedReader" type="462c0819:PsiDirectoryNode" />
+              <item name="example04_ByteStreams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="example04_ByteStreams" type="462c0819:PsiDirectoryNode" />
+              <item name="txt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +253,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section14/io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -290,11 +263,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section14/io/example01" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section14/io" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section14/io/example02/txt" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section14/io/example02" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/casual" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.udemy.section03" />
@@ -318,38 +291,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Locations (2)">
-    <configuration name="Locations (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example02.exx.Locations" />
+    <configuration name="Locations (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example04_ByteStreams.Locations" />
       <module name="Section_ALL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section14.io.example02.exx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Locations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example02_BuferedReader.Locations" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section14.io.example02_BuferedReader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Locations2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example02.Locations2" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section14.io.example02_BuferedReader.*" />
+          <option name="PATTERN" value="com.udemy.section14.io.example04_ByteStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,6 +323,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udemy.section14.io.example03_BufferedWriter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example04_ByteStreams.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section14.io.example04_ByteStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -448,13 +408,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Simplest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example01.Simplest" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section14.io.example01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Locations (2)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Simplest" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Locations" />
-        <item itemvalue="Application.Locations (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -505,9 +478,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1433" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.19645822" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.16436082" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -559,12 +532,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex1_SpeedConverter.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex7_TeenNumberChecker.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex2_MegaBytesConverter.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex5_DecimalComparator_v01.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex4_LeapYear.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex5_DecimalComparator_v02.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex3_BarkingDog.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section04/excercises_01_07/Ex6_EqualSumChecker.java" />
@@ -604,20 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example01/Exception01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example01/Exception02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -640,32 +593,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02/Locations2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directions.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locations.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx/Location.java" />
+    <entry file="file://$PROJECT_DIR$/directions.txt" />
+    <entry file="file://$PROJECT_DIR$/locations.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02/exx/Locations.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -699,42 +630,13 @@
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/txt/locations_big.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03BufferedWriter/txt/locations.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BufferedWriter/txt/locations.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferdReader/txt/locations.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferdReader/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferdReader/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-          <folding>
-            <element signature="e#526#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BufferedWriter/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03/txt/locations.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03BufferedWriter/txt/locations.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BufferedWriter/txt/locations.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferdReader/txt/locations.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferdReader/Location.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferdReader/Locations.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BufferedWriter/Locations.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03/txt/locations.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -771,16 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="132" selection-start-line="24" selection-start-column="132" selection-end-line="24" selection-end-column="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -797,16 +689,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example01/Exception01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="-51">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example01/Exception02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example01/textfile001.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example02_BuferedReader/Locations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
+        <state relative-caret-position="532">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -814,30 +720,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example01/textfile002.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#337#356#0" expanded="true" />
-            <element signature="e#2771#2788#0" expanded="true" />
-            <element signature="e#3829#3830#0" expanded="true" />
-            <element signature="e#3868#3869#0" expanded="true" />
-            <element signature="e#3914#3915#0" expanded="true" />
-            <element signature="e#3956#3957#0" expanded="true" />
-            <element signature="e#4016#4017#0" expanded="true" />
-            <element signature="e#4065#4066#0" expanded="true" />
-            <element signature="e#4129#4130#0" expanded="true" />
-            <element signature="e#4182#4183#0" expanded="true" />
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="e#4276#4277#0" expanded="true" />
-            <element signature="e#4346#4347#0" expanded="true" />
-            <element signature="e#4394#4395#0" expanded="true" />
-            <element signature="e#4450#4451#0" expanded="true" />
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4712#4713#0" expanded="true" />
-            <element signature="e#4753#4754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example01/Simplest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/locations.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6356#6357#0" expanded="true" />
+            <element signature="e#6395#6396#0" expanded="true" />
+            <element signature="e#6441#6442#0" expanded="true" />
+            <element signature="e#6483#6484#0" expanded="true" />
+            <element signature="e#6543#6544#0" expanded="true" />
+            <element signature="e#6592#6593#0" expanded="true" />
+            <element signature="e#6656#6657#0" expanded="true" />
+            <element signature="e#6709#6710#0" expanded="true" />
+            <element signature="e#6762#6763#0" expanded="true" />
+            <element signature="e#6803#6804#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+            <element signature="e#6977#6978#0" expanded="true" />
+            <element signature="e#7021#7022#0" expanded="true" />
+            <element signature="e#7239#7240#0" expanded="true" />
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7338#7339#0" expanded="true" />
+            <element signature="e#7379#7380#0" expanded="true" />
+            <element signature="e#7448#7449#0" expanded="true" />
+            <element signature="e#7491#7492#0" expanded="true" />
           </folding>
         </state>
       </provider>

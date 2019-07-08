@@ -16,6 +16,7 @@ public class Locations implements Map<Integer, Location> {
 //======================================================================================================================
         // === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING
         // =============================================================================================================
+/*
         //version "try WITH resources" =================================================================================
         try (BufferedWriter locFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations.txt"));
              BufferedWriter dirFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt"))) {
@@ -28,12 +29,31 @@ public class Locations implements Map<Integer, Location> {
                 }
             }
         }
+ */
+        //this worked with "old" reader (as in example 03, line 53)
+        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
+            for (Location location : locations.values()) {
+                locFile.writeInt(location.getLocationID());
+                locFile.writeUTF(location.getDescription());
+                System.out.println("Writing location " + location.getLocationID() + " : " + location.getDescription());
+                System.out.println("Writing " + (location.getExits().size() - 1) + " exits.");
+                locFile.writeInt(location.getExits().size() - 1);
+                for (String direction : location.getExits().keySet()) {
+                    if (!direction.equalsIgnoreCase("Q")) {
+                        System.out.println("\t\t" + direction + "," + location.getExits().get(direction));
+                        locFile.writeUTF(direction);
+                        locFile.writeInt(location.getExits().get(direction));
+                    }
+                }
+            }
+        }
     }
 
     //======================================================================================================================
     // === READING === READING === READING === READING === READING === READING === READING === READING === READING ===
     //version "try WITH resources" =====================================================================================
     static {
+/*      // "old" reader
         try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt")))) {
             scanner.useDelimiter(",");
             while (scanner.hasNextLine()) {
@@ -64,6 +84,33 @@ public class Locations implements Map<Integer, Location> {
             }
         } catch (IOException e) {
             e.printStackTrace();
+        }
+*/
+        try (DataInputStream locFile = new DataInputStream(new BufferedInputStream(new FileInputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
+            boolean eof = false;
+            while (!eof) {
+                try {
+                    Map<String, Integer> exits = new LinkedHashMap<>();
+                    int locID = locFile.readInt();
+                    String description = locFile.readUTF();
+                    int numExits = locFile.readInt();
+                    System.out.println("Read location " + locID + " : " + description);
+                    System.out.println("Found " + numExits + " exits");
+                    for (int i = 0; i < numExits; i++) {
+                        String direction = locFile.readUTF();
+                        int destination = locFile.readInt();
+                        exits.put(direction, destination);
+                        System.out.println("\t\t" + direction + "," + destination);
+                    }
+                    locations.put(locID, new Location(locID, description, exits));
+
+                } catch (EOFException e) {
+                    eof = true;
+                }
+
+            }
+        } catch (IOException io) {
+            System.out.println("IO Exception");
         }
 
     }
