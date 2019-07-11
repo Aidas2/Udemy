@@ -1,8 +1,12 @@
-package com.udemy.section14.io.example03_BufferedWriter;
+package com.udemy.section14.io.example06_RandomAccessFileREAL;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
+/**
+ * ATTENTION: this example NOT working (due serialization, because copied file location.dat contains package name with "example05").
+ */
 
 public class Main {
     private static Locations locations = new Locations();

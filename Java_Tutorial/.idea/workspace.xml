@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db3d8e68-97fc-425e-ad9a-30a0464cbdd4" name="Default Changelist" comment="" />
+    <list default="true" id="db3d8e68-97fc-425e-ad9a-30a0464cbdd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Section_ALL/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/ShiftInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/Locations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/txt/directions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/txt/directions_big.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/txt/locations.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/txt/locations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStream/txt/locations_big.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/Locations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/txt/directions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/txt/directions_big.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/txt/locations.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/txt/locations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example06_RandomAccessFile/txt/locations_big.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section_ALL/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section_ALL/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section_ALL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example04_ByteStreams/Locations.class" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example04_ByteStreams/Locations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example04_ByteStreams/locations.dat" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,30 +49,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Section07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="Section07" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Section07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section_ALL" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -75,24 +107,26 @@
       <option name="presentableId" value="Default" />
       <updated>1551786886618</updated>
       <workItem from="1556085058650" duration="29000" />
+      <workItem from="1562592265234" duration="31000" />
+      <workItem from="1562592313906" duration="32000" />
+      <workItem from="1562653357335" duration="23000" />
+      <workItem from="1562823426047" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29000" />
+    <option name="totallyTimeSpent" value="133000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -103,7 +137,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -112,6 +147,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">

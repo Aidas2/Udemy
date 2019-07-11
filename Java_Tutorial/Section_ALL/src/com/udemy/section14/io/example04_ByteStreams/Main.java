@@ -1,7 +1,5 @@
 package com.udemy.section14.io.example04_ByteStreams;
 
-import com.udemy.section14.io.example02_BuferedReader.Locations;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
