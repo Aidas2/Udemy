@@ -26,7 +26,7 @@ public class Locations implements Map<Integer, Location> {
             }
         }
 */
-        // "new" writer (works only with "old" reader). rwd is a good practise (when using multi thread)
+        // "new" writer (works only with "old" reader). rwd (read write d...) is a good practise (when using multi thread)
         try (RandomAccessFile rao = new RandomAccessFile("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example06_RandomAccessFile\\txt\\locations_rand.dat", "rwd")) {
             rao.writeInt(locations.size());
             int indexSize = locations.size() * 3 * Integer.BYTES;
