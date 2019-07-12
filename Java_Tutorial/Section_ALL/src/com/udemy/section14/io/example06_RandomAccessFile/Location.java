@@ -40,6 +40,7 @@ public class Location implements Serializable {
     public Map<String, Integer> getExits() {
         return new LinkedHashMap<String, Integer>(exits);
     }
+
     protected void addExit(String direction, int location) {
         exits.put(direction, location);
     }

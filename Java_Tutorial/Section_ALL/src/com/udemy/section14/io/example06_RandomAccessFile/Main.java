@@ -1,7 +1,6 @@
 package com.udemy.section14.io.example06_RandomAccessFile;
 
-import com.udemy.section14.io.example05_ObjectIOStreamREAL.Locations;
-
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -13,7 +12,7 @@ import java.util.Scanner;
 public class Main {
     private static Locations locations = new Locations();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // Change the program to allow players to type full words, or phrases, then move to the
         // correct location based upon their input.
         // The player should be able to type commands such as "Go West", "run South", or just "East"
@@ -31,17 +30,17 @@ public class Main {
         vocabulary.put("WEST", "W");
         vocabulary.put("EAST", "E");
 
-
-        int loc = 64;
+//        int loc = 64;
 //        int loc = 1;
+        Location currentLocation = locations.getLocation(64);
         while(true) {
-            System.out.println(locations.get(loc).getDescription());
+            System.out.println(currentLocation.getDescription());
 
-            if(loc == 0) {
+            if(currentLocation.getLocationID() == 0) {
                 break;
             }
 
-            Map<String, Integer> exits = locations.get(loc).getExits();
+            Map<String, Integer> exits = currentLocation.getExits();
             System.out.print("Available exits are ");
             for(String exit: exits.keySet()) {
                 System.out.print(exit + ", ");
@@ -60,12 +59,13 @@ public class Main {
             }
 
             if(exits.containsKey(direction)) {
-                loc = exits.get(direction);
+                currentLocation = locations.getLocation(currentLocation.getExits().get(direction));
 
             } else {
                 System.out.println("You cannot go in that direction");
             }
         }
 
+        locations.close();
     }
 }

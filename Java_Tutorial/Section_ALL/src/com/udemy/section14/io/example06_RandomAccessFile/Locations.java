@@ -15,32 +15,15 @@ public class Locations implements Map<Integer, Location> {
     private static RandomAccessFile ra;
 
     public static void main(String[] args) throws IOException {
-/*      // "old" writer (from previous example)
-        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
-            for (com.udemy.section14.io.example04_ByteStreams.Location location : locations.values()) {
-                locFile.writeInt(location.getLocationID());
-                locFile.writeUTF(location.getDescription());
-                System.out.println("Writing location " + location.getLocationID() + " : " + location.getDescription());
-                System.out.println("Writing " + (location.getExits().size() - 1) + " exits.");
-                locFile.writeInt(location.getExits().size() - 1);
-                for (String direction : location.getExits().keySet()) {
-                    if (!direction.equalsIgnoreCase("Q")) {
-                        System.out.println("\t\t" + direction + "," + location.getExits().get(direction));
-                        locFile.writeUTF(direction);
-                        locFile.writeInt(location.getExits().get(direction));
-                    }
-                }
-            }
-        }
-*/
-/*        // "new" writer (works only with "old" reader)
+
+/*        // "old" writer
         try (ObjectOutputStream locFile = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example06_RandomAccessFile\\txt\\locations.dat")))) {
             for (Location location : locations.values()) {
                 locFile.writeObject(location);
             }
         }
 */
-        // "newest" writer. rwd is a good practise (when using multi thread)
+        // "new" writer (works only with "old" reader). rwd is a good practise (when using multi thread)
         try (RandomAccessFile rao = new RandomAccessFile("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example06_RandomAccessFile\\txt\\locations_rand.dat", "rwd")) {
             rao.writeInt(locations.size());
             int indexSize = locations.size() * 3 * Integer.BYTES;
@@ -94,35 +77,7 @@ public class Locations implements Map<Integer, Location> {
 
     static {
 
-/*      // "old" reader (from previous example)
-        try (DataInputStream locFile = new DataInputStream(new BufferedInputStream(new FileInputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example06_RandomAccessFile\\txt\\locations.dat")))) {
-            boolean eof = false;
-            while (!eof) {
-                try {
-                    Map<String, Integer> exits = new LinkedHashMap<>();
-                    int locID = locFile.readInt();
-                    String description = locFile.readUTF();
-                    int numExits = locFile.readInt();
-                    System.out.println("Read location " + locID + " : " + description);
-                    System.out.println("Found " + numExits + " exits");
-                    for (int i = 0; i < numExits; i++) {
-                        String direction = locFile.readUTF();
-                        int destination = locFile.readInt();
-                        exits.put(direction, destination);
-                        System.out.println("\t\t" + direction + "," + destination);
-                    }
-                    locations.put(locID, new Location(locID, description, exits));
-
-                } catch (EOFException e) {
-                    eof = true;
-                }
-
-            }
-        } catch (IOException io) {
-            System.out.println("IO Exception");
-        }
-*/
-        // "new" reader
+/*        // "old" reader (from previous example)
         try (ObjectInputStream locFile = new ObjectInputStream(new BufferedInputStream(new FileInputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example06_RandomAccessFile\\txt\\locations.dat")))) {
             boolean eof = false;
             while (!eof) {
@@ -143,7 +98,49 @@ public class Locations implements Map<Integer, Location> {
         } catch (ClassNotFoundException e) {
             System.out.println("ClassNotFoundException" + e.getMessage());
         }
+*/
+        // "new" reader
+        try {
+            ra = new RandomAccessFile("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example06_RandomAccessFile\\txt\\locations_rand.dat", "rwd");
+            int numLocations = ra.readInt();
+            long locationStartPoint = ra.readInt();
 
+            while (ra.getFilePointer() < locationStartPoint) {
+                int locationId = ra.readInt();
+                int locationStart = ra.readInt();
+                int locationLength = ra.readInt();
+
+                IndexRecord record = new IndexRecord(locationStart, locationLength);
+                index.put(locationId, record);
+            }
+        } catch (IOException e) {
+            System.out.println("IOException in static initializer " + e.getMessage());
+        }
+
+    }
+
+    public Location getLocation (int locationId) throws IOException {
+
+        IndexRecord record = index.get(locationId);
+        ra.seek(record.getStartByte());
+        int id = ra.readInt();
+        String description = ra.readUTF();
+        String exits = ra.readUTF();
+        String[] exitPart = exits.split(",");
+
+        Location location =  new Location(locationId, description, null);
+
+        if(locationId != 0) {
+            for(int i =0; i < exitPart.length; i++) {
+                System.out.println("exitPart = " + exitPart[i]);
+                System.out.println("exitPart[+1] = " + exitPart[i+1]);
+                String direction = exitPart[i];
+                int destination = Integer.parseInt(exitPart[++i]);
+                location.addExit(direction, destination);
+            }
+        }
+
+        return location;
     }
 
     @Override
@@ -206,4 +203,9 @@ public class Locations implements Map<Integer, Location> {
     public Set<Entry<Integer, Location>> entrySet() {
         return locations.entrySet();
     }
+
+    public void close() throws IOException {
+        ra.close();
+    }
+
 }
