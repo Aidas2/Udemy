@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ ATTENTION: see note in Locations.java.
+ */
+
 public class Main {
     private static Locations locations = new Locations();
 

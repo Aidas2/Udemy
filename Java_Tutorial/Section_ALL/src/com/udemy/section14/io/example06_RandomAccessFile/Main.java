@@ -1,10 +1,14 @@
-package com.udemy.section14.io.example04_ByteStreams;
+package com.udemy.section14.io.example06_RandomAccessFile;
+
+import com.udemy.section14.io.example05_ObjectIOStreamREAL.Locations;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-// ATTENTION: read note in Locations.java
+/**
+ ATTENTION: see note in Locations.java.
+ */
 
 public class Main {
     private static Locations locations = new Locations();

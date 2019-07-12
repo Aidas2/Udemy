@@ -6,7 +6,8 @@ import java.io.*;
 import java.util.*;
 
 /**
- * Created by timbuchalka on 2/04/2016.
+ ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous example).
+ Only later comment "old" code an uncomment (or write) "new" code.
  */
 public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new LinkedHashMap<Integer, Location>();
@@ -15,7 +16,7 @@ public class Locations implements Map<Integer, Location> {
 //======================================================================================================================
         // === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING
         // =============================================================================================================
-/*
+/*      // "old" writer
         //version "try WITH resources" =================================================================================
         try (BufferedWriter locFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations.txt"));
              BufferedWriter dirFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt"))) {
@@ -29,7 +30,7 @@ public class Locations implements Map<Integer, Location> {
             }
         }
  */
-        //this worked with "old" reader (as in example 03, line 53)
+        //"new" writer; works only with "old" reader (as in example 03, line 53)
         try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
             for (Location location : locations.values()) {
                 locFile.writeInt(location.getLocationID());
@@ -52,7 +53,7 @@ public class Locations implements Map<Integer, Location> {
     // === READING === READING === READING === READING === READING === READING === READING === READING === READING ===
     //version "try WITH resources" =====================================================================================
     static {
-/*      // "old" reader
+/*      // "old" reader (from previous example)
         try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt")))) {
             scanner.useDelimiter(",");
             while (scanner.hasNextLine()) {
@@ -85,6 +86,7 @@ public class Locations implements Map<Integer, Location> {
             e.printStackTrace();
         }
 */
+        // "new" reader
         try (DataInputStream locFile = new DataInputStream(new BufferedInputStream(new FileInputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
             boolean eof = false;
             while (!eof) {
