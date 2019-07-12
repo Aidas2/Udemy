@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile/Locations.java" afterDir="false" />
-    </list>
+    <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +36,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="522">
               <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -203,14 +197,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example07_NIO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
@@ -504,12 +490,12 @@
       <workItem from="1562670169563" duration="1660000" />
       <workItem from="1562745785377" duration="85000" />
       <workItem from="1562823446601" duration="11030000" />
-      <workItem from="1562907412675" duration="19610000" />
+      <workItem from="1562907412675" duration="20212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163430000" />
+    <option name="totallyTimeSpent" value="164032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,9 +508,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.31333333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.31333333" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,7 +531,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.31532526" />
       <window_info anchor="bottom" id="Graph Database Console" order="12" weight="0.3303671" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info active="true" anchor="bottom" id="Run" order="14" visible="true" weight="0.20837927" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.20837927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -968,7 +953,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="522">
           <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
