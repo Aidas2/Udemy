@@ -8,6 +8,9 @@ import java.util.*;
 /**
  ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous example).
  Only later comment "old" code an uncomment (or write) "new" code.
+
+ If you forgot that or made mistake, you should'n start all from zero, just comment new reader, uncomment old (watch for package names !!!), after run return comments back :)
+
  */
 public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new LinkedHashMap<Integer, Location>();
