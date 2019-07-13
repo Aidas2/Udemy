@@ -32,7 +32,8 @@ public class Main {
         }
 */
         //version_02
-        try (FileOutputStream binFile = new FileOutputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.dat");
+//        try (FileOutputStream binFile = new FileOutputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.dat");
+        try (FileOutputStream binFile = new FileOutputStream("com/udemy/section14/io/example08_JavaNio/data/data.dat");
              FileChannel binChannel = binFile.getChannel()) {
 
             byte[] outputBytes = "Hello World!".getBytes();

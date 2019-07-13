@@ -15,8 +15,8 @@ public class Simplest {
         writeWholeFile();
     }
 
-    public static String fileNameToRead = "/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example01/textfile001.txt";
-    public static String fileNameToWrite = "/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example01/textfile002.txt";
+    public static String fileNameToRead = "com/udemy/section14/io/example01/textfile001.txt";
+    public static String fileNameToWrite = "com/udemy/section14/io/example01/textfile002.txt";
 
     public static String readWholeFile() {
         try(Scanner scanner = new Scanner(new BufferedReader(new FileReader(fileNameToRead)))) {
