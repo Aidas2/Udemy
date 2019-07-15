@@ -13,13 +13,17 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 
+//============== WRITING and READING =================================================
+//============== ABSOLUTE AND RELATIVE READS =================================================
+//        ATTENTION: To make relative path work, go to EditConfigurations and set Working Directory to C:\Users\AidasP\Projects\Udemy\Java_Tutorial\Section_ALL\src
+
 public class Main {
     public static void main(String[] args) {
 /*        // version_01
         try {
-//            FileInputStream file = new FileInputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.txt");
+//            FileInputStream file = new FileInputStream("com/udemy/section14/io/example08_JavaNio/data/data.txt");
 //            FileChannel channel = file.getChannel();
-            Path dataPath = FileSystems.getDefault().getPath("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.txt");
+            Path dataPath = FileSystems.getDefault().getPath("com/udemy/section14/io/example08_JavaNio/data/data.txt");
 
             Files.write(dataPath, "\nLine 5".getBytes("UTF8"), StandardOpenOption.APPEND);
 
@@ -33,15 +37,18 @@ public class Main {
         }
 */
         //version_02
-//        try (FileOutputStream binFile = new FileOutputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.dat");
-//        To make relative path work, go to EditConfigurations and set Working Directory to C:\Users\AidasP\Projects\Udemy\Java_Tutorial\Section_ALL\src
-        try (FileOutputStream binFile = new FileOutputStream("com/udemy/section14/io/example08_JavaNio/data/data.dat");
+        try (FileOutputStream binFile = new FileOutputStream("com/udemy/section14/io/example08_JavaNio/data/data1.dat");
              FileChannel binChannel = binFile.getChannel()) {
 
             // WRITING ==============================================================
 
             byte[] outputBytes = "Hello World!".getBytes();
+
             ByteBuffer buffer = ByteBuffer.wrap(outputBytes);
+
+
+
+
             int numBytes = binChannel.write(buffer);
             System.out.println("numBytes written " + numBytes);
 
@@ -59,7 +66,7 @@ public class Main {
 
             // READING WITH IO =====================================================
 
-//            RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data.dat", "rwd");
+//            RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data1.dat", "rwd");
 //            byte[] b = new byte[outputBytes.length];
 //            ra.read(b);
 //            System.out.println(new String(b));
@@ -70,7 +77,7 @@ public class Main {
 
             // READING WITH NIO =====================================================
 
-            RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data.dat", "rwd");
+            RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data1.dat", "rwd");
             FileChannel channel = ra.getChannel();
             outputBytes[0] = 'a';
             outputBytes[1] = 'b';

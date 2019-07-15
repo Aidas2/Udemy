@@ -13,10 +13,14 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 
+//============== ABSOLUTE AND RELATIVE READS =================================================
+//        ATTENTION: To make relative path work, go to EditConfigurations and set Working Directory to C:\Users\AidasP\Projects\Udemy\Java_Tutorial\Section_ALL\src
+
 public class Main2 {
     public static void main(String[] args) {
 
-        try (FileOutputStream binFile = new FileOutputStream("com/udemy/section14/io/example08_JavaNio/data/data.dat");
+        //version_02
+        try (FileOutputStream binFile = new FileOutputStream("com/udemy/section14/io/example08_JavaNio/data/data2.dat");
              FileChannel binChannel = binFile.getChannel()) {
 
             // WRITING ==============================================================
@@ -45,7 +49,7 @@ public class Main2 {
 
             // READING WITH NIO =====================================================
 
-            RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data.dat", "rwd");
+            RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data2.dat", "rwd");
             FileChannel channel = ra.getChannel();
             outputBytes[0] = 'a';
             outputBytes[1] = 'b';
