@@ -13,35 +13,21 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
-/*        // version_01
-        try {
-//            FileInputStream file = new FileInputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.txt");
-//            FileChannel channel = file.getChannel();
-            Path dataPath = FileSystems.getDefault().getPath("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.txt");
 
-            Files.write(dataPath, "\nLine 5".getBytes("UTF8"), StandardOpenOption.APPEND);
-
-//            List<String> lines = Files.readAllLines(dataPath, StandardCharsets.US_ASCII);
-            List<String> lines = Files.readAllLines(dataPath);
-            for (String line : lines) {
-                System.out.println(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-*/
-        //version_02
-//        try (FileOutputStream binFile = new FileOutputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example08_JavaNio\\data\\data.dat");
-//        To make relative path work, go to EditConfigurations and set Working Directory to C:\Users\AidasP\Projects\Udemy\Java_Tutorial\Section_ALL\src
         try (FileOutputStream binFile = new FileOutputStream("com/udemy/section14/io/example08_JavaNio/data/data.dat");
              FileChannel binChannel = binFile.getChannel()) {
 
             // WRITING ==============================================================
 
             byte[] outputBytes = "Hello World!".getBytes();
-            ByteBuffer buffer = ByteBuffer.wrap(outputBytes);
+
+            //ByteBuffer buffer = ByteBuffer.wrap(outputBytes);
+            ByteBuffer buffer = ByteBuffer.allocate(outputBytes.length);
+            buffer.put(outputBytes);
+            buffer.flip();
+
             int numBytes = binChannel.write(buffer);
             System.out.println("numBytes written " + numBytes);
 
@@ -57,17 +43,6 @@ public class Main {
             numBytes = binChannel.write(intBuffer);
             System.out.println("numBytes written " + numBytes);
 
-            // READING WITH IO =====================================================
-
-//            RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data.dat", "rwd");
-//            byte[] b = new byte[outputBytes.length];
-//            ra.read(b);
-//            System.out.println(new String(b));
-//
-//            long int1 = ra.readInt();
-//            long int2 = ra.readInt();
-//            System.out.println(int1 + " : " + int2);
-
             // READING WITH NIO =====================================================
 
             RandomAccessFile ra = new RandomAccessFile("com/udemy/section14/io/example08_JavaNio/data/data.dat", "rwd");
@@ -79,6 +54,7 @@ public class Main {
             //System.out.println("outputBytes = " + new String(outputBytes));
             if(buffer.hasArray()){
                 System.out.println("byte buffer = " + new String(buffer.array()));
+                //System.out.println("byte buffer = " + new String(outputBytes));
             }
 
             //Relative read (without passing index position):
@@ -92,12 +68,23 @@ public class Main {
 //            System.out.println(intBuffer.getInt());
 
             //Absolute read (with passing index position):
+//            intBuffer.flip();
+//            numBytesRead = channel.read(intBuffer);
+//            System.out.println(intBuffer.getInt(0));
+//            intBuffer.flip();
+//            numBytesRead = channel.read(intBuffer);
+//            System.out.println(intBuffer.getInt(0));
+
+            //Absolute read demonstrating that it doesn't changes buffers position:
             intBuffer.flip();
             numBytesRead = channel.read(intBuffer);
             System.out.println(intBuffer.getInt(0));
             intBuffer.flip();
             numBytesRead = channel.read(intBuffer);
-            System.out.println(intBuffer.getInt(0));
+            intBuffer.flip();
+            System.out.println(intBuffer.getInt(0)); //absolute read
+            System.out.println(intBuffer.getInt());     //relative read
+
 
             channel.close();
             ra.close();
