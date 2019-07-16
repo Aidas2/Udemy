@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81d1055-cba1-484a-a127-bb8c504e8493" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main5_FileChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main6_Pipes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/WorkingDirectoryFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example09_Paths/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example09_Paths/WorkingDirectoryFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example09_Paths/files/SubdirectoryFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBat/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingbat/warmup1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingbat/warmup1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingbat/warmup1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coderbyte/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../coderbyte/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coderbyte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../coderbyte/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/out/production/Section_ALL/META-INF/Section_ALL.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example02_BuferedReader/Locations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example02_BuferedReader/Locations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example03_BufferedWriter/Locations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example03_BufferedWriter/Locations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example04_ByteStreams/Locations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/out/production/Section_ALL/com/udemy/section14/io/example04_ByteStreams/Locations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example02_BuferedReader/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example02_BuferedReader/Locations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Locations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,24 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="102">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="638">
+              <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -64,11 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="75" />
-    <option name="width" value="1161" />
-    <option name="height" value="619" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,14 +116,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/codingbat/warmup2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -141,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingbat.warmup2.Main" />
       <module name="CodingBat" />
@@ -167,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -186,17 +186,19 @@
       <workItem from="1558449086747" duration="3873000" />
       <workItem from="1558601840084" duration="2088000" />
       <workItem from="1563255853068" duration="457000" />
+      <workItem from="1563258663121" duration="736000" />
+      <workItem from="1563279153337" duration="3505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10726000" />
+    <option name="totallyTimeSpent" value="14967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23081024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -205,7 +207,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25785482" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25689086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,21 +233,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup1/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state relative-caret-position="638">
+          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
         </state>
       </provider>
     </entry>

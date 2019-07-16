@@ -21,8 +21,8 @@ public class Locations implements Map<Integer, Location> {
         // =============================================================================================================
 /*      // "old" writer
         //version "try WITH resources" =================================================================================
-        try (BufferedWriter locFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations.txt"));
-             BufferedWriter dirFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt"))) {
+        try (BufferedWriter locFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations.txt"));
+             BufferedWriter dirFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt"))) {
             for (Location location : locations.values()) {
                 locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
                 for (String direction : location.getExits().keySet()) {
@@ -34,7 +34,7 @@ public class Locations implements Map<Integer, Location> {
         }
  */
         //"new" writer; works only with "old" reader (as in example 03, line 53)
-        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
+        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
             for (Location location : locations.values()) {
                 locFile.writeInt(location.getLocationID());
                 locFile.writeUTF(location.getDescription());
@@ -57,7 +57,7 @@ public class Locations implements Map<Integer, Location> {
     //version "try WITH resources" =====================================================================================
     static {
 /*      // "old" reader (from previous example)
-        try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt")))) {
+        try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt")))) {
             scanner.useDelimiter(",");
             while (scanner.hasNextLine()) {
                 int loc = scanner.nextInt();
@@ -72,7 +72,7 @@ public class Locations implements Map<Integer, Location> {
         }
 
         //version WITHOUT scanner
-        try (BufferedReader dirFile = new BufferedReader(new FileReader("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions_big.txt"))) {
+        try (BufferedReader dirFile = new BufferedReader(new FileReader("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions_big.txt"))) {
             String input;
             while ((input = dirFile.readLine()) != null) {
 
@@ -90,7 +90,7 @@ public class Locations implements Map<Integer, Location> {
         }
 */
         // "new" reader
-        try (DataInputStream locFile = new DataInputStream(new BufferedInputStream(new FileInputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
+        try (DataInputStream locFile = new DataInputStream(new BufferedInputStream(new FileInputStream("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
             boolean eof = false;
             while (!eof) {
                 try {

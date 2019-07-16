@@ -16,8 +16,8 @@ public class Locations implements Map<Integer, Location> {
         // === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING === WRITING
         // =============================================================================================================
         //version "try WITH resources" =================================================================================
-        try (BufferedWriter locFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations.txt"));
-             BufferedWriter dirFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt"))) {
+        try (BufferedWriter locFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations.txt"));
+             BufferedWriter dirFile = new BufferedWriter(new FileWriter("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions.txt"))) {
             for (Location location : locations.values()) {
                 locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
                 for (String direction : location.getExits().keySet()) {
@@ -33,7 +33,7 @@ public class Locations implements Map<Integer, Location> {
     // === READING === READING === READING === READING === READING === READING === READING === READING === READING ===
     //version "try WITH resources" =====================================================================================
     static {
-        try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt")))) {
+        try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt")))) {
             scanner.useDelimiter(",");
             while (scanner.hasNextLine()) {
                 int loc = scanner.nextInt();
@@ -48,7 +48,7 @@ public class Locations implements Map<Integer, Location> {
         }
 
         //version WITHOUT scanner
-        try (BufferedReader dirFile = new BufferedReader(new FileReader("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions_big.txt"))) {
+        try (BufferedReader dirFile = new BufferedReader(new FileReader("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/directions_big.txt"))) {
             String input;
             while ((input = dirFile.readLine()) != null) {
 

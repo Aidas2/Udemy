@@ -15,7 +15,7 @@ public class Locations implements Map<Integer, Location> {
 
     public static void main(String[] args) throws IOException {
 /*      // "old" writer (from previous example)
-        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
+        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
             for (com.udemy.section14.io.example04_ByteStreams.Location location : locations.values()) {
                 locFile.writeInt(location.getLocationID());
                 locFile.writeUTF(location.getDescription());
