@@ -7,6 +7,7 @@ public class Main {
         frontTimes("Chocolate", 3);
         countXX("abcxx");
         doubleX("axxbb");
+        doubleXX("axxbb");
     }
 
 //    Given a string and a non-negative int n, return a larger string that is n copies of the original string.
@@ -63,17 +64,42 @@ public class Main {
 //    doubleX("axaxax") → false
 //    doubleX("xxxxx") → true
     public static boolean doubleX(String str) {
-        boolean xFounded = true;
-        while (xFounded) {
-            for (int i = 0; i < str.length() - 1; i++) {
-                if(str.charAt(i) == 'x' && str.charAt(i+1) == 'x') {
-                    xFounded = false;
-                    //System.out.println("\n" + "\n" + countOfRight);
-                    //System.out.println(str.charAt(i) + " : " + str.charAt(i+1));
-                    return true;
-                }
+        char firstX = 'a';
+        char afterX = 'b';
+        boolean doubleX = true;
+
+        for (int i = 0; i < str.length() - 1; i++) {
+            if(str.charAt(i) == 'x') {
+                firstX = str.charAt(i);
+                afterX = str.charAt(i+1);
+                System.out.println("\n" + "\n" + "cikle " + firstX + " : " + afterX);
+                break;
             }
         }
-        return false;
+
+        if (firstX == afterX) {
+            doubleX = true;
+        } else if (firstX != afterX) {
+            doubleX = false;
+        }
+        System.out.println("uz ciklo " + firstX + " : " + afterX);
+
+        return doubleX;
+    }
+
+    //another solution:
+    public static boolean doubleXX(String str) {
+        int firstXPosition = str.indexOf("x");
+        if (firstXPosition == -1) return false; // no "x" at all
+        if (firstXPosition+1 >= str.length()) return false; // check i+1 in bounds?
+
+        char firstX = str.charAt(firstXPosition);
+        char afterX = str.charAt(firstXPosition+1);
+        System.out.println("firstX = " + firstX + ", afterX = " + afterX);
+        return firstX == afterX;
+
+        // Another approach -- .startsWith() simplifies the logic
+        // String x = str.substring(i);
+        // return x.startsWith("xx");
     }
 }

@@ -19,8 +19,8 @@ public class Main {
         printFile(filePath);
 
         //filePath = Paths.get("C:\\Users\\AidasP\\Projects\\Udemy_etc\\Java_Tutorial\\OutThereFile.txt"); //for Windows
-        filePath = Paths.get("C:\\Users\\AidasP\\Projects\\Udemy_etc","\\Java_Tutorial\\", "OutThereFile.txt");
-        //filePath = Paths.get("/home/aidas/Documents/Udemy_etc/Java_Tutorial/OutThereFile.txt"); //for Linux
+        //filePath = Paths.get("C:\\Users\\AidasP\\Projects\\Udemy_etc","\\Java_Tutorial\\", "OutThereFile.txt");
+        filePath = Paths.get("/home/aidas/Documents/Udemy_etc/Java_Tutorial/OutThereFile.txt"); //for Linux
         printFile(filePath);
 
         filePath = Paths.get("."); //for src/WorkingDirectoryFile2.txt
