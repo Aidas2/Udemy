@@ -7,19 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/CopyFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir1/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir1/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir2/Dir3/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir2/Dir3/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir2/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir2/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir2/file3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir4/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Main_FileTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/PrintNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/AnotherThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/ThreadColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,37 +40,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Main_FileTree.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="121" column="74" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
+            <state relative-caret-position="561">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#352#509#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#828#970#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/PrintNames.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/MyRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/CopyFiles.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/AnotherThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -140,11 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccesFile/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example03_BufferedWriter/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile/txt/locations.dat" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example05_ObjectIOStream/txt/locations.dat" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile2/Locations.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccesFile/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccesFile/Locations.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example05_ObjectIOStream/Locations.java" />
@@ -191,6 +178,11 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/CopyFiles.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/PrintNames.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Main_FileTree.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/ThreadColor.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/MyRunnable.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/AnotherThread.java" />
       </list>
     </option>
   </component>
@@ -200,7 +192,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="628" />
     <option name="height" value="1040" />
   </component>
@@ -211,7 +203,7 @@
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <showMembers ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -232,139 +224,22 @@
               <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
+              <item name="concurency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir2" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir4" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir2Copy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="section14" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example09_Paths" type="462c0819:PsiDirectoryNode" />
-              <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir4" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir2Copy" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir3" type="462c0819:PsiDirectoryNode" />
+              <item name="concurency" type="462c0819:PsiDirectoryNode" />
+              <item name="example01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,7 +339,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/FileTree/Dir4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../epp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -507,7 +382,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main_FileTree">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.example01.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section15.concurency.example01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example08_JavaNio.Main" />
       <module name="Section_ALL" />
@@ -643,12 +531,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main_Paths" />
       <item itemvalue="Application.Main_crud" />
       <item itemvalue="Application.Main_FileTree" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main_FileTree" />
         <item itemvalue="Application.Main_crud" />
         <item itemvalue="Application.Main_Paths" />
@@ -699,11 +590,13 @@
       <workItem from="1563261681439" duration="4828000" />
       <workItem from="1563275258451" duration="5884000" />
       <workItem from="1563341711415" duration="24028000" />
+      <workItem from="1563431065185" duration="3021000" />
+      <workItem from="1563450909487" duration="3364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217251000" />
+    <option name="totallyTimeSpent" value="223636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,10 +608,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="628" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" weight="0.5950704" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" weight="0.9471831" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -737,10 +630,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32855567" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.31527627" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.31422272" />
       <window_info anchor="bottom" id="Graph Database Console" order="12" weight="0.3303671" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="14" weight="0.44211686" />
+      <window_info active="true" anchor="bottom" id="Run" order="14" visible="true" weight="0.26760563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -806,27 +699,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example06_NIO/txt/locations.dat" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/txt/locations.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1057,12 +929,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Examples/Dir2/Dir3/dir3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Examples/file1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Examples/Dir2/Dir3/dir3.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Examples/Dir1/file1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1102,10 +969,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/CopyFiles.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Main_FileTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="671">
+          <caret line="121" column="74" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1122,12 +989,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/Main_FileTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example09_Paths/CopyFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="121" column="74" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/ThreadColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/MyRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/AnotherThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#352#509#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#828#970#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
           </folding>
         </state>
       </provider>
