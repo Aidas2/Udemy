@@ -1,6 +1,4 @@
-package com.udemy.section18.debugger.example01;
-
-import com.sun.deploy.util.StringUtils;
+package com.udemy.section18.debuggerJunit.example01;
 
 public class Main {
 
@@ -11,6 +9,9 @@ public class Main {
             utils.addChar(sb, 'a');
         }
         System.out.println(sb);
+
+        String str = "abcdefg";
+        String result = utils.upperAndPrefix(utils.addSuffix(str));
 
     }
 }

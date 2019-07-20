@@ -3,12 +3,13 @@ package com.codingbat.warmup2;
 public class Main {
 
     public static void main(String[] args) {
-        stringTimes("Hi", 3);
-        frontTimes("Chocolate", 3);
-        countXX("abcxx");
-        doubleX("axxbb");
-        doubleXX("axxbb");
-        stringBits("Heeololeo");
+//        stringTimes("Hi", 3);
+//        frontTimes("Chocolate", 3);
+//        countXX("abcxx");
+//        doubleX("axxbb");
+//        doubleXX("axxbb");
+//        stringBits("Heeololeo");
+        stringSplosion("Code");
     }
 
     //    Given a string and a non-negative int n, return a larger string that is n copies of the original string.
@@ -130,6 +131,23 @@ public class Main {
         return result;
 
 
+    }
+
+//    Given a non-empty string like "Code" return a string like "CCoCodCode".
+//    stringSplosion("Code") → "CCoCodCode"
+//    stringSplosion("abc") → "aababc"
+//    stringSplosion("ab") → "aab"
+
+    public static String stringSplosion(String str) {
+        String result = "";
+        for (int i = 0; i < str.length(); i++) {
+            String add = str.substring(0, str.length()-i);
+            result = add + result;
+            System.out.println("add = " + add);
+            System.out.println("Result = " + result);
+
+        }
+        return result;
     }
 
 }

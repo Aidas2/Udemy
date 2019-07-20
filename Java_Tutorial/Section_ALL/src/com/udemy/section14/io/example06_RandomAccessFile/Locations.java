@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.*;
 
 /**
- ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous example).
+ ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous JTransforms).
  Only later comment "old" code an uncomment (or write) "new" code.
- If do not doing so this example will NOT work (due serialization, because copied file location.dat contains package name with "example05" (must be "example06")
+ If do not doing so this JTransforms will NOT work (due serialization, because copied file location.dat contains package name with "example05" (must be "example06")
 
  If you forgot that or made mistake, you should'n start all from zero, just comment new reader, uncomment old (watch for package names !!!), after run return comments back :)
 
@@ -80,7 +80,7 @@ public class Locations implements Map<Integer, Location> {
 
     static {
 
-/*        // "old" reader (from previous example)
+/*        // "old" reader (from previous JTransforms)
         try (ObjectInputStream locFile = new ObjectInputStream(new BufferedInputStream(new FileInputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example06_RandomAccessFile\\txt\\locations.dat")))) {
             boolean eof = false;
             while (!eof) {

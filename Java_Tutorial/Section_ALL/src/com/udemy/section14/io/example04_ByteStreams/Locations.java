@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous example).
+ ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous JTransforms).
  Only later comment "old" code an uncomment (or write) "new" code.
 
  If you forgot that or made mistake, you should'n start all from zero, just comment new reader, uncomment old (watch for package names !!!), after run return comments back :)
@@ -33,7 +33,7 @@ public class Locations implements Map<Integer, Location> {
             }
         }
  */
-        //"new" writer; works only with "old" reader (as in example 03, line 53)
+        //"new" writer; works only with "old" reader (as in JTransforms 03, line 53)
         try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
             for (Location location : locations.values()) {
                 locFile.writeInt(location.getLocationID());
@@ -56,7 +56,7 @@ public class Locations implements Map<Integer, Location> {
     // === READING === READING === READING === READING === READING === READING === READING === READING === READING ===
     //version "try WITH resources" =====================================================================================
     static {
-/*      // "old" reader (from previous example)
+/*      // "old" reader (from previous JTransforms)
         try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/txt/locations_big.txt")))) {
             scanner.useDelimiter(",");
             while (scanner.hasNextLine()) {

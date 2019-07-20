@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous example).
+ ATTENTION: to SUCCESSFULLY run main(), code below in static{} at first must be "old" (from previous JTransforms).
  Only later comment "old" code an uncomment (or write) "new" code.
 
  If you forgot that or made mistake, you should'n start all from zero, just comment new reader, uncomment old (watch for package names !!!), after run return comments back :)
@@ -14,7 +14,7 @@ public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new LinkedHashMap<Integer, Location>();
 
     public static void main(String[] args) throws IOException {
-/*      // "old" writer (from previous example)
+/*      // "old" writer (from previous JTransforms)
         try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/home/aidas/Documents/Udemy_etc/Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/txt/locations.dat")))) {
             for (com.udemy.section14.io.example04_ByteStreams.Location location : locations.values()) {
                 locFile.writeInt(location.getLocationID());
@@ -42,7 +42,7 @@ public class Locations implements Map<Integer, Location> {
 
     static {
 
-/*      // "old" reader (from previous example)
+/*      // "old" reader (from previous JTransforms)
         try (DataInputStream locFile = new DataInputStream(new BufferedInputStream(new FileInputStream("C:\\Users\\AidasP\\Projects\\Udemy\\Java_Tutorial\\Section_ALL\\src\\com\\udemy\\section14\\io\\example05_ObjectIOStreamREAL\\txt\\locations.dat")))) {
             boolean eof = false;
             while (!eof) {
