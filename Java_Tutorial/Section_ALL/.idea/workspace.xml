@@ -7,24 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/JTransforms/JTransforms-3.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/JTransforms/JTransforms-3.1-with-dependencies.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/StringUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTestParameterized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CodingBat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingBat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CodingBat/src/com/codingbat/warmup2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingBat/src/com/codingbat/warmup2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest2NotRepeatative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section18/debugger/example01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section18/debugger/example01/StringUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,51 +42,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccount.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#2961#2962#0" expanded="true" />
-                <element signature="e#3118#3119#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTestParameterized.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="222">
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -109,13 +75,13 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sort</find>
       <find>addSatellite</find>
       <find>, HeavenlyBody.BodyType.PLANET</find>
       <find>, HeavenlyBody.BodyType.MOON</find>
@@ -144,6 +110,8 @@
       <find>REAL</find>
       <find>com.udemy.section14.io.example06_RandomAccessFile.</find>
       <find>FileCha</find>
+      <find>assertArrayEquals</find>
+      <find>exc</find>
     </findStrings>
     <replaceStrings>
       <replace>tempExits.put</replace>
@@ -152,6 +120,9 @@
       <replace>body.getKey()</replace>
       <replace>Planet</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -159,14 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Locations.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/Locations.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile/Locations.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data.txt" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example01/Simplest.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNioAbsoluteRealativeReads/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNioAbsoluteRealativeReads/Main2.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNioAbsoluteRealativeReads/Main3.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main2.java" />
@@ -209,6 +172,14 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section18/example02/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section18/example02/BankAccountTest.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section18/example02/BankAccountTestParameterized.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTestParametrised.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTestParametrized.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTestParameterized.java" />
       </list>
     </option>
@@ -220,8 +191,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="820" />
-    <option name="height" value="1040" />
+    <option name="x" value="716" />
+    <option name="y" value="25" />
+    <option name="width" value="650" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -234,35 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
@@ -343,6 +287,51 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="challengeAidas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="example02" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,10 +347,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section18/example01/JTransforms/JTransforms-3.1-sources.jar!/" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -371,21 +362,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.udemy.section18.debuggerJunit.challengeAidas" />
       <recent name="com.udemy.section18.example02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.udemy.section18.debuggerJunit.challengeAidas" />
       <recent name="com.udemy.section14.io.example08_JavaNio" />
       <recent name="com.udemy.section14.io.example08_JavaNioAbsoluteRealativeReads" />
       <recent name="com.udemy.section14.io.example06_RandomAccessFile" />
       <recent name="com.udemy.section03" />
-      <recent name="com.udemy.section14.challengeAidas" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
       <recent name="$PROJECT_DIR$/src/com/udemy/section18/example" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir4" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir2" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir2\Dir3" />
-      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -410,20 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountTestParameterized.deposit">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.example01.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section15.concurency.example01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UtilitiesTest3Parametrized">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example08_JavaNio.Main" />
       <module name="Section_ALL" />
@@ -530,34 +509,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_FileTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example09_Paths.Main_FileTree" />
-      <module name="Section_ALL" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section14.io.example09_Paths.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main_crud" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example09_Paths.Main_crud" />
-      <module name="Section_ALL" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section14.io.example09_Paths.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Section_ALL" />
       <extension name="coverage">
@@ -575,54 +526,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTestParameterized.deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest2NotRepeatative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Section_ALL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.example02.*" />
+          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.example02" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.example02.BankAccountTestParameterized" />
-      <option name="METHOD_NAME" value="deposit" />
+      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest2NotRepeatative" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTest2NotRepeatative.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest2NotRepeatative" />
+      <option name="METHOD_NAME" value="converter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest2NotRepeatative.converter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Section_ALL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.example02.*" />
+          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.section18.example02" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.example02.BankAccountTest" />
-      <option name="METHOD_NAME" value="deposit" />
+      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest2NotRepeatative" />
+      <option name="METHOD_NAME" value="converter2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTest2NotRepeatative.nullIfOddLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest2NotRepeatative" />
+      <option name="METHOD_NAME" value="nullIfOddLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTest3Parametrized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest3Parametrized" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main_crud" />
-      <item itemvalue="Application.Main_FileTree" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.BankAccountTest" />
-      <item itemvalue="JUnit.BankAccountTest.deposit" />
-      <item itemvalue="JUnit.BankAccountTestParameterized.deposit" />
+      <item itemvalue="JUnit.UtilitiesTest2NotRepeatative" />
+      <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter2" />
+      <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter" />
+      <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.nullIfOddLength" />
+      <item itemvalue="JUnit.UtilitiesTest3Parametrized" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankAccountTestParameterized.deposit" />
-        <item itemvalue="JUnit.BankAccountTest.deposit" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main_FileTree" />
+        <item itemvalue="JUnit.UtilitiesTest3Parametrized" />
+        <item itemvalue="JUnit.UtilitiesTest2NotRepeatative" />
+        <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.nullIfOddLength" />
+        <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter2" />
+        <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter" />
       </list>
     </recent_temporary>
   </component>
@@ -675,35 +672,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankAccountTest - 2019.07.20 at 16h 45m 26s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest2_converter - 2019.07.21 at 14h 49m 19s.xml">
+      <configuration name="UtilitiesTest2.converter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 16h 52m 42s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest2_converter2 - 2019.07.21 at 14h 49m 39s.xml">
+      <configuration name="UtilitiesTest2.converter2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 16h 54m 11s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest2_nullIfOddLength - 2019.07.21 at 14h 49m 45s.xml">
+      <configuration name="UtilitiesTest2.nullIfOddLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 16h 55m 37s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest2 - 2019.07.21 at 14h 51m 19s.xml">
+      <configuration name="UtilitiesTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 17h 29m 20s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 16h 29m 46s.xml">
+      <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 17h 30m 27s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 16h 32m 13s.xml">
+      <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 17h 34m 59s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 16h 37m 00s.xml">
+      <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 17h 35m 09s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 16h 40m 56s.xml">
+      <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2019.07.20 at 17h 35m 52s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 16h 49m 57s.xml">
+      <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTestParameterized_deposit - 2019.07.20 at 17h 58m 41s.xml">
-      <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 16h 50m 24s.xml">
+      <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -721,7 +718,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.34397447" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.22745411" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -730,20 +727,20 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="DB Browser" order="7" weight="0.32982844" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31409168" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31239387" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39219016" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32963374" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.18418202" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.48896435" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32855567" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4278438" />
       <window_info anchor="bottom" id="Graph Database Console" order="12" weight="0.3303671" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="14" weight="0.36332768" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.4074703" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -846,53 +843,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/ShiftInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example04_ByteStreams/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example06_RandomAccessFile/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/Locations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1165,37 +1115,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding>
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest2NotRepeatative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="240">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="26" />
           <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTestParameterized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="e#611#622#0" />
+            <element signature="e#1781#1792#0" />
           </folding>
         </state>
       </provider>

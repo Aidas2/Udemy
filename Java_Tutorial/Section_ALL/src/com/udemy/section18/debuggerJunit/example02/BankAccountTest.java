@@ -77,11 +77,12 @@ public class BankAccountTest {
         assertTrue("The account is NOT a checking account", account.isChecking());
     }
 
+//===========================================
     @org.junit.AfterClass
     public static void afterClass() {
         System.out.println("This executes after any test cases. Count = " + count++);
     }
-//===========================================
+
 
     @org.junit.After
     public void teardown() {
