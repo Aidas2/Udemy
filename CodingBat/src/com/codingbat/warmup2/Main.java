@@ -9,7 +9,8 @@ public class Main {
 //        doubleX("axxbb");
 //        doubleXX("axxbb");
 //        stringBits("Heeololeo");
-        stringSplosion("Code");
+//        stringSplosion("Code");
+        last2("xxxx");
     }
 
     //    Given a string and a non-negative int n, return a larger string that is n copies of the original string.
@@ -141,7 +142,7 @@ public class Main {
     public static String stringSplosion(String str) {
         String result = "";
         for (int i = 0; i < str.length(); i++) {
-            String add = str.substring(0, str.length()-i);
+            String add = str.substring(0, str.length() - i);
             result = add + result;
             System.out.println("add = " + add);
             System.out.println("Result = " + result);
@@ -149,5 +150,35 @@ public class Main {
         }
         return result;
     }
+
+//    Given a string, return the count of the number of times that a substring length 2 appears in the string and also as the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
+//    last2("hixxhi") → 1
+//    last2("xaxxaxaxx") → 1
+//    last2("axxxaaxx") → 2
+
+    public static int last2(String str) {
+        //reverse iteration (i--) is to complicated, try to avoid !
+        int count = 0;
+        if (str.length() <= 2) {
+            //System.out.println(str.length());
+            count = 0;
+        } else {
+            String lastTwo = str.substring(str.length() - 2);
+            //String justTwo = str.substring(str.length()-4, str.length()-2);
+            //System.out.println("lastTwo = " + lastTwo);
+            //System.out.println("justTwo = " + justTwo);
+            //System.out.println(str.length());
+
+            for (int i = str.length() + 1; i > 3; i--) {
+                //System.out.println("i = " + i);
+                if (str.substring(i - 4, i - 2).equals(lastTwo)) {
+                    count++;
+                }
+            }
+        }
+        System.out.println("count = " + count);
+        return count;
+    }
+
 
 }
