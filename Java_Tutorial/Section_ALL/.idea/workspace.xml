@@ -7,13 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest2NotRepeatative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ADM_PILN20190616.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/Municipality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Municipality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/casual/expiration/Expiration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section_ALL/com/udemy/casual/expiration/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/casual/expiration/Expiration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/expiration/Expiration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/casual/expiration/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/expiration/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,28 +49,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="331">
+              <caret line="35" selection-start-line="35" selection-end-line="53" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Municipality.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/Municipality.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1269#1270#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,9 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addSatellite</find>
-      <find>, HeavenlyBody.BodyType.PLANET</find>
-      <find>, HeavenlyBody.BodyType.MOON</find>
       <find>only</find>
       <find>temp.getName()</find>
       <find>tempMoon.getName()</find>
@@ -112,6 +167,9 @@
       <find>FileCha</find>
       <find>assertArrayEquals</find>
       <find>exc</find>
+      <find>Comparat</find>
+      <find>compare</find>
+      <find>.add(</find>
     </findStrings>
     <replaceStrings>
       <replace>tempExits.put</replace>
@@ -130,13 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNioAbsoluteRealativeReads/Main2.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNioAbsoluteRealativeReads/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main2.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main4.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main5_Pipes.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main5.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main5_FileChannel.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/Main6_Pipes.java" />
@@ -181,6 +232,13 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTestParameterized.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casual/comparator/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casual/comparator/Municipality.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Municipality.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/Municipality.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile2.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Main.java" />
       </list>
     </option>
   </component>
@@ -191,10 +249,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="716" />
-    <option name="y" value="25" />
-    <option name="width" value="650" />
-    <option name="height" value="743" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -207,7 +264,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="casualMiniTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="casualMiniTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="comparator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture139_Maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="challengeAidas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -287,51 +410,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
-              <item name="challengeAidas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="debuggerJunit" type="462c0819:PsiDirectoryNode" />
-              <item name="example02" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +431,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -365,29 +444,29 @@
       <recent name="com.udemy.section18.debuggerJunit.challengeAidas" />
       <recent name="com.udemy.section18.example02" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.udemy.section18.debuggerJunit.challengeAidas" />
-      <recent name="com.udemy.section14.io.example08_JavaNio" />
-      <recent name="com.udemy.section14.io.example08_JavaNioAbsoluteRealativeReads" />
-      <recent name="com.udemy.section14.io.example06_RandomAccessFile" />
-      <recent name="com.udemy.section03" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
-      <recent name="$PROJECT_DIR$/src/com/udemy/section18/example" />
-      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir4" />
-      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir2" />
-      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir2\Dir3" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example08_JavaNio" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\Examples\Dir2" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src" />
       <recent name="C:\Users\AidasP\Projects\Udemy etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths" />
       <recent name="C:\Users\AidasP\Projects\Udemy\Java_Tutorial\Section_ALL\src\com\udemy\section14\io" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.udemy.casualMiniTasks.SAXSParser" />
+      <recent name="com.udemy.section18.debuggerJunit.challengeAidas" />
+      <recent name="com.udemy.section14.io.example08_JavaNio" />
+      <recent name="com.udemy.section14.io.example08_JavaNioAbsoluteRealativeReads" />
+      <recent name="com.udemy.section14.io.example06_RandomAccessFile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\casualMiniTasks\SAXSParser" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
+      <recent name="$PROJECT_DIR$/src/com/udemy/section18/example" />
+      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir4" />
+      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section14\io\example09_Paths\FileTree\Dir2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,7 +481,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest3Parametrized">
+  <component name="RunManager" selected="Application.ReadXMLFile2">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.casualMiniTasks.comparator.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.casualMiniTasks.comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example08_JavaNio.Main" />
       <module name="Section_ALL" />
@@ -509,6 +601,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadXMLFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.casualMiniTasks.SAXSParser.ReadXMLFile" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.casualMiniTasks.SAXSParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadXMLFile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.casualMiniTasks.SAXSParser.ReadXMLFile2" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.casualMiniTasks.SAXSParser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Section_ALL" />
       <extension name="coverage">
@@ -541,54 +659,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest2NotRepeatative.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest2NotRepeatative" />
-      <option name="METHOD_NAME" value="converter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilitiesTest2NotRepeatative.converter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest2NotRepeatative" />
-      <option name="METHOD_NAME" value="converter2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilitiesTest2NotRepeatative.nullIfOddLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section18.debuggerJunit.challengeAidas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section18.debuggerJunit.challengeAidas.UtilitiesTest2NotRepeatative" />
-      <option name="METHOD_NAME" value="nullIfOddLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UtilitiesTest3Parametrized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Section_ALL" />
       <extension name="coverage">
@@ -606,20 +676,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.BankAccountTest" />
       <item itemvalue="JUnit.UtilitiesTest2NotRepeatative" />
-      <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter2" />
-      <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter" />
-      <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.nullIfOddLength" />
       <item itemvalue="JUnit.UtilitiesTest3Parametrized" />
+      <item itemvalue="Application.ReadXMLFile" />
+      <item itemvalue="Application.ReadXMLFile2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadXMLFile2" />
+        <item itemvalue="Application.ReadXMLFile" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.UtilitiesTest3Parametrized" />
         <item itemvalue="JUnit.UtilitiesTest2NotRepeatative" />
-        <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.nullIfOddLength" />
-        <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter2" />
-        <item itemvalue="JUnit.UtilitiesTest2NotRepeatative.converter" />
       </list>
     </recent_temporary>
   </component>
@@ -668,13 +738,13 @@
       <workItem from="1563341711415" duration="24028000" />
       <workItem from="1563431065185" duration="3021000" />
       <workItem from="1563450909487" duration="3364000" />
+      <workItem from="1563717653052" duration="635000" />
+      <workItem from="1563771613141" duration="7491000" />
+      <workItem from="1563780658281" duration="2676000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest2_converter - 2019.07.21 at 14h 49m 19s.xml">
-      <configuration name="UtilitiesTest2.converter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest2_converter2 - 2019.07.21 at 14h 49m 39s.xml">
       <configuration name="UtilitiesTest2.converter2" configurationId="JUnit" />
     </history-entry>
@@ -702,9 +772,12 @@
     <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 16h 50m 24s.xml">
       <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTest3Parametrized - 2019.07.21 at 17h 01m 51s.xml">
+      <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230959000" />
+    <option name="totallyTimeSpent" value="241761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,9 +789,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.22745411" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -733,14 +806,14 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32963374" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.48896435" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32855567" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.4278438" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.42686892" />
       <window_info anchor="bottom" id="Graph Database Console" order="12" weight="0.3303671" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="14" weight="0.4074703" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.47453955" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -843,45 +916,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example07_NIO/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="26" column="127" selection-start-line="26" selection-start-column="127" selection-end-line="26" selection-end-column="127" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data.dat" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section09/interfaces/InnerClass/ChallengeAidasV1/Album.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/enableRelativePath.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data3.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data2.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data1.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data4.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/data5.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section14/io/example08_JavaNio/data/datacopy.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1090,98 +1124,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/StringUtilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest2NotRepeatative.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccount.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTestParameterized.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java" />
+    <entry file="jar://C:/Program Files/Java/java8/javafx-src.zip!/javafx/collections/transformation/SortedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/StringUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="452">
+          <caret line="293" column="30" selection-start-line="293" selection-start-column="30" selection-end-line="293" selection-end-column="30" />
           <folding>
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#9143#9144#0" expanded="true" />
+            <element signature="e#9204#9205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/MapProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTest.java">
+    <entry file="jar://C:/Program Files/Java/java8/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        <state relative-caret-position="299">
+          <caret line="403" column="15" selection-start-line="403" selection-start-column="15" selection-end-line="403" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#12365#12366#0" expanded="true" />
+            <element signature="e#12430#12431#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest2NotRepeatative.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/Theatre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example02/BankAccountTestParameterized.java">
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas/UtilitiesTest3Parametrized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/Municipality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
-            <element signature="e#611#622#0" />
-            <element signature="e#1781#1792#0" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Municipality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="35" selection-start-line="35" selection-end-line="53" selection-end-column="53" />
         </state>
       </provider>
     </entry>

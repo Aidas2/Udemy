@@ -1,4 +1,4 @@
-package com.udemy.casual.expiration;
+package com.udemy.casualMiniTasks.expiration;
 
 public class Main {
 
