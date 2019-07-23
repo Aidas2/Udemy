@@ -10,7 +10,8 @@ public class Main {
 //        doubleXX("axxbb");
 //        stringBits("Heeololeo");
 //        stringSplosion("Code");
-        last2("xxxx");
+//        last2("xxxx");
+        arrayCount9(new int[]{1, 9, 9, 3, 9});
     }
 
     //    Given a string and a non-negative int n, return a larger string that is n copies of the original string.
@@ -179,6 +180,24 @@ public class Main {
         System.out.println("count = " + count);
         return count;
     }
+
+//    Given an array of ints, return the number of 9's in the array.
+//    arrayCount9([1, 2, 9]) → 1
+//    arrayCount9([1, 9, 9]) → 2
+//    arrayCount9([1, 9, 9, 3, 9]) → 3
+
+    public static int arrayCount9(int[] nums) {
+        int count = 0;
+        for(int i = 0; i < nums.length; i++) {
+            if (nums[i] == 9) {
+                count++;
+            }
+        }
+        System.out.println("count = " + count);
+        return count;
+    }
+
+
 
 
 }
