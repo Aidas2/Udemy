@@ -29,9 +29,22 @@ public class Main {
             public void run() {
                 //super.run();
                 System.out.println(ANSI_RED + "Hello from the anonymous class implementation of run()");
+
+                //joining two threads (works in sequence, not parallel):
+                try {
+                    anotherThead.join();
+                    //anotherThead.join(2000); //waiting only 2 sec
+                    System.out.println(ANSI_RED + "AnotherThread terminated, or timed out, so I'm running again");
+                } catch (InterruptedException e) {
+                    System.out.println(ANSI_RED + "I couldn't wait after all. I was interrupted");
+
+                }
             }
         });
         myRunnableThread.start();
+
+        //interrupting thread:
+        //anotherThead.interrupt();
 
         System.out.println(ANSI_PURPLE + "Hello again from the main thread.");
 
