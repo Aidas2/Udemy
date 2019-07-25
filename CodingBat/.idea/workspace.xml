@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81d1055-cba1-484a-a127-bb8c504e8493" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1865">
-              <caret line="30" column="60" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="60" />
+            <state relative-caret-position="519">
+              <caret line="224" column="45" selection-start-line="224" selection-start-column="45" selection-end-line="224" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -64,6 +65,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,8 +103,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +184,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12285556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12506917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -193,7 +194,7 @@
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33407325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4428413" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,8 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1865">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="60" />
+        <state relative-caret-position="519">
+          <caret line="224" column="45" selection-start-line="224" selection-start-column="45" selection-end-line="224" selection-end-column="45" />
         </state>
       </provider>
     </entry>

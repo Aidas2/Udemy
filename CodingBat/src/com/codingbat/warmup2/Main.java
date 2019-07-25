@@ -11,7 +11,10 @@ public class Main {
 //        stringBits("Heeololeo");
 //        stringSplosion("Code");
 //        last2("xxxx");
-        arrayCount9(new int[]{1, 9, 9, 3, 9});
+//        arrayCount9(new int[]{1, 9, 9, 3, 9});
+
+
+        stringMatch("aabbcccdd", "abbbxxxd");
     }
 
     //    Given a string and a non-negative int n, return a larger string that is n copies of the original string.
@@ -191,6 +194,40 @@ public class Main {
         for(int i = 0; i < nums.length; i++) {
             if (nums[i] == 9) {
                 count++;
+            }
+        }
+        System.out.println("count = " + count);
+        return count;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //stringMatch("aabbccdd", "abbbxxxdd")
+
+    public static int stringMatch(String a, String b) {
+        int count = 0;
+        for(int i = 0; i < a.length()-1; i++) {
+            String a2 = a.substring(i, i+2);
+            int positionA = a.indexOf(a2);
+            for (int j = 0; j < b.length()-1; j++) {
+                String b2 = b.substring(j, j+2);
+                int positionB = b.indexOf(b2);
+                System.out.println(a2 + ":" + b2 + " " + (a2.equals(b2) ? "TRUE" : " ")  + " " + positionA + ":" + positionB);
+                if (a2.equals(b2) && (positionA == positionB)) {
+                    count++;
+                }
             }
         }
         System.out.println("count = " + count);
