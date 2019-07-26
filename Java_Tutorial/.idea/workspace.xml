@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db3d8e68-97fc-425e-ad9a-30a0464cbdd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example09_Paths/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example09_Paths/WorkingDirectoryFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example09_Paths/files/SubdirectoryFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingBat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingBat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingBat/src/com/codingbat/warmup1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingBat/src/com/codingbat/warmup1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL/out/production/Section_ALL/META-INF/Section_ALL.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example02_BuferedReader/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example02_BuferedReader/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example03_BufferedWriter/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example04_ByteStreams/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section_ALL/src/com/udemy/section14/io/example05_ObjectIOStreamREAL/Locations.java" afterDir="false" />
-    </list>
+    <list default="true" id="db3d8e68-97fc-425e-ad9a-30a0464cbdd4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +24,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,11 +87,12 @@
       <workItem from="1562653357335" duration="23000" />
       <workItem from="1562823426047" duration="18000" />
       <workItem from="1563274860285" duration="13000" />
+      <workItem from="1564044415959" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146000" />
+    <option name="totallyTimeSpent" value="151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

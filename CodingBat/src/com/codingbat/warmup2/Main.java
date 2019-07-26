@@ -12,9 +12,10 @@ public class Main {
 //        stringSplosion("Code");
 //        last2("xxxx");
 //        arrayCount9(new int[]{1, 9, 9, 3, 9});
-
-
-        stringMatch("aabbcccdd", "abbbxxxd");
+//        arrayFront9(new int[]{1, 2, 9, 3, 4});
+//        array123(new int[]{1, 1, 2, 1, 2, 3});
+        //stringMatch("aabbcccdd", "abbbxxxd");
+        stringMatch2("aaaabbcccdd");
     }
 
     //    Given a string and a non-negative int n, return a larger string that is n copies of the original string.
@@ -191,7 +192,7 @@ public class Main {
 
     public static int arrayCount9(int[] nums) {
         int count = 0;
-        for(int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 9) {
                 count++;
             }
@@ -200,31 +201,54 @@ public class Main {
         return count;
     }
 
+//    Given an array of ints, return true if one of the first 4 elements in the array is a 9. The array length may be less than 4.
+//    arrayFront9([1, 2, 9, 3, 4]) → true
+//    arrayFront9([1, 2, 3, 4, 9]) → false
+//    arrayFront9([1, 2, 3, 4, 5]) → false
 
+    public static boolean arrayFront9(int[] nums) {
+        if (nums.length <= 3) {
+            for (int i = 0; i < nums.length; i++) {
+                if (nums[i] == 9) {
+                    return true;
+                }
+            }
+        } else if (nums.length > 3) {
 
+            for (int i = 0; i < 3; i++) {
+                if (nums[i] == 9) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
+//    Given an array of ints, return true if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+//    array123([1, 1, 2, 3, 1]) → true
+//    array123([1, 1, 2, 4, 1]) → false
+//    array123([1, 1, 2, 1, 2, 3]) → true
 
-
-
-
-
-
-
-
-
-
+    public static boolean array123(int[] nums) {
+        for (int i = 0; i < (nums.length - 2); i++) {
+            if (nums[i] == 1 && nums[i + 1] == 2 && nums[i + 2] == 3) {
+                return true;
+            }
+        }
+        return false;
+    }
 
     //stringMatch("aabbccdd", "abbbxxxdd")
 
     public static int stringMatch(String a, String b) {
         int count = 0;
-        for(int i = 0; i < a.length()-1; i++) {
-            String a2 = a.substring(i, i+2);
+        for (int i = 0; i < a.length() - 1; i++) {
+            String a2 = a.substring(i, i + 2);
             int positionA = a.indexOf(a2);
-            for (int j = 0; j < b.length()-1; j++) {
-                String b2 = b.substring(j, j+2);
+            for (int j = 0; j < b.length() - 1; j++) {
+                String b2 = b.substring(j, j + 2);
                 int positionB = b.indexOf(b2);
-                System.out.println(a2 + ":" + b2 + " " + (a2.equals(b2) ? "TRUE" : " ")  + " " + positionA + ":" + positionB);
+                System.out.println(a2 + ":" + b2 + " " + (a2.equals(b2) ? "TRUE" : " ") + " " + positionA + ":" + positionB);
                 if (a2.equals(b2) && (positionA == positionB)) {
                     count++;
                 }
@@ -234,7 +258,13 @@ public class Main {
         return count;
     }
 
-
-
+    //stringMatch2("aaaabbcccdd");
+    public static void stringMatch2 (String a) {
+        for (int i = 0; i < a.length() - 1; i++) {
+            String a2 = a.substring(i, i + 2);
+            int positionA = a.indexOf(a2);
+            System.out.println(a2 + ":" + positionA);
+        }
+    }
 
 }
