@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81d1055-cba1-484a-a127-bb8c504e8493" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section15/concurency/example04_concurentPackage/Main04_threadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section15/concurency/example04_concurentPackage/Main05_arrayBlockingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coderbyte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../coderbyte/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coderbyte/out/production/temp/META-INF/temp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coderbyte/out/production/temp/com/coderbyte/Capitalize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coderbyte/out/production/temp/com/coderbyte/FirstFactorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coderbyte/out/production/temp/com/coderbyte/LongestWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coderbyte/out/production/temp/com/coderbyte/ReversedString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coderbyte/out/production/temp/com/coderbyte/SimpleSum.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup1/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="295" column="18" selection-start-line="295" selection-start-column="18" selection-end-line="295" selection-end-column="18" />
+            <state relative-caret-position="348">
+              <caret line="379" column="44" selection-start-line="379" selection-start-column="43" selection-end-line="379" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -53,10 +54,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="284" />
-    <option name="y" value="110" />
-    <option name="width" value="960" />
-    <option name="height" value="555" />
+    <option name="width" value="1393" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,6 +65,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,8 +103,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,16 +176,20 @@
       <workItem from="1563258663121" duration="736000" />
       <workItem from="1563279153337" duration="3505000" />
       <workItem from="1564140260827" duration="1441000" />
+      <workItem from="1564463895477" duration="8620000" />
+      <workItem from="1564484087836" duration="42000" />
+      <workItem from="1564490221709" duration="3538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16408000" />
+    <option name="totallyTimeSpent" value="28608000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11332801" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -195,14 +198,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30050933" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39898133" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -243,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingbat/warmup2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="295" column="18" selection-start-line="295" selection-start-column="18" selection-end-line="295" selection-end-column="18" />
+        <state relative-caret-position="348">
+          <caret line="379" column="44" selection-start-line="379" selection-start-column="43" selection-end-line="379" selection-end-column="44" />
         </state>
       </provider>
     </entry>

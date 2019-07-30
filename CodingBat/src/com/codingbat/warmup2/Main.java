@@ -7,7 +7,7 @@ public class Main {
 //        frontTimes("Chocolate", 3);
 //        countXX("abcxx");
 //        doubleX("axxbb");
-//        doubleXX("axxbb");
+//        doubleX_2("axxbb");
 //        stringBits("Heeololeo");
 //        stringSplosion("Code");
 //        last2("xxxx");
@@ -15,11 +15,20 @@ public class Main {
 //        arrayFront9(new int[]{1, 2, 9, 3, 4});
 //        array123(new int[]{1, 1, 2, 1, 2, 3});
 //        stringMatch("aabbcccdd", "abbbxxxd");
-//        stringMatch2("aabbcccdd", "abbbxxxd");
-        stringX("xabxxxcdx");
+//        stringMatch_2("aabbcccdd", "abbbxxxd");
+//        stringX("x");
+//        stringX_2("xx");
+//        altPairs("CodingHorror");
+//        altPairs("Chocolate");
+//        altPairs_2("CodingHorror");
+//        altPairs_2("Chocolate");
+        stringYak("pakyak");
+        stringYak("yakpak");
+        stringYak("yak123ya");
 
     }
 
+    //==================================================================================================================
     //    Given a string and a non-negative int n, return a larger string that is n copies of the original string.
 //    stringTimes("Hi", 2) → "HiHi"
 //    stringTimes("Hi", 3) → "HiHiHi"
@@ -33,6 +42,7 @@ public class Main {
         return newStr;
     }
 
+    //==================================================================================================================
     //    Given a string and a non-negative int n, we'll say that the front of the string is the first 3 chars,
 //    or whatever is there if the string is less than length 3. Return n copies of the front;
 //    frontTimes("Chocolate", 2) → "ChoCho"
@@ -53,6 +63,7 @@ public class Main {
         return newStr;
     }
 
+    //==================================================================================================================
     //    Count the number of "xx" in the given string. We'll say that overlapping is allowed, so "xxx" contains 2 "xx".
 //    countXX("abcxx") → 1
 //    countXX("xxx") → 2
@@ -68,7 +79,7 @@ public class Main {
         }
         return count;
     }
-
+    //==================================================================================================================
     //    Given a string, return true if the first instance of "x" in the string is immediately followed by another "x".
 //    doubleX("axxbb") → true
 //    doubleX("axaxax") → false
@@ -98,7 +109,7 @@ public class Main {
     }
 
     //another solution:
-    public static boolean doubleXX(String str) {
+    public static boolean doubleX_2(String str) {
         int firstXPosition = str.indexOf("x");
         if (firstXPosition == -1) return false; // no "x" at all
         if (firstXPosition + 1 >= str.length()) return false; // check i+1 in bounds?
@@ -113,7 +124,7 @@ public class Main {
         // return x.startsWith("xx");
     }
 
-
+    //==================================================================================================================
 //    Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
 //    stringBits("Hello") → "Hlo"
 //    stringBits("Hi") → "H"
@@ -140,7 +151,7 @@ public class Main {
 
 
     }
-
+    //==================================================================================================================
 //    Given a non-empty string like "Code" return a string like "CCoCodCode".
 //    stringSplosion("Code") → "CCoCodCode"
 //    stringSplosion("abc") → "aababc"
@@ -157,8 +168,9 @@ public class Main {
         }
         return result;
     }
-
-//    Given a string, return the count of the number of times that a substring length 2 appears in the string and also as the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
+    //==================================================================================================================
+//    Given a string, return the count of the number of times that a substring length 2 appears in the string and also
+//    as the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
 //    last2("hixxhi") → 1
 //    last2("xaxxaxaxx") → 1
 //    last2("axxxaaxx") → 2
@@ -186,7 +198,7 @@ public class Main {
         System.out.println("count = " + count);
         return count;
     }
-
+    //==================================================================================================================
 //    Given an array of ints, return the number of 9's in the array.
 //    arrayCount9([1, 2, 9]) → 1
 //    arrayCount9([1, 9, 9]) → 2
@@ -202,7 +214,7 @@ public class Main {
         System.out.println("count = " + count);
         return count;
     }
-
+    //==================================================================================================================
 //    Given an array of ints, return true if one of the first 4 elements in the array is a 9. The array length may be less than 4.
 //    arrayFront9([1, 2, 9, 3, 4]) → true
 //    arrayFront9([1, 2, 3, 4, 9]) → false
@@ -225,7 +237,7 @@ public class Main {
         }
         return false;
     }
-
+    //==================================================================================================================
 //    Given an array of ints, return true if the sequence of numbers 1, 2, 3 appears in the array somewhere.
 //    array123([1, 1, 2, 3, 1]) → true
 //    array123([1, 1, 2, 4, 1]) → false
@@ -239,8 +251,9 @@ public class Main {
         }
         return false;
     }
-
-//    Given 2 strings, a and b, return the number of the positions where they contain the same length 2 substring. So "xxcaazz" and "xxbaaz" yields 3, since the "xx", "aa", and "az" substrings appear in the same place in both strings.
+    //==================================================================================================================
+//    Given 2 strings, a and b, return the number of the positions where they contain the same length 2 substring.
+//    So "xxcaazz" and "xxbaaz" yields 3, since the "xx", "aa", and "az" substrings appear in the same place in both strings.
 //    stringMatch("xxcaazz", "xxbaaz") → 3
 //    stringMatch("abc", "abc") → 2
 //    stringMatch("abc", "axc") → 0
@@ -265,15 +278,15 @@ public class Main {
     }
 
     //more simple solution
-    public static int stringMatch2(String a, String b) {
+    public static int stringMatch_2(String a, String b) {
         // Figure which string is shorter.
         int len = Math.min(a.length(), b.length());
         int count = 0;
 
         // Look at both substrings starting at i
-        for (int i=0; i<len-1; i++) {
-            String aSub = a.substring(i, i+2);
-            String bSub = b.substring(i, i+2);
+        for (int i = 0; i < len - 1; i++) {
+            String aSub = a.substring(i, i + 2);
+            String bSub = b.substring(i, i + 2);
             System.out.println(aSub + ":" + bSub + " " + (aSub.equals(bSub) ? "TRUE" : " ") + " " + i);
             if (aSub.equals(bSub)) {  // Use .equals() with strings
                 System.out.println();
@@ -283,23 +296,109 @@ public class Main {
         System.out.println("count = " + count);
         return count;
     }
-
+    //==================================================================================================================
 //    Given a string, return a version where all the "x" have been removed. Except an "x" at the very start or end should not be removed.
 //    stringX("xxHxix") → "xHix"
 //    stringX("abxxxcd") → "abcd"
 //    stringX("xabxxxcdx") → "xabcdx
 
     public static String stringX(String str) {
+        if (str.length() > 0) {
+
+            String result = "";
+            for (int i = 0; i < str.length(); i++) {
+                if (str.charAt(i) != 'x') {
+                    result += str.charAt(i);
+                }
+            }
+
+            char first = str.charAt(0);
+            if (first == 'x') {
+                result = first + result;
+            }
+
+            char last = str.charAt(str.length() - 1);
+            if (last == 'x' && str.length() > 1) {
+                result += last;
+            }
+
+            System.out.println(str + " --> " + result);
+            return result;
+        } else {
+            return str;
+        }
+    }
+
+    //more simple and clever solution (excluding first and last by "i > 0 && i < (str.length()-1)"):
+    public static String stringX_2(String str) {
         String result = "";
-        for (int i = 0; i < str.length() - 1; i++) {
-            if(str.charAt(i) != 'x') {
-                //result = str.delete
-                result += str.charAt(i);
+        for (int i = 0; i < str.length(); i++) {
+            // Only append the char if it is not the "x" case
+            if (!(i > 0 && i < (str.length() - 1) && str.substring(i, i + 1).equals("x"))) {
+                result = result + str.substring(i, i + 1); // Could use str.charAt(i) here
             }
         }
-        System.out.println("Was: " + str + ", became: "+ result);
+        return result;
+    }
+    //==================================================================================================================
+    //    Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+//    altPairs("kitten") → "kien"
+//    altPairs("Chocolate") → "Chole"
+//    altPairs("CodingHorror") → "Congrr"
+    public static String altPairs(String str) {
+        String result = "";
+        for (int i = 0; i < str.length(); i += 4) {
+            result = result + str.charAt(i) + ((i == str.length() - 1) ? "" : str.charAt(i + 1));
+        }
+        System.out.println(str + " --> " + result);
         return result;
     }
 
+    //another solution (with toggling end):
+    public static String altPairs_2(String str) {
+        String result = "";
+
+        // Run i by 4 to hit 0, 4, 8, ...
+        for (int i = 0; i < str.length(); i += 4) {
+            // Append the chars between i and i+2
+            int end = i + 2;
+            if (end > str.length()) {
+                end = str.length();
+            }
+            result = result + str.substring(i, end);
+        }
+        System.out.println(str + " --> " + result);
+        return result;
+    }
+    //==================================================================================================================
+//    Suppose the string "yak" is unlucky. Given a string, return a version where all the "yak" are removed, but the "a" can be any char. The "yak" strings will not overlap.
+//    stringYak("yakpak") → "pak"
+//    stringYak("pakyak") → "pak"
+//    stringYak("yak123ya") → "123ya"
+    public static String stringYak(String str) {
+        String result = "";
+        for(int i = 0; i < str.length(); i++) {
+
+            int end = i + 3;
+            if (end > str.length()) {
+                end = str.length();
+            }
+            if(str.substring(i, end) != "yak") {
+                System.out.print(str.substring(i, end) + " ");
+                result = result + str.substring(i, end);
+            }
+
+//
+//            String yak = str.substring(i, i+3);
+//            System.out.print(yak + " ");
+//
+//            if(yak != "yak") {
+//                result += yak;
+//            }
+
+        }
+        System.out.println(str + " --> " + result);
+        return result;
+    }
 
 }

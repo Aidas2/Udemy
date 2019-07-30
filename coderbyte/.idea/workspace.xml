@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8766059-13fc-45b8-91b5-01439341786e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CodingBat/src/com/codingbat/warmup2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main5_FileChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main6_Pipes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingBat/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingBat/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingBat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingBat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingBat/out/production/CodingBat/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingBat/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingBat/src/com/codingbat/warmup1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Tutorial/Section_ALL/src/com/udemy/section14/io/example08_JavaNio/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="a8766059-13fc-45b8-91b5-01439341786e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +54,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,14 +82,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodingBat" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,16 +196,17 @@
       <workItem from="1563255728197" duration="105000" />
       <workItem from="1563256329101" duration="124000" />
       <workItem from="1563256475404" duration="76000" />
+      <workItem from="1564463866326" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8336000" />
+    <option name="totallyTimeSpent" value="8363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
