@@ -1,6 +1,6 @@
 package com.codingbat.warmup2;
 
-public class Main {
+public class Warmup2 {
 
     public static void main(String[] args) {
 //        stringTimes("Hi", 3);
@@ -22,9 +22,15 @@ public class Main {
 //        altPairs("Chocolate");
 //        altPairs_2("CodingHorror");
 //        altPairs_2("Chocolate");
-        stringYak("pakyak");
-        stringYak("yakpak");
-        stringYak("yak123ya");
+//        stringYak("yakpak");
+//        array667(new int[]{6, 6, 2, 6});
+//        noTriples(new int[]{1, 1, 1, 2, 2, 2, 1});
+        has271(new int[]{1, 2, 7, 1});
+
+        absolute(2, 7);
+        absolute(2, -7);
+        absolute(-2, 7);
+        absolute(-2, -7);
 
     }
 
@@ -79,6 +85,7 @@ public class Main {
         }
         return count;
     }
+
     //==================================================================================================================
     //    Given a string, return true if the first instance of "x" in the string is immediately followed by another "x".
 //    doubleX("axxbb") → true
@@ -123,7 +130,6 @@ public class Main {
         // String x = str.substring(i);
         // return x.startsWith("xx");
     }
-
     //==================================================================================================================
 //    Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
 //    stringBits("Hello") → "Hlo"
@@ -148,8 +154,6 @@ public class Main {
 
         System.out.println("Result: " + result);
         return result;
-
-
     }
     //==================================================================================================================
 //    Given a non-empty string like "Code" return a string like "CCoCodCode".
@@ -296,12 +300,12 @@ public class Main {
         System.out.println("count = " + count);
         return count;
     }
+
     //==================================================================================================================
 //    Given a string, return a version where all the "x" have been removed. Except an "x" at the very start or end should not be removed.
 //    stringX("xxHxix") → "xHix"
 //    stringX("abxxxcd") → "abcd"
 //    stringX("xabxxxcdx") → "xabcdx
-
     public static String stringX(String str) {
         if (str.length() > 0) {
 
@@ -340,6 +344,7 @@ public class Main {
         }
         return result;
     }
+
     //==================================================================================================================
     //    Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
 //    altPairs("kitten") → "kien"
@@ -370,6 +375,7 @@ public class Main {
         System.out.println(str + " --> " + result);
         return result;
     }
+
     //==================================================================================================================
 //    Suppose the string "yak" is unlucky. Given a string, return a version where all the "yak" are removed, but the "a" can be any char. The "yak" strings will not overlap.
 //    stringYak("yakpak") → "pak"
@@ -377,28 +383,77 @@ public class Main {
 //    stringYak("yak123ya") → "123ya"
     public static String stringYak(String str) {
         String result = "";
-        for(int i = 0; i < str.length(); i++) {
-
-            int end = i + 3;
-            if (end > str.length()) {
-                end = str.length();
+        for (int i = 0; i < str.length(); i++) {
+            //Look for i starting a "yak" -- advance i in that case
+            //if (str.charAt(i) == 'y' && str.charAt(i+2) == 'k' && i+2 < str.length()) {
+            if (i + 2 < str.length() && str.substring(i, i + 3).equals("yak")) {
+                i = i + 2; //do nothing, just skip "yak" ! (increasing not all iteration, but only if condition is met)
+            } else { // otherwise do the normal append
+                result = result + str.charAt(i);
             }
-            if(str.substring(i, end) != "yak") {
-                System.out.print(str.substring(i, end) + " ");
-                result = result + str.substring(i, end);
-            }
-
-//
-//            String yak = str.substring(i, i+3);
-//            System.out.print(yak + " ");
-//
-//            if(yak != "yak") {
-//                result += yak;
-//            }
-
         }
         System.out.println(str + " --> " + result);
         return result;
     }
 
+    //==================================================================================================================
+//    Given an array of ints, return the number of times that two 6's are next to each other in the array.
+//    Also count instances where the second "6" is actually a 7.
+//    array667([6, 6, 2]) → 1
+//    array667([6, 6, 2, 6]) → 1
+//    array667([6, 7, 2, 6]) → 1
+    public static int array667(int[] nums) {
+        int count = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == 6 && (nums[i + 1] == 6 || nums[i + 1] == 7)) {
+                count++;
+            }
+        }
+        System.out.println("count = " + count);
+        return count;
+    }
+
+    //==================================================================================================================
+//    Given an array of ints, we'll say that a triple is a value appearing 3 times in a row in the array.
+//    Return true if the array does not contain any triples.
+//    noTriples([1, 1, 2, 2, 1]) → true
+//    noTriples([1, 1, 2, 2, 2, 1]) → false
+//    noTriples([1, 1, 1, 2, 2, 2, 1]) → false
+    public static boolean noTriples(int[] nums) {
+        if (nums.length < 3) {
+            return true;
+        }
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == nums[i + 1] && nums[i] == nums[i + 2]) {
+                System.out.println("false !");
+                return false;
+            }
+        }
+        System.out.println("true !");
+        return true;
+    }
+
+    //==================================================================================================================
+//    Given an array of ints, return true if it contains a 2, 7, 1 pattern: a value, followed by the value plus 5,
+//    followed by the value minus 1. Additionally the 271 counts even if the "1" differs by 2 or less from the correct value.
+//    has271([1, 2, 7, 1]) → true
+//    has271([1, 2, 8, 1]) → false
+//    has271([2, 7, 1]) → true
+    public static boolean has271(int[] nums) {
+        for (int i = 0; i < nums.length - 1; i++) {
+            if ((nums[i] + 5) == nums[i + 1] && Math.abs((nums[i + 2]) - (nums[i] - 1)) <= 2) { //(nums[i] -1 )
+                // - because you need difference not between i and i+2, but difference between difference (?)
+                System.out.println("true !");
+                return true;
+            }
+        }
+        System.out.println("false !");
+        return false;
+    }
+
+    public static void absolute(int one, int two) {
+        System.out.println(one + " - (" + two + ") = " + Math.abs(one - two) + ";");
+        System.out.println(one + " - (" + two + ") = " + (Math.abs(one) - Math.abs(two)) + ";");
+        System.out.println("============================");
+    }
 }
