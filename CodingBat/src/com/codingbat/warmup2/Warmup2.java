@@ -14,7 +14,7 @@ public class Warmup2 {
 //        arrayCount9(new int[]{1, 9, 9, 3, 9});
 //        arrayFront9(new int[]{1, 2, 9, 3, 4});
 //        array123(new int[]{1, 1, 2, 1, 2, 3});
-//        stringMatch("aabbcccdd", "abbbxxxd");
+        stringMatch("aabbcccdd", "abbbxxxd");
 //        stringMatch_2("aabbcccdd", "abbbxxxd");
 //        stringX("x");
 //        stringX_2("xx");
