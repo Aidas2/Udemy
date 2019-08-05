@@ -1,5 +1,9 @@
 package com.udemy.section15.concurency.challenge08;
 
+//Challenge_08. Find and fix bug (dead lock: threads bocks each other)
+// a hint: code is over synchronized (that's one of possible solutions)
+// a hint: treads acquires locks not in the same order (that causes deadlock)
+
 public class Challenge8 {
 
     public static void main(String[] args) {
@@ -35,13 +39,15 @@ class Tutor {
 
     public synchronized void studyTime() {
         System.out.println("Tutor has arrived");
-        try {
-            // wait for student to arrive and hand in assignment
-            Thread.sleep(300);
-        }
-        catch (InterruptedException e) {
+        //synchronized (this) {     //solution ?
+            try {
+                // wait for student to arrive and hand in assignment
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
 
-        }
+            }
+        //}
+
         student.startStudy();
         System.out.println("Tutor is studying with student");
     }

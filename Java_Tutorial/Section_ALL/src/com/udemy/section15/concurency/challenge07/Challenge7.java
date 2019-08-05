@@ -6,6 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 
 //Challenge_07. Find and fix bug (live lock: loops but do not progress)
+
 public class Challenge7 {
     public static void main(String[] args) {
         BankAccount account1 = new BankAccount("12345-678", 500.00);

@@ -7,19 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge03/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge04/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge05/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge06/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge06/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Challenge7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge08/Challenge8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CodingBat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingBat/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge9/Challenge9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Challenge7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Challenge7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge08/Challenge8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge08/Challenge8.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,20 +40,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge08/Challenge8.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="34">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>HeavenlyBody</find>
       <find>keyset</find>
       <find>toS</find>
       <find>jupiterMoon</find>
@@ -111,6 +108,7 @@
       <find>Balance =</find>
       <find>tryLock</find>
       <find>suduk</find>
+      <find>synchronized (this)</find>
     </findStrings>
     <replaceStrings>
       <replace>tempExits.put</replace>
@@ -129,10 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Municipality.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/Municipality.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile2.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/comparator/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/AnotherThread.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/example01/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/example02/Main.java" />
@@ -179,7 +173,11 @@
         <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Main.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Challenge7.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge9/Challenge9.java" />
         <option value="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge08/Challenge8.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main2.java" />
+        <option value="$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main1.java" />
       </list>
     </option>
   </component>
@@ -189,7 +187,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="3" />
     <option name="y" value="1" />
     <option name="width" value="756" />
@@ -206,7 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,99 +228,13 @@
               <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="concurency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Section_ALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="concurency" type="462c0819:PsiDirectoryNode" />
-              <item name="challenge08" type="462c0819:PsiDirectoryNode" />
+              <item name="regularExpresions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="udemy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="udemy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="section14" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="udemy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="section14" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="udemy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="section14" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example09_Paths" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="udemy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="section14" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example09_Paths" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Section_ALL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Section_ALL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="udemy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="section14" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="io" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example09_Paths" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Dir2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,8 +254,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last.edited.regexp" value="abcDeee" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/udemy/section17/regularExpresions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -374,11 +287,11 @@
       <recent name="com.udemy.casualMiniTasks.SAXSParser" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section17\regularExpresions" />
+      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section15\concurency\challenge9" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section15\concurency\challenge07" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section15\concurency\challenge06" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section15\concurency\challenge05" />
-      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section15\concurency\challenge030405" />
-      <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section15\concurency" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -393,20 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Challenge8">
-    <configuration name="Challenge7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge07.Challenge7" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section15.concurency.challenge07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Challenge8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge08.Challenge8" />
       <module name="Section_ALL" />
@@ -420,38 +320,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Challenge9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge9.Challenge9" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section15.concurency.challenge9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge07.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section17.regularExpresions.Main" />
       <module name="Section_ALL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udemy.section15.concurency.challenge07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge05.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section15.concurency.challenge05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge06.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section15.concurency.challenge06.*" />
+          <option name="PATTERN" value="com.udemy.section17.regularExpresions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,6 +353,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udemy.section14.io.example08_JavaNio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section17.regularExpresions.Main1" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section17.regularExpresions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section17.regularExpresions.Main2" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section17.regularExpresions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -578,6 +491,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge07.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section15.concurency.challenge05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.example02_synchronize.Main" />
       <module name="Section_ALL" />
       <extension name="coverage">
@@ -636,20 +562,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.BankAccountTest" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Challenge7" />
       <item itemvalue="Application.Challenge8" />
+      <item itemvalue="Application.Challenge9" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.BankAccountTest" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Challenge8" />
-        <item itemvalue="Application.Challenge7" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Challenge9" />
       </list>
     </recent_temporary>
   </component>
@@ -713,6 +639,12 @@
       <workItem from="1564656897867" duration="26000" />
       <workItem from="1564657789231" duration="1202000" />
       <workItem from="1564726023772" duration="14345000" />
+      <workItem from="1564981395274" duration="1753000" />
+      <workItem from="1564983198406" duration="1779000" />
+      <workItem from="1564985242659" duration="1538000" />
+      <workItem from="1564987060414" duration="1769000" />
+      <workItem from="1564988870559" duration="1767000" />
+      <workItem from="1564993140838" duration="4153000" />
     </task>
     <servers />
   </component>
@@ -749,7 +681,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301404000" />
+    <option name="totallyTimeSpent" value="314163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,9 +693,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="3" y="1" width="756" height="1040" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.22228146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.660596" weight="0.4770115" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -778,14 +710,14 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32963374" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.39219934" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.39140022" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32855567" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.4225352" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.42227122" />
       <window_info anchor="bottom" id="Graph Database Console" order="12" weight="0.3303671" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="14" weight="0.5362947" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.37155458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -888,25 +820,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/java8/jre/lib/rt.jar!/java/lang/String.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/Theatre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture139_Maps/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1301,17 +1214,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge07/Challenge7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="471">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1320,17 +1227,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge08/Challenge8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="372">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/challenge9/Challenge9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/udemy/section17/regularExpresions/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
