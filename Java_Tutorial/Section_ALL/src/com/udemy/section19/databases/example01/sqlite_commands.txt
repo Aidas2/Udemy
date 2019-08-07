@@ -1,0 +1,48 @@
+sqlite3
+sqlite3 test.db
+.headers on
+create table contacts (name text, phone integer, email text);
+insert into contacts (name, phone, email) values ('Tim', 6545678, 'tim@email.com');
+SELECT * FROM contacts;
+SELECT name, phone, email FROM contacts;
+SELECT email FROM contacts;
+INSERT into contacts values ('Brian', 1234, 'brian@email.com');
+INSERT into contacts (name, phone) values ('Steve', 87654);
+.quit
+clear
+
+sqlite3 test.db
+INSERT INTO contacts VALUES("Avril", "+61 (0)87654321", "avril@email.com.au");
+.backup testbackup
+UPDATE contacts SET email="steve@hisemail.com";
+.restore testbackup
+UPDATE contacts SET email="steve@hisemail.com" WHERE name="Steve";
+SELECT * FROM contacts WHERE name="Brian";
+SELECT phone, email FROM contacts WHERE name="Brian";
+DELETE FROM contacts WHERE phone=1234;
+
+.tables
+.schema
+.dump
+.exit
+.open test.db
+
+cd C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section19\databases\example01\
+sqlite3 music.db
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
