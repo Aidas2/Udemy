@@ -1,0 +1,57 @@
+sqlite> .schema
+CREATE TABLE songs (_id INTEGER PRIMARY KEY, track INTEGER, title TEXT NOT NULL,
+ album INTEGER);
+CREATE TABLE albums (_id INTEGER PRIMARY KEY, name TEXT NOT NULL, artist INTEGER
+);
+CREATE TABLE artists (_id INTEGER PRIMARY KEY, name TEXT NOT NULL);
+CREATE VIEW album_list AS
+SELECT name FROM albums
+ORDER BY name
+COLLATE NOCASE
+/* album_list(name) */;
+CREATE VIEW artist_list AS
+SELECT artists.name AS artist, albums.name AS album, songs.track, songs.title FR
+OM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+ORDER BY artists.name, albums.name, songs.track
+/* artist_list(artist,album,track,title) */;
+
+//=============================================================================
+SELECT songs.title FROM songs INNER JOIN albums ON songs.album = albums._id WHERE albums.name = "Forbidden";
+SELECT songs.track, songs.title FROM songs INNER JOIN albums ON songs.album = albums._id WHERE albums.name = "Forbidden" ORDER BY songs.track;
+
+SELECT songs.title FROM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+WHERE artists.name = "Deep Purple";
+SELECT * FROM artist_list WHERE artist = "Deep Purple";
+
+UPDATE artists SET name = "One Kitten" WHERE artists.name = "Mehitabel";
+SELECT * FROM artists WHERE artists.name = "One Kitten";
+
+SELECT songs.title FROM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+WHERE artists.name = "Aerosmith"
+ORDER BY songs.title ASC; // ASC redundant ?
+SELECT * FROM artist_list WHERE artist = "Aerosmith";
+
+SELECT COUNT(songs.title) FROM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+WHERE artists.name = "Aerosmith"; //151
+SELECT COUNT(title) FROM artist_list WHERE artist = "Aerosmith";    //151
+
+SELECT DISTINCT songs.title FROM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+WHERE artists.name = "Aerosmith"
+ORDER BY songs.title;
+SELECT DISTINCT title FROM artist_list  WHERE artist = "Aerosmith" ORDER BY title;
+
+SELECT COUNT(DISTINCT songs.title), COUNT(DISTINCT albums._id) FROM songs
+INNER JOIN albums ON songs.album = albums._id
+INNER JOIN artists ON albums.artist = artists._id
+WHERE artists.name = "Aerosmith"; //128|13
+SELECT COUNT(DISTINCT title), COUNT(DISTINCT album) FROM artist_list  WHERE artist = "Aerosmith" ORDER BY title;
