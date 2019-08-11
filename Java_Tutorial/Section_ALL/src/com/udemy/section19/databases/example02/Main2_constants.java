@@ -2,7 +2,7 @@ package com.udemy.section19.databases.example02;
 
 import java.sql.*;
 
-public class Main2 {
+public class Main2_constants {
 
     //creating constants (enables not to use hardcoded names etc.):
     public static final String DB_NAME = "testjava2.db";
