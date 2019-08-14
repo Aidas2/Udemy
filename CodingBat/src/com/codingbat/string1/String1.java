@@ -6,6 +6,8 @@ public class String1 {
         makeAbba("Hi", "Bye");
         makeTags("i", "Hello");
         makeOutWord("<<>>", "WooHoo");
+        extraEnd("Hello");
+        firstTwo("abcdefg");
     }
 
     //==================================================================================================================
@@ -57,11 +59,34 @@ public class String1 {
         return result;
     }
     //==================================================================================================================
-
-
+//    Given a string, return a new string made of 3 copies of the last 2 chars of the original string.
+//    The string length will be at least 2.
+//    extraEnd("Hello") → "lololo"
+//    extraEnd("ab") → "ababab"
+//    extraEnd("Hi") → "HiHiHi"
+    public static String extraEnd(String str) {
+        String end = str.substring(str.length()-2);
+        String result = end + end + end;
+        System.out.println(str + " --> " + result);
+        return result;
+    }
     //==================================================================================================================
-
-
+//    Given a string, return the string made of its first two chars, so the String "Hello" yields "He".
+//    If the string is shorter than length 2, return whatever there is, so "X" yields "X", and the empty string ""
+//    yields the empty string "". Note that str.length() returns the length of a string.
+//    firstTwo("Hello") → "He"
+//    firstTwo("abcdefg") → "ab"
+//    firstTwo("ab") → "ab"
+    public static String firstTwo(String str) {
+        if(str.length() <= 2) {
+            System.out.println(str + " --> " + str);
+            return str;
+        } else {
+            String result = str.substring(0,2);
+            System.out.println(str + " --> " + result);
+            return result;
+        }
+    }
     //==================================================================================================================
 
 
