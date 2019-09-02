@@ -105,21 +105,25 @@ c) correct answer (I would use a number for this)
         }
     }
 
-    Question.prototype.checkAnswer = function(ans) {
+    Question.prototype.checkAnswer = function(ans, callback) {
+        var sc;
         if(ans === this.correctAnswer) {
             console.log('Right answer!');
+            sc = callback(true);
         } else {
-            console.log('Wrong answer... Try  again')
+            console.log('Wrong answer... Try  again');
+            sc = callback(false);
         }
-        
+
+        this.displayScore(sc);
     }
 
-    function repeat() {
-        while(answer !== 'exit') {
-            questions[randomQuestionIndex].displayQuestion();
-            questions[randomQuestionIndex].checkAnswer(answer);
-        }
+    Question.prototype.displayScore = function(score) {
+        console.log('Your current score is: ' + score);
+        console.log('---------------------------------');
     }
+
+
 
     var questionAboutCars = new Question(
         'What is the best car in the world ?',
@@ -141,14 +145,34 @@ c) correct answer (I would use a number for this)
 
     var questions = [questionAboutCars, q1, q2, q3];
 
-    var randomQuestionIndex = Math.floor(Math.random() * questions.length);
+    function score() {
+        var sc = 0; 
+        return function(correct) {
+            if(correct) {
+                sc++;
+            }
+            return sc;
+        }
+    }
+    var keepScore = score();
 
-    questions[randomQuestionIndex].displayQuestion();
+    function nextQuestion() {
 
-    var answer = parseInt(prompt('Please select the correct answer:'));
+        var randomQuestionIndex = Math.floor(Math.random() * questions.length);
 
-    questions[randomQuestionIndex].checkAnswer(answer);
+        questions[randomQuestionIndex].displayQuestion();
 
-    repeat();
+        var answer = prompt('Please select the correct answer:');
+
+        if(answer !== 'exit') {
+        questions[randomQuestionIndex].checkAnswer(parseInt(answer), keepScore);    
+        nextQuestion();
+        }
+        
+    }
+
+    nextQuestion();
+
+    
 
 })();
