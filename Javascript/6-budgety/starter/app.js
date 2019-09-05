@@ -9,15 +9,15 @@ var budgetController = (function () {
     };
 
 
-    Expense.prototype.calcPercentage = function(totalIncome) {
-        if(totalIncome > 0) {
+    Expense.prototype.calcPercentage = function (totalIncome) {
+        if (totalIncome > 0) {
             this.percentage = Math.round((this.value / totalIncome) * 100);
         } else {
             this.percentage = -1;
         }
     };
 
-    Expense.prototype.getPercentage = function() {
+    Expense.prototype.getPercentage = function () {
         return this.percentage;
     }
 
@@ -116,13 +116,13 @@ var budgetController = (function () {
         },
 
         calculatePercentages: function () {
-            data.allItems.exp.forEach(function(cur) {
+            data.allItems.exp.forEach(function (cur) {
                 cur.calcPercentage(data.totals.inc);
             });
         },
 
-        getPercentages: function() {
-            var allPerc = data.allItems.exp.map(function(cur) {
+        getPercentages: function () {
+            var allPerc = data.allItems.exp.map(function (cur) {
                 return cur.getPercentage();
             });
             return allPerc;
@@ -167,7 +167,7 @@ var UIController = (function () {
         dateLabel: '.budget__title--month'
     };
 
-    var formatNumber = function(num, type) {
+    var formatNumber = function (num, type) {
 
         var numSplit, int, dec;
         /*
@@ -177,20 +177,26 @@ var UIController = (function () {
         2310.4567 -> + 2,310.46
         2000 -> 2,000.00
         */
-       num = Math.abs(num);
-       num = num.toFixed(2);
+        num = Math.abs(num);
+        num = num.toFixed(2);
 
-       numSplit = num.split('.'); //splits into array
+        numSplit = num.split('.'); //splits into array
 
-       int = numSplit[0];
-       if(int.length > 3) {
-           int = int.substring(0, int.length - 3) + ',' + int.substring(int.length - 3, int.length);
-       }
+        int = numSplit[0];
+        if (int.length > 3) {
+            int = int.substring(0, int.length - 3) + ',' + int.substring(int.length - 3, int.length);
+        }
 
-       dec = numSplit[1];
+        dec = numSplit[1];
 
-       return (type === 'exp' ? '-' : '+') + ' ' + int + '.' + dec;
+        return (type === 'exp' ? '-' : '+') + ' ' + int + '.' + dec;
     }
+
+    var nodeListForEach = function (list, callback) {
+        for (var i = 0; i < list.length; i++) {
+            callback(list[i], i);
+        }
+    };
 
     return {
         getinput: function () {
@@ -260,7 +266,7 @@ var UIController = (function () {
         },
 
         displayBudget: function (obj) {
-            
+
             obj.budget > 0 ? type = 'inc' : type = 'exp';
 
             document.querySelector(DOMstrings.budgetLabel).textContent = formatNumber(obj.budget, type);
@@ -275,28 +281,22 @@ var UIController = (function () {
 
         },
 
-        displayPercentages: function(percentages) {
+        displayPercentages: function (percentages) {
 
             var fields = document.querySelectorAll(DOMstrings.expensesPerclabel);
 
-            var nodeListForEach = function(list, callback) {
-                for (var i = 0; i < list.length; i++) {
-                    callback(list[i], i);
-                }
-            };
-
             //wtf ? what is it ? see lecture 96
-            nodeListForEach(fields, function(current, index) {
+            nodeListForEach(fields, function (current, index) {
 
-                if(percentages[index] > 0) {
+                if (percentages[index] > 0) {
                     current.textContent = percentages[index] + '%';
                 } else {
-                current.textContent = '---';
+                    current.textContent = '---';
                 }
             })
         },
 
-        displayMonth: function() {
+        displayMonth: function () {
 
             var now, year, month, months;
 
@@ -306,9 +306,23 @@ var UIController = (function () {
 
             months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
             year = now.getFullYear();
-            month = now.getMonth();            
-            document.querySelector(DOMstrings.dateLabel).textContent = months[month] + ' ' + year ;
+            month = now.getMonth();
+            document.querySelector(DOMstrings.dateLabel).textContent = months[month] + ' ' + year;
 
+        },
+
+        changedType: function () {
+
+            var fields = document.querySelectorAll(
+                DOMstrings.inputType + ',' +
+                DOMstrings.inputDescription + ',' +
+                DOMstrings.inputValue);
+
+            nodeListForEach(fields, function (cur) {
+                cur.classList.toggle('red-focus');
+            });
+
+            document.querySelector(DOMstrings.inputBtn).classList.toggle('red');
         },
 
         getDOMstrings: function () {
@@ -336,6 +350,8 @@ var controller = (function (budgetCtrl, UICtrl) {
         });
 
         document.querySelector(DOM.container).addEventListener('click', ctrlDeleteItem);
+
+        document.querySelector(DOM.inputType).addEventListener('change', UICtrl.changedType);
 
     };
 
