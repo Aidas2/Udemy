@@ -23,3 +23,8 @@ tmp/
 *~.nib
 local.properties
 .loadpath
+
+
+.node_modules/
+*node_modules/
+/node_modules/

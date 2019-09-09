@@ -1,0 +1,29 @@
+/**
+ * node -v
+ * npm -v
+ *
+ * npm install webpack --save-dev
+ * npm install webpack-cli --save-dev
+ *
+ * npm run dev
+ * npm run build
+ *
+ * npm install webpack-dev-server --save-dev
+ * npm run start
+ *
+ * npm install html-webpack-plugin --save-dev
+ * npm run start
+ * npm run dev
+ *
+ * npm install babel-core babel-preset-env babel-loader --save-dev
+ * npm install babel-polyfill --save-dev
+ * npm run dev
+ *
+ * //in another computer first time run this:
+ * npm install
+ *
+ * //just examples:
+ * npm install jquery --save        //install (localy)
+ * npm uninstall jquery --save      //uninstall
+ * sudo npm install live-server --global    //instal (globaly)
+ */
