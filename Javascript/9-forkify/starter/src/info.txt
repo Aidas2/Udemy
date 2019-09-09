@@ -19,6 +19,8 @@
  * npm install babel-polyfill --save-dev
  * npm run dev
  *
+ * npm install axios --save
+ *
  * //in another computer first time run this:
  * npm install
  *
@@ -27,3 +29,5 @@
  * npm uninstall jquery --save      //uninstall
  * sudo npm install live-server --global    //instal (globaly)
  */
+
+ API Key: 9cf1ece1da7608ad4a540b6a0ccf358b
