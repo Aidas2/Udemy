@@ -25,10 +25,4 @@ local.properties
 .loadpath
 
 
-.node_modules/
-*node_modules/
-node_modules/
-
-<git-root>
--- server
----- node_modules
+/node_modules
