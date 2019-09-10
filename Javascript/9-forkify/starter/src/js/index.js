@@ -21,6 +21,7 @@ console.log(`Using imported functions! ${searchView.add(searchView.ID, 2)} and $
 // https://www.food2fork.com/api/search
 // https://www.food2fork.com/api/get
 
+/*
 import axios from 'axios';
 
 async function getResults(query) {
@@ -44,3 +45,23 @@ async function getResults(query) {
 
 }
 getResults('pizza');
+*/
+
+import axios from 'axios';
+ 
+async function getResult(query){
+    const key = '9cf1ece1da7608ad4a540b6a0ccf358b'
+    try{
+        const res = await axios(`https://www.food2fork.com/api/search?key=${key}&q=${query}`)
+        console.log(res);
+        console.log('====================================================')
+        const recipes = res.data.recipes;
+        console.log(recipes);
+
+    } catch(error) {
+        alert(error)
+    }
+ 
+}
+ 
+getResult('tomato')

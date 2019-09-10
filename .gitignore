@@ -27,4 +27,8 @@ local.properties
 
 .node_modules/
 *node_modules/
-/node_modules/
+node_modules/
+
+<git-root>
+-- server
+---- node_modules
