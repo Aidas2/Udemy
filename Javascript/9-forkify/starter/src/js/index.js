@@ -17,10 +17,6 @@ import * as searchView from './views/searchView';
 console.log(`Using imported functions! ${searchView.add(searchView.ID, 2)} and ${searchView.multiply(3, 5)}. ${str}`);
 */
 
-// API Key: 9cf1ece1da7608ad4a540b6a0ccf358b
-// https://www.food2fork.com/api/search
-// https://www.food2fork.com/api/get
-
 /*
 import axios from 'axios';
 
@@ -39,16 +35,13 @@ async function getResults(query) {
         alert(error);
     }
 
-
-
-
-
 }
 getResults('pizza');
 */
 
+/*
 import axios from 'axios';
- 
+
 async function getResult(query){
     const key = '9cf1ece1da7608ad4a540b6a0ccf358b'
     try{
@@ -61,7 +54,50 @@ async function getResult(query){
     } catch(error) {
         alert(error)
     }
- 
+
 }
- 
-getResult('tomato')
+
+getResult('tomato');
+*/
+
+import Search from './models/Search';
+import * as searchView from './views/searchView'
+import { elements } from './views/base';
+
+/** Global state of app 
+ * - Search object
+ * - Current recipe object
+ * - Shopping list object
+ * - Liked recipies
+*/
+const state = {};
+
+const controlSearch = async () => {
+    // 1. Get query from view
+    const query = searchView.getInput();
+    console.log(query);
+
+    if (query) {
+        // 2) New search object and add to state
+        state.search = new Search(query);
+
+        // 3) prepare UI for results
+        searchView.clearInput();
+        searchView.clearResults();
+
+        // 4) Search for recipes
+        await state.search.getResult();
+
+        //5) render results on UI
+        searchView.renderResults(state.search.result);
+    }
+
+}
+
+elements.searchForm.addEventListener('submit', e => {
+    e.preventDefault();
+    controlSearch();
+})
+
+// const search = new Search('pizza');
+// console.log(search);

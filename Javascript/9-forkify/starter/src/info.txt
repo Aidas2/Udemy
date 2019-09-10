@@ -22,6 +22,7 @@
  * npm install axios --save
  *
  * //in another computer first time run this:
+ * delete folder npm_modules (from explorer window)
  * npm install
  *
  * //just examples:
