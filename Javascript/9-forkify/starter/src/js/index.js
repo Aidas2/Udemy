@@ -92,14 +92,26 @@ const controlSearch = async () => {
         //5) render results on UI
         clearLoader();
         searchView.renderResults(state.search.result);
+        // searchView.renderResults(state.search.result, 1); //the same
+
     }
 
-}
+};
 
 elements.searchForm.addEventListener('submit', e => {
     e.preventDefault();
     controlSearch();
-})
+});
 
-// const search = new Search('pizza');
-// console.log(search);
+// event delegantion (adding event listener to parent ant delegating to target (child when he apears)) !!!
+elements.searchResPages.addEventListener('click', e => {
+    const btn = e.target.closest('.btn-inline');
+    console.log(btn);
+    if (btn) {
+        const goToPage = parseInt(btn.dataset.goto, 10); //reading from atribute dataset (not from span) //10 means numbers from 0 to 10
+        searchView.clearResults();
+        searchView.renderResults(state.search.result, goToPage);
+        console.log(goToPage);
+    }
+});
+
