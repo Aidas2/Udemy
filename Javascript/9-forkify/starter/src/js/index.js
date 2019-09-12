@@ -35,8 +35,8 @@ const state = {};
 */
 const controlSearch = async () => {
     // 1. Get query from view
-    //const query = searchView.getInput();
-    const query = 'pizza'; //FOR TESTING
+    const query = searchView.getInput();
+    //const query = 'pizza'; //FOR TESTING
 
     console.log(query);
 
@@ -71,10 +71,10 @@ elements.searchForm.addEventListener('submit', e => {
 });
 
 // TESTING
-elements.searchForm.addEventListener('load', e => {
-    e.preventDefault();
-    controlSearch();
-});
+// window.addEventListener('load', e => {
+//     e.preventDefault();
+//     controlSearch();
+// });
 
 
 // event delegation (adding event listener to parent ant delegating to target (child when he apears)) !!!
@@ -102,11 +102,17 @@ const controlRecipe = async () => {
         // Prepare UI for changes
 
         // Create new recipe object
-        state.recipe = new Recipe(id);
+        state.recipe = new Recipe(id); 
+
+        // TESTING
+        //window.r = state.recipe; // hack to have access to object in console
+                                // r.parseIngredients() now you can write in console
 
         try {
-            // Get recipe data
+            // Get recipe data and parse ingredients
             await state.recipe.getRecipe();
+            console.log(state.recipe.ingredients);
+            state.recipe.parseIngredients();
 
 
             // Calculate servings and time

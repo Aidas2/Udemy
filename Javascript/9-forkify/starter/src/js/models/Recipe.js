@@ -37,7 +37,7 @@ export default class Recipe {
     }
 
     parseIngredients() {
-        const unitsLong = ['tablespoons', 'tablespoon', 'ounce', 'ounces', 'teespoon', 'teespoons', 'cups', 'pounds'];
+        const unitsLong = ['tablespoons', 'tablespoon', 'ounces', 'ounce', 'teespoons', 'teespoon', 'cups', 'pounds'];
         const unitsShort = ['tbsp', 'tbsp', 'oz', 'oz', 'tsp', 'tsp', 'cup', 'pound'];
 
 
@@ -49,12 +49,46 @@ export default class Recipe {
             });
 
             // 2) Remove parentheses\
-            ingredient = ingredient.replace(/ *\([^)]*\) */g, '');
+            ingredient = ingredient.replace(/ *\([^)]*\) */g, ' ');
 
             // 3) Parse ingrediens into count, unit and ingredient
+            const arrIng = ingredient.split(' ');
+            const unitIndex = arrIng.findIndex(el2 => unitsShort.includes(el2)); //reverse indexOf() ?
 
+            let objIng;
+            if(unitIndex > -1 ) {       /*means that unit exist in array*/
+                // example: 4 1/2 cups, arrCountis [4, 1/2] --> eval("4+1/2") --> 4.5
+                // example: 4 cups, arrCountis [4]
+                const arrCount = arrIng.slice(0, unitIndex);
+                
+                let count;
+                if(arrCount.length === 1) {
+                    count = eval(arrIng[0].replace('-', '+'));
+                } else {
+                    count = eval(arrIng.slice(0, unitIndex).join('+'));
+                }
+                objIng = {
+                    count,
+                    unit: arrIng[unitIndex],
+                    ingredient: arrIng.slice(unitIndex + 1).join(' ')
+                };
 
-            return ingredient;
+            } else if (parseInt(arrIng[0], 10)) {   // means that there is no unit but first element is number
+                objIng = {
+                    count: parseInt(arrIng[0], 10),
+                    unit: '',
+                    ingredient: arrIng.slice(1).join(' ')
+                }
+            } else if (unitIndex === -1 ) {   /*means there is NO unit* and NO number in first position*/
+                objIng = {
+                    count: 1,
+                    unit: '',
+                    ingredient
+                } 
+
+            }
+
+            return objIng;
 
         });
         this.ingredients = newIngredients;
