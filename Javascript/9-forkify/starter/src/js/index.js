@@ -17,50 +17,8 @@ import * as searchView from './views/searchView';
 console.log(`Using imported functions! ${searchView.add(searchView.ID, 2)} and ${searchView.multiply(3, 5)}. ${str}`);
 */
 
-/*
-import axios from 'axios';
-
-async function getResults(query) {
-    const proxy = 'https://cors-anywhere.herokuapp.com/';
-    const key = '9cf1ece1da7608ad4a540b6a0ccf358b';
-    try{
-        const res = await axios(`${proxy}https://www.food2fork.com/api/search?${key}&q=${query}`); //bad url ?
-        //http://food2fork.com/api/search?key='9cf1ece1da7608ad4a540b6a0ccf358b'&q='pizza'
-        //const res = await axios(`${proxy}http://food2fork.com/api/search?key=${key}&q=${query}`);
-        console.log(res);
-
-        const recipes = res.data.recipes;
-        console.log(recipes);
-    } catch (error) {
-        alert(error);
-    }
-
-}
-getResults('pizza');
-*/
-
-/*
-import axios from 'axios';
-
-async function getResult(query){
-    const key = '9cf1ece1da7608ad4a540b6a0ccf358b'
-    try{
-        const res = await axios(`https://www.food2fork.com/api/search?key=${key}&q=${query}`)
-        console.log(res);
-        console.log('====================================================')
-        const recipes = res.data.recipes;
-        console.log(recipes);
-
-    } catch(error) {
-        alert(error)
-    }
-
-}
-
-getResult('tomato');
-*/
-
 import Search from './models/Search';
+import Recipe from './models/Recipe';
 import * as searchView from './views/searchView'
 import { elements, renderLoader, clearLoader } from './views/base';
 
@@ -72,9 +30,14 @@ import { elements, renderLoader, clearLoader } from './views/base';
 */
 const state = {};
 
+/** 
+ * SEARCH CONTROLLER
+*/
 const controlSearch = async () => {
     // 1. Get query from view
-    const query = searchView.getInput();
+    //const query = searchView.getInput();
+    const query = 'pizza'; //FOR TESTING
+
     console.log(query);
 
     if (query) {
@@ -86,14 +49,18 @@ const controlSearch = async () => {
         searchView.clearResults();
         renderLoader(elements.searchRes);
 
-        // 4) Search for recipes
-        await state.search.getResult();
+        try {
+            // 4) Search for recipes
+            await state.search.getResult();
 
-        //5) render results on UI
-        clearLoader();
-        searchView.renderResults(state.search.result);
-        // searchView.renderResults(state.search.result, 1); //the same
-
+            //5) render results on UI
+            clearLoader();
+            searchView.renderResults(state.search.result);
+            // searchView.renderResults(state.search.result, 1); //the same
+        } catch (err) {
+            alert(`Message from method controlSearch(): Something wrong with the search ... ${err}`);
+            clearLoader();
+        }
     }
 
 };
@@ -103,7 +70,14 @@ elements.searchForm.addEventListener('submit', e => {
     controlSearch();
 });
 
-// event delegantion (adding event listener to parent ant delegating to target (child when he apears)) !!!
+// TESTING
+elements.searchForm.addEventListener('load', e => {
+    e.preventDefault();
+    controlSearch();
+});
+
+
+// event delegation (adding event listener to parent ant delegating to target (child when he apears)) !!!
 elements.searchResPages.addEventListener('click', e => {
     const btn = e.target.closest('.btn-inline');
     console.log(btn);
@@ -114,4 +88,42 @@ elements.searchResPages.addEventListener('click', e => {
         console.log(goToPage);
     }
 });
+
+/**
+ * RECIPE CONTROLLER
+*/
+
+const controlRecipe = async () => {
+    // Get ID from url
+    const id = window.location.hash.replace('#', '');
+    console.log(id);
+
+    if (id) {
+        // Prepare UI for changes
+
+        // Create new recipe object
+        state.recipe = new Recipe(id);
+
+        try {
+            // Get recipe data
+            await state.recipe.getRecipe();
+
+
+            // Calculate servings and time
+            state.recipe.calcTime();
+            state.recipe.calcServings();
+
+            //Render recipe
+            console.log(state.recipe);
+
+        } catch (err) {
+            alert(`Message from method controlRecipe(): Error processing recipe!: ${err}`);
+        }
+    }
+}
+
+
+// window.addEventListener('hashchange', controlRecipe);
+// window.addEventListener('load', controlRecipe);
+['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));
 
