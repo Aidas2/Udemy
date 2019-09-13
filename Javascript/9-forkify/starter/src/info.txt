@@ -20,6 +20,8 @@
  * npm run dev
  *
  * npm install axios --save
+ * 
+ * npm install fractional --save
  *
  * //in another computer first time run this:
  * delete folder npm_modules (from explorer window)

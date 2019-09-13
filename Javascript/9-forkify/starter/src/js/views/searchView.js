@@ -1,6 +1,3 @@
-// export const add = (a, b) => a + b;
-// export const multiply = (a, b) => a * b;
-// export const ID = 23;
 import { elements } from './base';
 
 export const getInput = () => elements.searchInput.value;
@@ -13,6 +10,15 @@ export const clearResults = () => {
     elements.searchResList.innerHTML = '';
     elements.searchResPages.innerHTML = '';
 };
+
+export const highlightSelected = id => {
+    const resultArr = Array.from(document.querySelectorAll('.results__link'));
+    resultArr.forEach(el => {
+        el.classList.remove('results__link--active');
+    })
+    document.querySelector(`a[href="#${id}"]`).classList.add('results__link--active');
+}
+
 
 const limitRecipeTitle = (title, limit = 17) => {
     const newTitle = [];
