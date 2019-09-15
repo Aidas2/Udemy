@@ -53,5 +53,16 @@
         "screen": "15-inch, Full HD",
         "price": "1499",
         "description": "While it may not have the best keyboard in the world, the Samsung Notebook 9 is still one of the best laptops you can buy in 2018. Packed with more horsepower than some MacBook Pros,but at a much lower price, Samsung has crafted a laptop that has just as much substance as it does style. Plus, on top of its killer specs, it’s lightweight and thin, making this one of the most portable 15-inch laptops you can buy today."
+    },
+    {
+        "id": "5",
+        "productName": "Aidas Pupelis",
+        "image": "me.jpg",
+        "cpu": "generation 1976",
+        "ram": "16GB",
+        "storage": "256 GB SSD",
+        "screen": "Junior full-stack developer",
+        "price": "priceless :)",
+        "description": "Finaly I finished this javascrip course!"
     }
 ]
