@@ -1,0 +1,10 @@
+ng new my-first-app
+ng serve
+npm install --save bootstrap@3 // installs localy, jus for this project
+ng generate component servers
+
+
+
+
+
+emmet
