@@ -1,0 +1,29 @@
+<h3>Asignment #03 ===============================================================</h3>
+
+<ol>
+    <li>Add A button which says 'Display Details'</li>
+    <li>Add a paragraph with any content of your choice (e.g. 'Secret Password = tuna')</li>
+    <li>Toggle the displaying of that paragraph with the button created in the first step</li>
+    <li>Log all button clicks in an array and output that array below the secret paragraph (maybe log a timestamp or
+        simply an incrementing number)</li>
+    <li>Starting at the 5th log item, give all future log items a blue background (via ngStyle) and white color
+        (ngClass)</li>
+</ol>
+
+<!-- this is toggling !!! -->
+<!-- <button class="btn btn-primary" (click)="showPassword = !showPassword">Display details</button> -->
+<button class="btn btn-primary" (click)="onToggleDetails()">Display details</button>
+
+<!-- this if returns true/false (according to toggling above) -->
+<p *ngIf="showPassword">Secret Password = {{password}}</p>
+
+<!-- This if for cycle of list. And directives for style and css class.  -->
+<!-- <div *ngFor="let el of loggedClicks" [ngStyle]="{backgroundColor: el >= 5 ? 'blue' : 'transparent' }"
+    [ngClass]="{'white-text-class-from-css': el >= 5}">{{ el }}
+</div> -->
+
+<!-- This is version using index !!! -->
+<div *ngFor="let el of loggedClicks; let i = index" [ngStyle]="{backgroundColor: i >= 4 ? 'blue' : 'transparent' }"
+    [ngClass]="{'white-text-class-from-css': i >= 4}">{{ el }}
+
+</div>
