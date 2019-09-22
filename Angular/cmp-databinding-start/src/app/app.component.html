@@ -1,0 +1,17 @@
+<div class="container">
+  <app-cockpit
+  (serverCreated)="onServerAdded($event)"
+  (bpCreated)="onBlueprintAdded($event)"
+  ></app-cockpit>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-server-element
+      *ngFor="let serverElement of serverElements"
+      [srvElement]="serverElement"></app-server-element>
+    </div>
+  </div>
+</div>
+
+<!-- [srvElement]="serverElement // custom propery binding !!! alias !!! (binding property from child component to parent)-->
+<!-- (serverCreated)="onServerAded($event) // custom event binding (binding event from child component), step#1 -->
