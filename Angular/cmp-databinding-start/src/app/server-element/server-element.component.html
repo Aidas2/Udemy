@@ -1,10 +1,15 @@
-<div
-  class="panel panel-default">
-  <div class="panel-heading">{{ element.name }}</div>
+<div class="panel panel-default">
+  <!-- <div class="panel-heading">{{ element.name }}</div> -->
+  <div class="panel-heading" #referenceHeading>{{ nameFromChild }}</div>
+
   <div class="panel-body">
-    <p>
+
+    <!-- moved to app.component.html and replaced with tag. Just to demonstrate version#4 (Projecting Content into Components with ng-content) -->
+    <!-- <p>
       <strong *ngIf="element.type === 'server'" style="color: red">{{ element.content }}</strong>
       <em *ngIf="element.type === 'blueprint'">{{ element.content }}</em>
-    </p>
+    </p> -->
+    <ng-content></ng-content>
+
   </div>
 </div>

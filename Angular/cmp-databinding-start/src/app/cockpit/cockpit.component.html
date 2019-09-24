@@ -2,15 +2,21 @@
   <div class="col-xs-12">
     <p>Add new Servers or blueprints!</p>
     <label>Server Name</label>
-    <input type="text" class="form-control" [(ngModel)]="newServerName">
+
+    <!-- version #1: with [(ngModel)] (two way binding) -->
+    <!-- <input type="text" class="form-control" [(ngModel)]="newServerName"> -->
+    <!-- version #2: writing local reference and passing it into methods below. Enabled access during method call  -->
+    <input type="text" class="form-control" #referenceServerNameInput>
+
     <label>Server Content</label>
-    <input type="text" class="form-control" [(ngModel)]="newServerContent">
+
+    <!-- version #1: with [(ngModel)] (two way binding) -->
+    <!-- <input type="text" class="form-control" [(ngModel)]="newServerContent"> -->
+    <!-- version #3: writing local reference and @ViewCild(). Enabled access before method call -->
+    <input type="text" class="form-control" #referenceServerContentInput>
+
     <br>
-    <button
-      class="btn btn-primary"
-      (click)="onAddServer()">Add Server</button>
-    <button
-      class="btn btn-primary"
-      (click)="onAddBlueprint()">Add Server Blueprint</button>
+    <button class="btn btn-primary" (click)="onAddServer(referenceServerNameInput)">Add Server</button>
+    <button class="btn btn-primary" (click)="onAddBlueprint(referenceServerNameInput)">Add Server Blueprint</button>
   </div>
 </div>
