@@ -8,23 +8,23 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit, OnDestroy {
-  user: {id: number, name: string};
+  user: { id: number, name: string };
   paramsSubscription: Subscription;
 
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.user ={
-      id: this.route.snapshot.params['id'],
+    this.user = {
+      id: this.route.snapshot.params['id'],            // retrieving parameters from url (attention: do not updates !)
       name: this.route.snapshot.params['name']
     };
     this.paramsSubscription = this.route.params
-    .subscribe(
-      (params: Params) => {            // observable !!! executs only if params in url changes
-        this.user.id = params['id'];
-        this.user.name = params['name'];
-      }
-    );
+      .subscribe(
+        (params: Params) => {            // observable !!! executs only if params in url changes (performs update !)
+          this.user.id = params['id'];
+          this.user.name = params['name'];
+        }
+      );
   }
 
   ngOnDestroy() {

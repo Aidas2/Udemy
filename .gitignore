@@ -24,17 +24,8 @@ tmp/
 local.properties
 .loadpath
 
-
-# Ignore native extensions in the node_modules folder (things changed by npm rebuild)
-node_modules/**/*.node
-node_modules/**/*.o
-node_modules/**/*.a
-node_modules/**/*.mk
-node_modules/**/*.gypi
-node_modules/**/*.target
-node_modules/**/.deps/
-node_modules/**/build/Makefile
-node_modules/**/**/build/Makefile
+# dependencies
+/node_modules
 
 Javascript/9-forkify/starter/node_modules/
 Angular/00_angular-tour-of-heroes/node_modules/
