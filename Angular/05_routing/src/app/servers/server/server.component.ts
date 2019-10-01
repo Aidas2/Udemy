@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { ServersService } from '../servers.service';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router, Data } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -16,16 +16,29 @@ export class ServerComponent implements OnInit {
   constructor(private serversService: ServersService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
-    const id = +this.route.snapshot.params['id'];      // plus parses string id to number id !!!
-    this.server = this.serversService.getServer(id);
-    this.route.params
+    // version initial (receiving server data instantly):
+    // const id = +this.route.snapshot.params['id'];      // plus parses string id to number id !!!
+    // this.server = this.serversService.getServer(id);
+    // this.route.params
+    //   .subscribe(
+    //     (params: Params) => {
+    //       this.server = this.serversService.getServer(+params['id']);
+    //     }
+    //   );
+
+    // version #1 (receiving server data aka from backend, using reolver):
+    this.route.data
       .subscribe(
-        (params: Params) => {
-          this.server = this.serversService.getServer(+params['id']);
+        (data: Data) => {
+          this.server = data['server'];    // name 'server' must match name ir app.routing.module.ts (resolve: {server: ServerResolver}) !!!
         }
       );
 
-    // doesn't works becouse thre is no name and status in url:
+
+
+
+
+    // vesion initial. doesn't works becouse thre is no name and status in url:
     // this.server = {
     //   id: this.route.snapshot.params['id'],            // retrieving parameters from url (attention: do not updates !)
     //   name: this.route.snapshot.params['name'],
