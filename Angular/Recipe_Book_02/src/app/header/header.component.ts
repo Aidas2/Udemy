@@ -8,9 +8,9 @@ import { Component, EventEmitter, Output } from '@angular/core';
 )
 export class HeaderComponent {
 
-  @Output() featureSelected = new EventEmitter<string>();
+  // @Output() featureSelected = new EventEmitter<string>(); // imitating routers
 
-  onSelect(feature: string) {
-    this.featureSelected.emit(feature);
-  }
+  // onSelect(feature: string) {    // imitating routers
+  //   this.featureSelected.emit(feature);
+  // }
 }

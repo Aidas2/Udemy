@@ -1,4 +1,8 @@
-<a href="#" class="list-group-item clearfix" (click)="onSelected()">
+<!-- href="#" should be removed from <a href="#"></a> as it reloads page-->
+
+<!-- <a style="cursor:pointer;" class="list-group-item clearfix" (click)="onSelected()"> // used before routing -->
+<a style="cursor:pointer;" class="list-group-item clearfix">
+
   <div class="pull-left">
     <h4 class="list-group-item-heading">{{recipePR.name}}</h4>
     <p class="list-group-item-text">{{recipePR.description}}</p>

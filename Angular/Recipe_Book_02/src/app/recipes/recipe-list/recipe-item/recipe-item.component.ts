@@ -11,14 +11,13 @@ export class RecipeItemComponent implements OnInit {
 
   @Input() recipePR: Recipe;
 
-  constructor(private recipeService: RecipeService) { }
+  // constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
   }
 
-  onSelected() {
-    this.recipeService.recipeSelected.emit(this.recipePR);
-
-  }
+  // onSelected() {    // used before routing
+  //   this.recipeService.recipeSelected.emit(this.recipePR);
+  // }
 
 }
