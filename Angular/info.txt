@@ -7,8 +7,6 @@ ng g c servers
 ng generate directive better-highlight
 ng g d better-highlight --spec false
 
+More than one module matches. Use skip-import option to skip importing the component into the closest module.
+ng g c new-component --module app
 
-
-
-
-emmet

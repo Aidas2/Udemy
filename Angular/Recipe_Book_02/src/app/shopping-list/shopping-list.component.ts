@@ -21,6 +21,7 @@ export class ShoppingListComponent implements OnInit {
           this.ingredients = ingredients;
         }
       );
+      // in some cases(e.g. using own Observables) you need .unsubscribe();
   }
 
 }
