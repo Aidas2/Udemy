@@ -22,6 +22,7 @@ export class RecipesComponent implements OnInit {
           this.selectedRecipe = recipe;
         }
       );
+      // in some cases(e.g. using own Observables) you need .unsubscribe();
   }
 
 }

@@ -21,7 +21,7 @@ export class RecipeService {
       'What else you need to say?',
       'https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg',
       [
-        new Ingredient('Beans', 2),
+        new Ingredient('Buns', 2),
         new Ingredient('Meat', 1)
       ])
   ];
