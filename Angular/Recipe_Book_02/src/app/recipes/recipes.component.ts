@@ -10,18 +10,18 @@ import { RecipeService } from './recipe-service';
 })
 export class RecipesComponent implements OnInit {
 
+  // selectedRecipe: Recipe;  // do not need after routers
 
-  selectedRecipe: Recipe;
-
-  constructor(private recipeService: RecipeService) { }
+  constructor(/*private recipeService: RecipeService*/) { }
 
   ngOnInit() {
-    this.recipeService.recipeSelected
-      .subscribe( // subscribe() means listening to emitted event
-        (recipe: Recipe) => {
-          this.selectedRecipe = recipe;
-        }
-      );
+    // do not need after routers
+    // this.recipeService.recipeSelected
+    //   .subscribe( // subscribe() means listening to emitted event
+    //     (recipe: Recipe) => {
+    //       this.selectedRecipe = recipe;
+    //     }
+    //   );
       // in some cases(e.g. using own Observables) you need .unsubscribe();
   }
 
