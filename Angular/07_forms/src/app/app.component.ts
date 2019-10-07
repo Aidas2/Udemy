@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  @ViewChild('f', { static: true }) signupForm: NgForm;
+
   suggestUserName() {
     const suggestedName = 'Superuser';
+  }
+
+  // onSubmit(form: NgForm) {
+  //   console.log(form);
+  // }
+
+  // alternative version:
+  onSubmit() {
+    console.log(this.signupForm);
   }
 }
