@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { Assignment6Component } from './assignment6/assignment6.component';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -16,8 +17,10 @@ import { Assignment6Component } from './assignment6/assignment6.component';
     BrowserModule,
     FormsModule,
     // HttpModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

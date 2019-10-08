@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,8 @@ export class AppComponent {
     gender: ''
   };
   submitted = false;
+
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
   suggestUserName() {
     const suggestedName = 'Superuser';
@@ -56,5 +59,9 @@ export class AppComponent {
     this.user.gender = this.signupForm.value.gender;
 
     this.signupForm.reset();
+  }
+
+  onAssignment6() {
+    this.router.navigate(['assigment6'], {relativeTo: this.route});
   }
 }
