@@ -8,7 +8,7 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  @ViewChild('f', { static: true }) signupForm: NgForm;
+  @ViewChild('f', { static: false }) signupForm: NgForm;
   defaultQuestion = 'teacher';
   answer = '';
   genders = ['male', 'female'];
@@ -21,7 +21,7 @@ export class AppComponent {
   };
   submitted = false;
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
   suggestUserName() {
     const suggestedName = 'Superuser';
@@ -62,6 +62,6 @@ export class AppComponent {
   }
 
   onAssignment6() {
-    this.router.navigate(['assigment6'], {relativeTo: this.route});
+    this.router.navigate(['assigment6'], { relativeTo: this.route });
   }
 }

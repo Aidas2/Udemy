@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-assignment6',
@@ -7,9 +8,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Assignment6Component implements OnInit {
 
+  subscriptions = ['Basic', 'Advanced', 'Pro'];
+  selectedSubscription = 'Advanced';
+  @ViewChild('signupForm', { static: false }) sForm: NgForm;
+  submitted = false;
+  data = {
+    email: '',
+    subscription: '',
+    password: ''
+  };
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onSubmit() {
+    console.log(this.sForm.value);
+    this.submitted = true;
+    this.data.email = this.sForm.value.email;
+    this.data.subscription = this.sForm.value.subscription;
+    this.data.password = this.sForm.value.password;
+    this.sForm.reset();
   }
 
 }

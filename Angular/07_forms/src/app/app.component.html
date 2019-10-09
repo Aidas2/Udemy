@@ -34,8 +34,7 @@
         </div>
         <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Submit</button>
       </form>
-      <hr>
-      <button class="btn btn-primary" (click)="onAssignment6()">Assignment_6</button>
+
       <hr>
       <div class="row" *ngIf="submitted">
         <div class="column-xs-11">
@@ -48,5 +47,12 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <hr>
+  <!-- <button class="btn btn-primary" (click)="onAssignment6()">Assignment_6</!-->
+  <button class="btn btn-primary" [routerLink]="['/assigment6']">Assignment_6</button>
+  <div>
+    <router-outlet></router-outlet>
   </div>
 </div>
