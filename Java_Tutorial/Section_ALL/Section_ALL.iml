@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/udemy/section14/io/example07_NIO" />
     </content>
-    <orderEntry type="jdk" jdkName="8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="PackageDemo" level="project" />
     <orderEntry type="library" name="PackageDemo1" level="project" />
