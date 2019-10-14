@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   genders = ['male', 'female'];
   mySignupForm: FormGroup;
   forbiddenUsernames = ['Chris', 'Anna'];
@@ -21,10 +21,35 @@ export class AppComponent implements OnInit{
       'myGender': new FormControl('male'),
       'hobbies': new FormArray([])
     });
+
+    // this.mySignupForm.valueChanges.subscribe(
+    //   (value) => console.log(value)
+    // );
+
+    this.mySignupForm.statusChanges.subscribe(
+      (status) => console.log(status)
+    );
+
+    this.mySignupForm.setValue({      // setting value (same as in template-driven)
+      'myUserData': {
+        'myUsername': 'Max',
+        'myEmail': 'max@test.com'
+      },
+      'myGender': 'male',
+      'hobbies': []
+    });
+
+    this.mySignupForm.patchValue({    // // updating/patching value (same as in template-driven)
+      'myUserData': {
+        'myUsername': 'Oksana',
+      },
+    });
+
   }
 
   onSubmit() {
     console.log(this.mySignupForm);
+    this.mySignupForm.reset();
   }
 
   onAddHobby() {
@@ -38,10 +63,10 @@ export class AppComponent implements OnInit{
   }
 
   // our own validator
-  forbiddenNames(control: FormControl): {[s: string]: boolean} {
+  forbiddenNames(control: FormControl): { [s: string]: boolean } {
     // to work this.forbiddenUsernames you should use bind(this), see above
-    if(this.forbiddenUsernames.indexOf(control.value) !== -1) {
-      return {'nameIsForbidden': true};
+    if (this.forbiddenUsernames.indexOf(control.value) !== -1) {
+      return { 'nameIsForbidden': true };
     }
     return null;
   }
@@ -50,12 +75,12 @@ export class AppComponent implements OnInit{
   forbiddenEmails(control: FormControl): Promise<any> | Observable<any> {
     const promise = new Promise<any>((resolve, reject) => {
       setTimeout(() => {
-        if(control.value === 'test@test.com'){
-          resolve({'emailIsForbidden': true});
+        if (control.value === 'test@test.com') {
+          resolve({ 'emailIsForbidden': true });
         } else {
-          resolve (null);
+          resolve(null);
         }
-      }, 3000);
+      }, 2000);
     });
     return promise;
   }
