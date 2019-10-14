@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormArray } from '@angular/forms';
 import { Observable } from 'rxjs';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,8 @@ export class AppComponent implements OnInit {
   genders = ['male', 'female'];
   mySignupForm: FormGroup;
   forbiddenUsernames = ['Chris', 'Anna'];
+
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.mySignupForm = new FormGroup({

@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ReactiveFormsModule } from '@angular/forms';
 import { Assignment7Component } from './assignment7/assignment7.component';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Assignment7Component } from './assignment7/assignment7.component';
   imports: [
     BrowserModule,
     // FormsModule,  // this is for TD_Forms
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
