@@ -11,6 +11,7 @@ export class Assignment6Component implements OnInit {
   subscriptions = ['Basic', 'Advanced', 'Pro'];
   selectedSubscription = 'Advanced';
   @ViewChild('signupForm', { static: false }) sForm: NgForm;
+  // created for submiting purposes (to enable showing in UI):
   submitted = false;
   data = {
     email: '',

@@ -41,6 +41,16 @@
         <button class="btn btn-primary">Submitt Project</button>
       </form>
 
+      <hr>
+      <div class="row" *ngIf="submitted">
+        <div class="column-xs-11">
+          <h3>Your Data</h3>
+          <p>UProject Name: {{project.projectName}}</p>
+          <p>Mail: {{ project.email }}</p>
+          <p>Status {{ project.status }}</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>

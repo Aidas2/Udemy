@@ -12,6 +12,7 @@ export class AppComponent {
   defaultQuestion = 'teacher';
   answer = '';
   genders = ['male', 'female'];
+  // created for submiting purposes (to enable showing in UI):
   user = {
     username: '',
     email: '',
