@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormArray } from '@angular/forms';
 import { Observable } from 'rxjs';
-import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -13,13 +12,11 @@ export class AppComponent implements OnInit {
   mySignupForm: FormGroup;
   forbiddenUsernames = ['Chris', 'Anna'];
 
-  constructor(private router: Router, private route: ActivatedRoute) { }
-
   ngOnInit() {
     this.mySignupForm = new FormGroup({
       'myUserData': new FormGroup({
-        'myUsername': new FormControl(null, [Validators.required, this.forbiddenNames.bind(this)]),
-        'myEmail': new FormControl(null, [Validators.required, Validators.email], this.forbiddenEmails),
+        'myUsername': new FormControl(null, [Validators.required, this.forbiddenNamesValidator.bind(this)]),
+        'myEmail': new FormControl(null, [Validators.required, Validators.email], this.forbiddenEmailsValidator),
       }),
       'myGender': new FormControl('male'),
       'hobbies': new FormArray([])
@@ -66,7 +63,7 @@ export class AppComponent implements OnInit {
   }
 
   // our own validator
-  forbiddenNames(control: FormControl): { [s: string]: boolean } {
+  forbiddenNamesValidator(control: FormControl): { [s: string]: boolean } {
     // to work this.forbiddenUsernames you should use bind(this), see above
     if (this.forbiddenUsernames.indexOf(control.value) !== -1) {
       return { 'nameIsForbidden': true };
@@ -75,7 +72,7 @@ export class AppComponent implements OnInit {
   }
 
   // our own validator (asynchronous)
-  forbiddenEmails(control: FormControl): Promise<any> | Observable<any> {
+  forbiddenEmailsValidator(control: FormControl): Promise<any> | Observable<any> {
     const promise = new Promise<any>((resolve, reject) => {
       setTimeout(() => {
         if (control.value === 'test@test.com') {
