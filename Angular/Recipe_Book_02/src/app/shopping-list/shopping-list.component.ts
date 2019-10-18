@@ -24,11 +24,17 @@ export class ShoppingListComponent implements OnInit, OnDestroy {
           this.ingredients = ingredients;
         }
       );
-      // in some cases(e.g. using own Observables) you need .unsubscribe();
+    // in some cases(e.g. using own Observables) you need .unsubscribe();
+  }
+
+  onEditItem(index: number) {
+    // emitting this index (to be able to listen to it in some another place (shopping-edit.component.html)):
+    this.slService.startedEditing.next(index);
   }
 
   ngOnDestroy() {
     this.subscription.unsubscribe();
   }
+
 
 }

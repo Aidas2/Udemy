@@ -1,12 +1,12 @@
 import { Ingredient } from '../shared/ingredient.model';
 import { EventEmitter } from '@angular/core';
-import {Subject} from 'rxjs';
+import { Subject } from 'rxjs';
 
 export class ShoppingListService {
 
   // ingredientsChanged = new EventEmitter<Ingredient[]>(); // to put data in original array, not in copy made by slice()
-  ingredientsChanged = new Subject<Ingredient[]>();
-
+  ingredientsChanged = new Subject<Ingredient[]>(); // for tracking changes
+  startedEditing = new Subject<number>();
 
   private ingredients: Ingredient[] = [
     new Ingredient('Apples', 5),
@@ -16,6 +16,11 @@ export class ShoppingListService {
   getIngredients() {
     return this.ingredients.slice();
   }
+
+  getIngredient(index: number) {
+    return this.ingredients[index];
+  }
+
 
   addIngredient(ingredient: Ingredient) {
     this.ingredients.push(ingredient);
@@ -33,8 +38,18 @@ export class ShoppingListService {
 
     // version #2:
     this.ingredients.push(...ingredients);
-    this.ingredientsChanged.next(this.ingredients.slice());
+    this.ingredientsChanged.next(this.ingredients.slice()); // emitting (sliced elements of array)
 
+  }
+
+  updateIngredient(index: number, newIngredient: Ingredient) {
+    this.ingredients[index] = newIngredient;
+    this.ingredientsChanged.next(this.ingredients.slice()); // emitting (sliced elements of array)
+  }
+
+  deleteIngredient(index: number) {
+    this.ingredients.splice(index, 1);  // splice(starting index, amount of removed elements)
+    this.ingredientsChanged.next(this.ingredients.slice()); // if slice() is empty it passes copy of array (there in no sliced elements)
   }
 
 }
