@@ -3,11 +3,14 @@ import { EventEmitter, Injectable } from '@angular/core';
 import { Recipe } from './recipe.model';
 import { Ingredient } from '../shared/ingredient.model';
 import { ShoppingListService } from '../shopping-list/shopping-list.service';
+import { Subject } from 'rxjs';
 
 @Injectable()
 export class RecipeService {
 
   // recipeSelected = new EventEmitter<Recipe>(); // do not need anymore after routers
+
+  recipesChanged = new Subject<Recipe[]>(); // listening to this event in recipe-list.component.ts
 
   private recipes: Recipe[] = [
     new Recipe(
@@ -31,13 +34,30 @@ export class RecipeService {
 
   getRecipes() {
     return this.recipes.slice();
+    // attention ! - this returns NOT original array, therefore we creating event recipesChanged (see above)
+  }
+
+  getRecipeById(index: number) {
+    return this.recipes[index];
   }
 
   addIngredientsToShoppingList(ingredients: Ingredient[]) {
     this.slService.addIngredients(ingredients);
   }
 
-  getRecipeById(index: number) {
-    return this.recipes[index];
+  addRecipe(recipe: Recipe) {
+    this.recipes.push(recipe);
+    this.recipesChanged.next(this.recipes.slice());
+  }
+
+  updateRecipe(index: number, newRecipe: Recipe) {
+    this.recipes[index] = newRecipe;
+    this.recipesChanged.next(this.recipes.slice());
+  }
+
+  deleteRecipe(index: number) {
+    console.log(" == deleteRecipe() method called");
+    this.recipes.splice(index, 1);    // splice, not slice :) !!!
+    this.recipesChanged.next(this.recipes.slice());
   }
 }
