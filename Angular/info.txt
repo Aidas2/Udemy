@@ -10,3 +10,6 @@ ng g d better-highlight --spec false
 More than one module matches. Use skip-import option to skip importing the component into the closest module.
 ng g c new-component --module app
 
+ng generate pipe filter
+ng g p filter
+
