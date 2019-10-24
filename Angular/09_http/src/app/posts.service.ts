@@ -19,7 +19,7 @@ export class PostsService {
         'https://recipe-book-2b037.firebaseio.com/posts.json',
         postData,
         {
-          observe: 'response'      // defaul is 'body'
+          observe: 'response'      // defaul is 'body', may be response, events
         }
       )
       .subscribe(                // subscribe not moved (becouse we  don't care about answer)
@@ -44,7 +44,8 @@ export class PostsService {
         {
           headers: new HttpHeaders({ 'Custom-Header': 'Hello' }),
           // params: new HttpParams().set('print', 'pretty')
-          params: searchParams
+          params: searchParams,
+          responseType: 'json'   // defaul is json, may be text, blob
         }
       )
       // goal: convert object to array of posts:
@@ -76,7 +77,9 @@ export class PostsService {
       .delete(
         'https://recipe-book-2b037.firebaseio.com/posts.json',
         {
-          observe: 'events'
+          observe: 'events',  // defaul is 'body', may be response, events
+          responseType: 'text'  // defaul is json, may be text, blob
+
         }
       ).pipe(tap(event => {      // tap is only for not disturbing subcribe()
         console.log(event);
