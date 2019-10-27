@@ -6,15 +6,23 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
+import { RecipesResolverService } from './recipes/recipes-resolver.service';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: '/recipes', pathMatch: 'full' }, // empty path: '' match any route, threrefore we using pathMath, which enables redirect only when ful path is empty
+  { path: '', redirectTo: '/recipes', pathMatch: 'full' },
+  // empty path: '' match any route, therefore we using pathMath, which enables redirect only when full path is empty
   {
     path: 'recipes', component: RecipesComponent, children: [
       { path: '', component: RecipeStartComponent },
       { path: 'new', component: RecipeEditComponent},
-      { path: ':id', component: RecipeDetailComponent },  // path with :id should be ant the end !
-      { path: ':id/edit', component: RecipeEditComponent},
+      { path: ':id',                                        // path with :id should be ant the end !
+        component: RecipeDetailComponent,
+        resolve: [RecipesResolverService]
+      },
+      { path: ':id/edit',
+        component: RecipeEditComponent,
+        resolve: [RecipesResolverService]
+      }, // path with :id should be ant the end !
 
     ]
   },
