@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { catchError } from 'rxjs/operators';
-import { throwError } from 'rxjs';
+import { catchError, tap } from 'rxjs/operators';
+import { throwError, Subject, BehaviorSubject } from 'rxjs';
+import { User } from './user.model';
+import { Router } from '@angular/router';
 
 // properties according to
 // https://firebase.google.com/docs/reference/rest/auth#section-create-email-password
@@ -19,7 +21,13 @@ export interface AuthResponseData {
 @Injectable({ providedIn: 'root' })
 export class AuthService {
 
-  constructor(private http: HttpClient) { }
+  // possible version:
+  // user = new Subject<User>();  // 1) preparing user, which will be considered as logged or signed
+  // token: string = null;
+
+  user = new BehaviorSubject<User>(null);
+
+  constructor(private http: HttpClient, private router: Router) { }
 
   signup(email: string, password: string) {
     return this.http.post<AuthResponseData>(
@@ -31,7 +39,27 @@ export class AuthService {
         returnSecureToken: true
       }
     )
-      .pipe(catchError(this.handleError));
+      .pipe(
+        catchError(this.handleError),
+        tap(respData => {
+        //   const expirationDate = new Date(  // all this moved to separate method
+        //     new Date().getTime() + +respData.expiresIn * 1000
+        //   );
+        //   const user = new User (  // 2) constructing user from data from response
+        //     respData.email,
+        //     respData.localId,
+        //     respData.idToken,
+        //     expirationDate
+        //   );
+        //   this.user.next(user);    // 2) emitting/assigning created user as currently logged
+          this.handleAuthentication(
+            respData.email,
+            respData.localId,
+            respData.idToken,
+            +respData.expiresIn
+            );
+         })
+      );
   }
 
   login(email: string, password: string) {
@@ -44,8 +72,39 @@ export class AuthService {
         returnSecureToken: true
       }
     )
-      .pipe(catchError(this.handleError));
+      .pipe(
+        catchError(this.handleError),
+        tap(respData => {
+          this.handleAuthentication(
+            respData.email,
+            respData.localId,
+            respData.idToken,
+            +respData.expiresIn
+            );
+          })
+      );
   }
+
+
+  logout() {
+    this.user.next(null);
+    this.router.navigate(['/auth']);
+  }
+
+  private handleAuthentication(email: string, userId: string, token: string, expiresIn: number) {
+    const expirationDate = new Date(
+      new Date().getTime() + expiresIn * 1000
+    );
+    const user = new User (
+      email,
+      userId,
+      token,
+      expirationDate
+    );
+    this.user.next(user);
+  }
+
+
 
   private handleError(errorResp: HttpErrorResponse) {
 
