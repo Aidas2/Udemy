@@ -39,7 +39,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(appRoutes)],
-  exports: [RouterModule]
+  exports: [RouterModule]    // preparing for exporting to app.module.ts
 })
 
 export class AppRoutingModule {
