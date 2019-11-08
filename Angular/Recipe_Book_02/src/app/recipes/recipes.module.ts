@@ -9,6 +9,7 @@ import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from './recipe-list/recipe-item/recipe-item.component';
 import { RecipeStartComponent } from './recipe-start/recipe-start.component';
 import { RecipeEditComponent } from './recipe-edit/recipe-edit.component';
+import { RecipesRoutingModule } from './recipes.routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { RecipeEditComponent } from './recipe-edit/recipe-edit.component';
   imports: [  // thought dublicates app modules, but needs to be imported all modules used by modules listened in declaration array
     RouterModule,
     CommonModule,
-    ReactiveFormsModule],
+    ReactiveFormsModule,
+    RecipesRoutingModule // custom module
+  ],
   exports: [
     RecipesComponent,
     RecipeListComponent,
