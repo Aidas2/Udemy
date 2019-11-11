@@ -27,12 +27,12 @@ import { RecipesRoutingModule } from './recipes.routing.module';
     RecipesRoutingModule // custom module
   ],
   exports: [
-    RecipesComponent,
-    RecipeListComponent,
-    RecipeDetailComponent,
-    RecipeItemComponent,
-    RecipeStartComponent,
-    RecipeEditComponent
+    // RecipesComponent,    // no need to export, because using internaly in Recipes module (and not using globaly, in app component)
+    // RecipeListComponent,
+    // RecipeDetailComponent,
+    // RecipeItemComponent,
+    // RecipeStartComponent,
+    // RecipeEditComponent
   ]
 })
 export class RecipesModule {

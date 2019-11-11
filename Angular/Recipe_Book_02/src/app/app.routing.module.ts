@@ -7,7 +7,6 @@ import { AuthComponent } from './auth/auth.component';
 const appRoutes: Routes = [
   { path: '', redirectTo: '/recipes', pathMatch: 'full' },
   // empty path: '' match any route, therefore we using pathMath, which enables redirect only when full path is empty
-  { path: 'shopping-list', component: ShoppingListComponent },
   { path: 'auth', component: AuthComponent }
 ];
 
