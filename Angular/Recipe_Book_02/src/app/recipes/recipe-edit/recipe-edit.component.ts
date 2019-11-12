@@ -15,7 +15,7 @@ export class RecipeEditComponent implements OnInit {
   recipeForm: FormGroup;
 
   constructor(private route: ActivatedRoute, private recipeService: RecipeService,
-    private router: Router) { }
+              private router: Router) { }
 
   ngOnInit() {
     this.route.params
@@ -38,7 +38,7 @@ export class RecipeEditComponent implements OnInit {
     //   this.recipeForm.value['description'],
     //   this.recipeForm.value['imagePath'],
     //   this.recipeForm.value['ingredients'],)
-    if(this.editMode) {
+    if (this.editMode) {
     this.recipeService.updateRecipe(this.id, /*newRecipe*/ this.recipeForm.value);
     } else {
       this.recipeService.addRecipe(/*newRecipe*/ this.recipeForm.value);
@@ -49,17 +49,17 @@ export class RecipeEditComponent implements OnInit {
   }
 
   onAddIngredient() {
-    (<FormArray>this.recipeForm.get('ingredients')).push(
+    (<FormArray> this.recipeForm.get('ingredients')).push(
       new FormGroup({
-        'name': new FormControl(null, Validators.required),
-        'amount': new FormControl(null, [Validators.required, Validators.pattern(/^[1-9]+[0-9]*$/)])
+        name: new FormControl(null, Validators.required),
+        amount: new FormControl(null, [Validators.required, Validators.pattern(/^[1-9]+[0-9]*$/)])
       })
     );
 
   }
 
   onDeleteIngredient(index: number) {
-    (<FormArray>this.recipeForm.get('ingredients')).removeAt(index);
+    (<FormArray> this.recipeForm.get('ingredients')).removeAt(index);
     // from Angular 8, to remove all items in array:
     // (<FormArray>this.recipeForm.get('ingredients')).clear();
   }
@@ -79,12 +79,12 @@ export class RecipeEditComponent implements OnInit {
       recipeName = recipe.name;
       recipeImagePath = recipe.imagePath;
       recipeDescription = recipe.description;
-      if(recipe['ingredients']) {  // if recipe has ingredients (?!)
+      if (recipe['ingredients']) {  // if recipe has ingredients (?!)
         for (let ingredient of recipe.ingredients) {
           recipeIngredients.push(
             new FormGroup({
-              'name': new FormControl(ingredient.name, Validators.required),
-              'amount': new FormControl(ingredient.amount,
+              name: new FormControl(ingredient.name, Validators.required),
+              amount: new FormControl(ingredient.amount,
                  [Validators.required, Validators.pattern(/^[1-9]+[0-9]*$/)])
             })
           );
@@ -93,14 +93,15 @@ export class RecipeEditComponent implements OnInit {
     }
 
     this.recipeForm = new FormGroup({
-      'name': new FormControl(recipeName, Validators.required),    // 'name' should match in html (formControlName="name")
-      'imagePath': new FormControl(recipeImagePath, Validators.required),
-      'description': new FormControl(recipeDescription, Validators.required),
-      'ingredients': recipeIngredients  // should match in html (formArrayName="ingredients", also in *ngFor)
+      name: new FormControl(recipeName, Validators.required),    // 'name' should match in html (formControlName="name")
+      imagePath: new FormControl(recipeImagePath, Validators.required),
+      description: new FormControl(recipeDescription, Validators.required),
+      ingredients: recipeIngredients  // should match in html (formArrayName="ingredients", also in *ngFor)
     });
   }
 
   getControls() {
-    return (<FormArray>this.recipeForm.get('ingredients')).controls;
+    // return (<FormArray> this.recipeForm.get('ingredients')).controls;
+    return (this.recipeForm.get('ingredients') as FormArray).controls;
   }
 }

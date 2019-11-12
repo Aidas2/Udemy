@@ -13,3 +13,5 @@ ng g c new-component --module app
 ng generate pipe filter
 ng g p filter
 
+ng build --prod
+

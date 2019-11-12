@@ -4,6 +4,7 @@ import { LoadingSpinnerComponent } from './loading-spinner/loding-spinner.compon
 import { DropdownDirective } from './dropdown.directive';
 import { CommonModule } from '@angular/common';
 import { PlaceHolderDirective } from './placeholder/placeholder.directive';
+import { LoggingService } from '../logging.service';
 
 @NgModule({
   declarations: [
@@ -24,8 +25,9 @@ import { PlaceHolderDirective } from './placeholder/placeholder.directive';
   ],
   entryComponents: [
     AlertComponent
-  ]
+  ],
+  providers: [LoggingService] // providing service in module, which is imported in eager and lazy modules, better avoid
 })
-export class SharedModule{
+export class SharedModule {
 
 }

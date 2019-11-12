@@ -63,7 +63,7 @@ export class RecipeService {
   }
 
   deleteRecipe(index: number) {
-    console.log(" == deleteRecipe() method called");
+    console.log(' == deleteRecipe() method called');
     this.recipes.splice(index, 1);    // splice, not slice :) !!!
     this.recipesChanged.next(this.recipes.slice());
   }

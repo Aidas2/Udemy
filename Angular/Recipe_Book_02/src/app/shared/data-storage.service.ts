@@ -6,7 +6,7 @@ import { RecipeService } from '../recipes/recipe-service';
 import { Recipe } from '../recipes/recipe.model';
 import { AuthService } from '../auth/auth.service';
 
-@Injectable({providedIn: 'root'})
+@Injectable({providedIn: 'root'})      // RECOMMENDED way to provide services (provide here, not in app-module.ts)
 export class DataStorageService {
 
   constructor(private http: HttpClient, private recipeService: RecipeService, private authService: AuthService) {}
