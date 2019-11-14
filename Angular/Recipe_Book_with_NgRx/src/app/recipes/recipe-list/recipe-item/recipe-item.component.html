@@ -1,0 +1,20 @@
+<!-- href="#" should be removed from <a href="#"></a> as it reloads page-->
+
+<!-- <a style="cursor:pointer;" class="list-group-item clearfix" (click)="onSelected()"> // used before routing -->
+<a style="cursor:pointer;"
+  [routerLink]="[index]"
+  routerLinkActive="active"
+  class="list-group-item clearfix">
+
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{recipePR.name}}</h4>
+    <p class="list-group-item-text">{{recipePR.description}}</p>
+  </div>
+  <span class="pull-right">
+    <img
+    [src]="recipePR.imagePath"
+    alt="{{recipePR.name}}"
+    class="img-responsive"
+    style="max-height: 50px;">
+  </span>
+</a>
