@@ -39,30 +39,46 @@ export function shoppingListReducer(
         ingredients: [...state.ingredients, ... action.payload]
       };
       case ShopingListActions.UPDATE_INGREDIENT: // this is recomended pattern (original state stays immutable, working with copy of it)
-        const ingredientToUpdate = state.ingredients[action.payload.index];
+        // const ingredientToUpdate = state.ingredients[action.payload.index];
+        const ingredientToUpdate = state.ingredients[state.editedIngredientIndex];
+
         const updatedIngredient = {
           ...ingredientToUpdate,        // copying original ingredient
-          ...action.payload.ingredient  // overwriting with ingredient from payload
+          // ...action.payload.ingredient  // overwriting with ingredient from payload
+          ...action.payload
         };
         const updatedIngredients = [...state.ingredients];              // copying original array
-        updatedIngredients[action.payload.index] = updatedIngredient;    // replacing old element in array
-
+        // updatedIngredients[action.payload.index] = updatedIngredient;    // replacing old element in array
+        updatedIngredients[state.editedIngredientIndex] = updatedIngredient;
         return {
           ...state,
-          ingredients: updatedIngredients
+          ingredients: updatedIngredients,
+          editedIngredientIndex: -1,
+          editedIngredient: null
         };
       case ShopingListActions.DELETE_INGREDIENT:
         return {
           ...state,
           ingredients: state.ingredients.filter((ig, igIndex) => {
-            return igIndex !== action.payload;    // if return true means that this elements stays in array
-          })
+            // return igIndex !== action.payload;    // if return true means that this elements stays in array
+            return igIndex !== state.editedIngredientIndex;
+          }),
+          editedIngredientIndex: -1,
+          editedIngredient: null
         };
       case ShopingListActions.START_EDIT:
-        return {}
+        return {
+          ...state,
+          editedIngredientIndex: action.payload,
+          editedIngredient: {...state.ingredients[action.payload]}
+        }
 
       case ShopingListActions.STOP_EDIT:
-        return{}
+        return{
+          ...state,
+          editedIngredient: null,
+          editedIngredientIndex: -1
+        }
 
     default:
       return state;
