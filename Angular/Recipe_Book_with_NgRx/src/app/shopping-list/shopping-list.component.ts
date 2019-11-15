@@ -5,6 +5,7 @@ import { Store } from '@ngrx/store';
 import { Ingredient } from '../shared/ingredient.model';
 import { ShoppingListService } from './shopping-list.service';
 import { LoggingService } from '../logging.service';
+import * as fromShoppingList from './store/shopping-list.reducer';
 
 @Component({
   selector: 'app-shopping-list',
@@ -18,8 +19,9 @@ export class ShoppingListComponent implements OnInit, OnDestroy {
 
   constructor(private slService: ShoppingListService,
               private loggingService: LoggingService,
-              private store: Store<{shoppingList: {ingredients: Ingredient[]}}>
-    // 'shoppingList' must match name in app.module.ts, 'ingredients' must match name in shopping-list.reducer.ts
+              // private store: Store<{shoppingList: {ingredients: Ingredient[]}}>
+              // 'shoppingList' must match name in app.module.ts, 'ingredients' must match name in shopping-list.reducer.ts
+              private store: Store<fromShoppingList.AppState>
   ) { }
 
   ngOnInit() {
