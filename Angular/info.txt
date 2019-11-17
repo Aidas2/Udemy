@@ -32,3 +32,4 @@ Hosting URL: https://recipe-book-2-3565f.firebaseapp.com
 
 NgRX (Redux for React)
 npm install --save @ngrx/store
+Till Section 24, Lection 360.One Root State.
