@@ -33,3 +33,11 @@ Hosting URL: https://recipe-book-2-3565f.firebaseapp.com
 NgRX (Redux for React)
 npm install --save @ngrx/store
 Till Section 24, Lection 360.One Root State.
+
+Angular Universal
+ng add @nguniversal/express-engine --clientProject ng-complete-guide-update (last name is taken from angular.json)
+npm install --save @nguniversal/module-map-ngfactory-loader
+npm run build:ssr	(command taken from package.json)
+npm run serve:ssr
+
+ng add @nestjs/ng-universal
