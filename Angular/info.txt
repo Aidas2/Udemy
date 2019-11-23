@@ -52,3 +52,8 @@ ng build --prod
 cd dist/angular-pwa/
 http-server -p 8081
 
+///////////////////////////////////////////////
+ng test
+export CHROME_BIN=/usr/bin/chromium-browser
+
+npm install @angular/elements 
