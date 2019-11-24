@@ -1,6 +1,7 @@
 ng new my-first-app
 ng serve
 npm install --save bootstrap@3 // installs localy, jus for this project
+npm install --save @ng-bootstrap/ng-bootstrap //Angular Bootstrap
 ng generate component servers
 ng g c servers
 
