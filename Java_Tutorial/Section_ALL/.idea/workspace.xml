@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Angular/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +37,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -166,10 +164,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="189" />
+    <option name="y" value="1237" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,8 +181,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,6 +335,97 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge04.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section15.concurency.challenge04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example06_RandomAccessFile.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section14.io.example06_RandomAccessFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture144_CHALLENGEAidas.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section12.collections.lecture144_CHALLENGEAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section19.databases.example04_queryAlbumsByArtists.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section19.databases.example04_queryAlbumsByArtists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section19.databases.example03_indexes_queryForArtistsAsc.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section19.databases.example03_indexes_queryForArtistsAsc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture151_CHALLENGEAidas2UNSOLVED.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section12.collections.lecture151_CHALLENGEAidas2UNSOLVED.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture145_SetsAidas.Main" />
+      <module name="Section10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section12.collections.lecture145_SetsAidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.section12.example135CollectionsOverview.Main" />
       <module name="Section10" />
       <extension name="coverage">
@@ -434,97 +523,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udemy.section15.concurency.challenge010203.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge04.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section15.concurency.challenge04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section14.io.example06_RandomAccessFile.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section14.io.example06_RandomAccessFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture144_CHALLENGEAidas.Main" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section12.collections.lecture144_CHALLENGEAidas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section19.databases.example04_queryAlbumsByArtists.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section19.databases.example04_queryAlbumsByArtists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section19.databases.example03_indexes_queryForArtistsAsc.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section19.databases.example03_indexes_queryForArtistsAsc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture151_CHALLENGEAidas2UNSOLVED.Main" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section12.collections.lecture151_CHALLENGEAidas2UNSOLVED.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section12.collections.lecture145_SetsAidas.Main" />
-      <module name="Section10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section12.collections.lecture145_SetsAidas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -688,9 +686,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="348" y="1105" width="1317" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.18332022" />
       <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
