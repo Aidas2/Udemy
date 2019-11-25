@@ -3,19 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbdModalBasic } from './modal/modal-basic';
-import { Module2Component } from './module2/module2.component';
-import { NgbdModalBasicModule } from './modal/modal-basic.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    Module2Component,
+    NgbdModalBasic
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbdModalBasicModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
