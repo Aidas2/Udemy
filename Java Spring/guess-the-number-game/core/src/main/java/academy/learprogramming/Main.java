@@ -32,16 +32,10 @@ public class Main {
         Game game = context.getBean("game", Game.class);
 
         // call reset() method
-        game.reset();
-
-
+        // game.reset(); // moved to beans.xml
 
         // close context (container)
         context.close();
-
-
-
-
 
     }
 }

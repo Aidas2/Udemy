@@ -3,13 +3,16 @@ package academy.learprogramming;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 public class  GameImpl implements Game {
 
     // == constructors ==
-    // for constructor based dependency injection
-    public GameImpl(NumberGenerator numberGenerator) {
-        this.numberGenerator = numberGenerator;
-    }
+//     created for constructor based dependency injection
+//    public GameImpl(NumberGenerator numberGenerator) {
+//        this.numberGenerator = numberGenerator;
+//    }
 
     // == constants ==
     private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
@@ -24,7 +27,8 @@ public class  GameImpl implements Game {
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
-    // == public methods ==
+    // init ==
+    @PostConstruct  // means that this will be auto initialized
     @Override
     public void reset() {
         smallest = 0;
@@ -33,6 +37,17 @@ public class  GameImpl implements Game {
         biggest = numberGenerator.getMaxNumber();
         number = numberGenerator.next();
         log.debug("the number is {}", number);
+    }
+
+    @PreDestroy //// means that this will be auto initialized (after ?)
+    public void preDestroy() {
+        log.info("in Game preDestroy()");
+    }
+
+    // == public methods ==
+//    created for setter based dependency injection
+    public void setNumberGenerator(NumberGenerator numberGenerator) {
+        this.numberGenerator = numberGenerator;
     }
 
     @Override
