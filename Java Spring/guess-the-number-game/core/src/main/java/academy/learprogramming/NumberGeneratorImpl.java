@@ -2,6 +2,7 @@ package academy.learprogramming;
 
 import java.util.Random;
 
+//@Component("generator")
 public class NumberGeneratorImpl implements  NumberGenerator{
 
     // == fields ==
