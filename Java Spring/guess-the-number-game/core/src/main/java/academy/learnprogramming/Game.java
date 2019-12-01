@@ -1,4 +1,4 @@
-package academy.learprogramming;
+package academy.learnprogramming;
 
 public interface Game {
 
@@ -13,6 +13,8 @@ public interface Game {
     int getBiggest();
 
     int getRemainingGuesses();
+
+    int getGuessCount();
 
     void reset();
 

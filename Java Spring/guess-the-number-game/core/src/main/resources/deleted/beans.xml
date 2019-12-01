@@ -9,13 +9,13 @@
 
     <!--used for enabling annotation, but later replaced with components-scan-->
 <!--    <context:annotation-config></context:annotation-config>-->
-    <context:component-scan base-package="academy.learprogramming"></context:component-scan>
+    <context:component-scan base-package="academy.learnprogramming"></context:component-scan>
 
 
     <!--    every bean below replaced after enabling component-scan:-->
-<!--    <bean id="numberGenerator" class="academy.learprogramming.NumberGeneratorImpl"></bean>-->
+<!--    <bean id="numberGenerator" class="academy.learnprogrammingg.NumberGeneratorImpl"></bean>-->
 
-<!--    <bean id="game" class="academy.learprogramming.GameImpl">-->
+<!--    <bean id="game" class="academy.learnprogrammingg.GameImpl">-->
 <!--        replaced with autowiring (both)        -->
 <!--        constructor based dependency injection-->
 <!--        <constructor-arg ref="numberGenerator"></constructor-arg>-->

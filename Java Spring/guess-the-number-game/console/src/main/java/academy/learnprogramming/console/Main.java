@@ -1,5 +1,6 @@
-package academy.learprogramming;
+package academy.learnprogramming.console;
 
+import academy.learnprogramming.config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -17,8 +18,10 @@ public class Main {
         // create context (container)
         ConfigurableApplicationContext context
 //                = new ClassPathXmlApplicationContext(CONFIG_LOCATION);    // this was for beans.xml
-                = new AnnotationConfigApplicationContext(AppConfig.class);
+//                = new AnnotationConfigApplicationContext(AppConfig.class); // used before deleting whole class
+                = new AnnotationConfigApplicationContext(GameConfig.class);
 
+        /* // do not need anymore (used just for testing)
         // get number generator bean from context (container)
         NumberGenerator numberGenerator
                 = context.getBean(NumberGenerator.class);
@@ -30,7 +33,7 @@ public class Main {
         log.info("number = {}", number);
 
         // get game bean from context (container)
-        // Game game = context.getBean(Game.class); // do not need anymore as passed as field in messageGenerator (?) ?
+        // Game game = context.getBean(Game.class); // do not need anymore as passed as field in messageGenerator (?)
 
         // call reset() method
         // game.reset(); // moved to beans.xml
@@ -39,6 +42,8 @@ public class Main {
         MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
         log.info("getMainMessage= {}", messageGenerator.getMainMessage());
         log.info("getResultMessage= {}", messageGenerator.getResultMessage());
+
+         */
 
         // close context (container)
         context.close();

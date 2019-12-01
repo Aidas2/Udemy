@@ -1,4 +1,4 @@
-package academy.learprogramming;
+package academy.learnprogramming;
 
 public interface MessageGenerator {
 
