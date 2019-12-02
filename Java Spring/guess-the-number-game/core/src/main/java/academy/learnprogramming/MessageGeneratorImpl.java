@@ -1,17 +1,18 @@
 package academy.learnprogramming;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
+@Slf4j
+// @Getter // do not need that (there is no getter's). Or set @Getter(AccessLevel.NONE) on every field (?)
 @Component
 public class MessageGeneratorImpl implements MessageGenerator {
 
     // == constants ==
-    private static final Logger log = LoggerFactory.getLogger(MessageGeneratorImpl.class);
+    // private static final Logger log = LoggerFactory.getLogger(MessageGeneratorImpl.class); // used before Lombok
 
     // == fields ==
     // @Autowired // replaced (here and below) via annotating constructor

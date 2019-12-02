@@ -1,13 +1,17 @@
 package academy.learnprogramming;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+@Slf4j
+@Getter
 @Component  //@Component("game")
 public class  GameImpl implements Game {
 
@@ -18,10 +22,11 @@ public class  GameImpl implements Game {
 //    }
 
     // == constants ==
-    private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
+    // private static final Logger log = LoggerFactory.getLogger(GameImpl.class); // used before Lombok
 
     // == fields ==
     // @Autowired // replaced (here and below) via annotating constructor
+    @Getter(AccessLevel.NONE)   // because we do not need getter for this field
     private final NumberGenerator numberGenerator;
 
     // @Autowired
@@ -29,11 +34,13 @@ public class  GameImpl implements Game {
     private final int guessCount;
 
     private int number;
-    private int guess;
     private int smallest;
     private int biggest;
     private int remainingGuesses;
     private boolean validNumberRange = true;
+
+    @Setter
+    private int guess;
 
     // == constructors ==
     @Autowired
@@ -65,7 +72,7 @@ public class  GameImpl implements Game {
 //    public void setNumberGenerator(NumberGenerator numberGenerator) {
 //        this.numberGenerator = numberGenerator;
 //    }
-
+/*  // used before Lombok
     @Override
     public int getNumber() {
         return number;
@@ -100,7 +107,7 @@ public class  GameImpl implements Game {
     public int getGuessCount() {
         return guessCount;
     }
-
+*/
     @Override
     public void check() {
 
@@ -119,10 +126,10 @@ public class  GameImpl implements Game {
         remainingGuesses--;
     }
 
-    @Override
-    public boolean isValidNumberRange() {
-        return validNumberRange;
-    }
+//    @Override // used before Lombok
+//    public boolean isValidNumberRange() {
+//        return validNumberRange;
+//    }
 
     @Override
     public boolean isGameWon() {
