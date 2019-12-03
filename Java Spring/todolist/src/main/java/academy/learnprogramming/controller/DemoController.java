@@ -11,6 +11,14 @@ public class DemoController {
     @ResponseBody
     @GetMapping("/hello")
     public String hello() {
-        return "hello!";
+        return "hello! (content from file DemoController.java method hello() )";
+    }
+
+    // http://localhost:8080/todo-list/welcome
+    // prefix + name + suffix
+    // /WEB-INF/view/welcome.jsp
+    @GetMapping("welcome")
+    public String welcome() {
+        return "welcome";   // this name must match file welcome.jsp name
     }
 }
