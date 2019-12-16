@@ -7,10 +7,16 @@
 <body>
     <div align="center">
         <h1>Guess the Number Game</h1>
-        <h3 th:text="${mainMessage}">Main Message Content</h3>
-        <h3 th:text="${resultMessage}">Result Message Content</h3>
+        <h3 th:text="${__${T(academy.learnprogramming.util.AttributeNames).MAIN_MESSAGE}__}">
+            Main Message Content
+        </h3>
+        <h3 th:text="${__${T(academy.learnprogramming.util.AttributeNames).RESULT_MESSAGE}__}">
+            Result Message Content
+        </h3>
 
-        <form action="play" method="post">
+        <form th:action="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}"
+              action="play"
+              method="post">
             <label for="guess">Enter your guess</label>
             <input id="guess" type="number" name="guess"/>
             <input type="submit" value="Submit"/>

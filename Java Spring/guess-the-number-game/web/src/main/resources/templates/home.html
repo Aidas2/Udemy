@@ -7,7 +7,10 @@
 <body>
     <div align="center">
         <h1>Welcome to Guess the Number Game</h1>
-        <a th:href="play" th:text="Play">Click to Play</a>
+        <a th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}"
+           th:text="Play">
+            Click to Play
+        </a>
         <!--    th:text="Play" replaces 'Click to Play' into 'Play'-->
         <!--    th:href="play" replaces href into localhost/8080 -->
     </div>
