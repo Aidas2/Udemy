@@ -10,6 +10,7 @@
 
     <logger name="academy.learnprogramming" level="TRACE"/>
     <logger name="org.springframework" level="INFO"/>
+    <logger name="org.thymeleaf" level="INFO"/>
 
 <!--    <root level="INFO">-->
 <!--        <appender-ref ref="STDOUT"/>-->
