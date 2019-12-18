@@ -1,4 +1,6 @@
 <thlogic>
     <attr sel="#headId"
           th:fragment="headFragment"/>
+<!--    this is for translation according to localization-->
+    <attr sel="#title" th:text="#{game.title}"/>
 </thlogic>
