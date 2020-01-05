@@ -2,11 +2,14 @@ package com.timbuchalka.springdemo.config;
 
 import java.util.List;
 
+import javax.sql.DataSource;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.jdbc.datasource.lookup.JndiDataSourceLookup;
 import org.springframework.validation.MessageCodesResolver;
 import org.springframework.validation.Validator;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
@@ -34,6 +37,15 @@ public class WebMvcConfig implements WebMvcConfigurer {
 //public class WebMvcConfig extends WebMvcConfigurerAdapter {
 //All adapters are deprecated since Spring 5 but they still work.
 //Now interface has default methods so you don't need adapters anymore.
+	
+	@Bean
+	public DataSource dataSource() {
+		final JndiDataSourceLookup dsLookup = new JndiDataSourceLookup();
+		dsLookup.setResourceRef(true);
+		DataSource dataSource = dsLookup.getDataSource("jdbc/springdb"); // must match name in tomcat file context.xml
+		return dataSource;
+	}
+	
 	@Bean
 	public UrlBasedViewResolver urlBasedViewResolver() {
 		UrlBasedViewResolver resolver = new UrlBasedViewResolver();
