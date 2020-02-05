@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+ 	<head>
+		<meta charset="utf-8">
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+		</style>
+ 	</head>
+
+ <body lang="da">
+	<!-- table without lang, thead and tfoot-->
+	<table>
+    <!-- table row with lang -->
+    <tr lang="uk">	<th scope="col" lang="ru">First row</th>	</tr>
+    <tr lang="en">	<td lang="da">Second row</td>							</tr>
+    <tr lang="uk">	<th scope="col">Third row</th>						</tr>
+    <tr lang="en">	<td>Fourth row</td>												</tr>
+​
+		<!-- table row without lang -->
+    <tr>	<th scope="col" lang="ru">First row</th>	</tr>
+    <tr>	<td lang="da">Second row</td>							</tr>
+    <tr>	<th scope="col">Third row</th>						</tr>
+    <tr>	<td>Fourth row</td>												</tr>
+​
+    <!-- table row with several child -->
+    <tr>	<th scope="col" lang="ru">First row 1</th>	
+  				<th scope="col">First row 2</th>				</tr>
+    <tr>	<td lang="ru">Second row 1</td>	
+  				<td>Second row 2</td>										</tr>
+​
+    <tr  lang="uk">	<th scope="col" lang="ru">First row 1	</th>	
+  									<th scope="col">First row 2</th>				</tr>
+    <tr  lang="uk">	<td lang="ru">Second row 1</td>	
+  									<td>Second row 2</td>										</tr>
+	</table>
+ </body>
+</html>

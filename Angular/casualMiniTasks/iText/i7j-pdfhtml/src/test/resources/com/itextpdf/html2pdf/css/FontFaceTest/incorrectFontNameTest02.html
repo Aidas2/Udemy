@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			@font-face {
+				font-family: "not WOFF Test TTF";
+				src: url("w3c-test-fonts/valid-005.ttf") format("TrueType");
+			}
+			body {
+				font-size: 20px;
+			}
+			.test {
+				font-family: "WOFF Test TTF";
+			}
+		</style>
+	</head>
+	<body>
+		<p>This test passes if next line says F</p>
+		<p class="test">F</p>
+		<p>The previous line says FAIL. However we consider it to be correct.
+			Although the font-family specified by the paragraph's class doesn't match the one of fontface,
+		font's full name contains specified font-family and iText takes it into account.</p>
+		<p>UPD: That is not relevant anymore. The line shall say F as in browsers and that's considered to be correct behavior.</p>
+	</body>
+</html>
