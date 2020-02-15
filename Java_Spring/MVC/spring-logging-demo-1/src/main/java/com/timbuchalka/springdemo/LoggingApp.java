@@ -54,7 +54,7 @@ public class LoggingApp {
 		daoUtils.printOrganizations(dao.getAllOrganizations(), daoUtils.deleteOperation);
 
 		// Cleanup
-		dao.cleanup();
+//		dao.cleanup();
 		daoUtils.printOrganizationCount(dao.getAllOrganizations(), daoUtils.cleanupOperation);
 
 	}
