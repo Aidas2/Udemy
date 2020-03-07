@@ -1,3 +1,4 @@
+package section_01;
 /*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 2: Create an executable Java program
@@ -21,8 +22,8 @@ public class MainTests {
     }
 }
 
-// C:\Udemy_etc\Java11_OCP>jar -cf MainTest.jar -C out\production\Java11_OCP MainTests.class
+// C:\Udemy_etc\Java11_OCP>jar -cf MainTest.jar -C out/production/Java11_OCP/section_01 MainTests.class
 // C:\Udemy_etc\Java11_OCP>java -cp MainTest.jar MainTests
 
-// C:\Udemy_etc\Java11_OCP>jar -cfm MainTest.jar manifest.txt -C out\production\Java11_OCP MainTests.class
+// C:\Udemy_etc\Java11_OCP>jar -cfm MainTest.jar manifest.txt -C out/production/Java11_OCP/section_01 MainTests.class
 // C:\Udemy_etc\Java11_OCP>java -jar MainTest.jar

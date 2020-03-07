@@ -1,1 +1,1 @@
-Main-Class: MainTests
+Main-Class: section_01.MainTests
