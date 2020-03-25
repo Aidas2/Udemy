@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class StrListForEach {
+public class Q1StrListForEach {
 
     public static void main(String[] args) {
 //        Given:
@@ -24,11 +24,11 @@ public class StrListForEach {
 //        All of the above
 //        None of the above
 
-//        === Explanation ===
+//        ===== Explanation =====
 //    The forEach method expects a Consumer. Further, since strList is a list of Strings, strList.forEach expects a Consumer<String>.
 //    Therefore, none of the given options can be passed to the forEach invocation.
 
-        Consumer<String> c2 = x->System.out.print("Len:"+x+" ");
+        Consumer<String> c2 = x->System.out.print("Len:"+x+" " + x.length() + " ");
         strList.forEach(c2);
 
         System.out.println("\n==============");
