@@ -62,24 +62,24 @@ public class RequestMappingAndParamDemoController {
 	}
 
 	// test 6, subtest 1: Testing removal of @RequestMapping ambiguity with the
-	// same base URI but
-	// with different a different parameter
+	// same base URI but  with different a different parameter
 	@RequestMapping(value = "/test6", params = "orgname")
 	public String requestMappingAndParamTest6Subtest1(@RequestParam String orgname, Model model) {
 		model.addAttribute("orgname", orgname);
 		model.addAttribute("testserial", "test6-subtest1");
 		return "requestMappingAndParamResults2";
-	}
+	}	
+//	http://localhost:8080/spring-mvc-request-mapping-param-demo/requestMappingAndParamDemo/test6?orgname=Microsoft
 
 	// test 6, subtest 2: Testing removal of @RequestMapping ambiguity with the
-	// same base URI but
-	// with different a different parameter
+	// same base URI but with different a different parameter
 	@RequestMapping(value = "/test6", params = "empcount")
 	public String requestMappingAndParamTest6Subtest2(@RequestParam String empcount, Model model) {
 		model.addAttribute("orgname", empcount);
 		model.addAttribute("testserial", "test6-subtest2");
 		return "requestMappingAndParamResults2";
 	}
+//	http://localhost:8080/spring-mvc-request-mapping-param-demo/requestMappingAndParamDemo/test6?empcount=56
 
 	// test 6, subtest 3: Testing removal of @RequestMapping with multiple
 	// request params
@@ -91,7 +91,8 @@ public class RequestMappingAndParamDemoController {
 		model.addAttribute("testserial", "test6-subtest3");
 		return "requestMappingAndParamResults2";
 	}
-
+//	http://localhost:8080/spring-mvc-request-mapping-param-demo/requestMappingAndParamDemo/test6/subtest3?orgname=IBM&empcount=56
+	
 	// test 6, subtest 4: Testing with multiple request params and @RequestParam with single param
 	@RequestMapping(value = "/test6/subtest4", method = RequestMethod.GET, params = { "orgname", "empcount" })
 	public String requestMappingAndParamTest6Subtest4(@RequestParam String orgname, Model model) {
@@ -99,6 +100,7 @@ public class RequestMappingAndParamDemoController {
 		model.addAttribute("testserial", "test6-subtest4");
 		return "requestMappingAndParamResults2";
 	}
+//	http://localhost:8080/spring-mvc-request-mapping-param-demo/requestMappingAndParamDemo/test6/subtest4?orgname=Honda&empcount=
 
 	// test 7 & 8: Testing @RequestParam with multiple request URI's
 	@RequestMapping(value = {"/test7", "/test8"}, method = RequestMethod.GET)
@@ -112,5 +114,6 @@ public class RequestMappingAndParamDemoController {
 		}
 		return "requestMappingAndParamResults2";
 	}
-	
+//	http://localhost:8080/spring-mvc-request-mapping-param-demo/requestMappingAndParamDemo/test7?orgname=Canon
+//	http://localhost:8080/spring-mvc-request-mapping-param-demo/requestMappingAndParamDemo/test8?orgname=Canon
 }
