@@ -1,0 +1,36 @@
+input[type=text]{
+
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px
+}
+
+input[type=submit]{
+
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    margin: 16px;
+    cursor: pointer;
+    font-size: 20px
+
+}
+
+h1, h2{
+
+    color: #08298A;
+    text-align: center
+}
+
+ul{
+
+    list-style-type:none;
+    margin:0;
+    padding: 0
+}
+
+
+b{
+    color:#DF0101
+}
