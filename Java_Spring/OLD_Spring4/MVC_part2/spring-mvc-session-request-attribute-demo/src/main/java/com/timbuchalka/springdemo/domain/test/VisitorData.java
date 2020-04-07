@@ -12,17 +12,17 @@ public class VisitorData implements Serializable {
 	private static final long serialVersionUID = -5075218314653537512L;
 	
 		private String currentVisitorName;
-		private String currentVistorEmail;
+		private String currentVisitorEmail;
 		private List<Visitor> visitors = new ArrayList<Visitor>();
 		
 		public VisitorData() {
 			
 		}
 		
-		public VisitorData(String currentVisitorName, String currentVistorEmail, List<Visitor> visitors) {
+		public VisitorData(String currentVisitorName, String currentVisitorEmail, List<Visitor> visitors) {
 			super();
 			this.currentVisitorName = currentVisitorName;
-			this.currentVistorEmail = currentVistorEmail;
+			this.currentVisitorEmail = currentVisitorEmail;
 			this.visitors = visitors;
 		}
 
@@ -34,12 +34,12 @@ public class VisitorData implements Serializable {
 			this.currentVisitorName = currentVisitorName;
 		}
 
-		public String getCurrentVistorEmail() {
-			return currentVistorEmail;
+		public String getCurrentVisitorEmail() {
+			return currentVisitorEmail;
 		}
 
-		public void setCurrentVistorEmail(String currentVistorEmail) {
-			this.currentVistorEmail = currentVistorEmail;
+		public void setCurrentVisitorEmail(String currentVisitorEmail) {
+			this.currentVisitorEmail = currentVisitorEmail;
 		}
 
 		
@@ -53,7 +53,7 @@ public class VisitorData implements Serializable {
 
 		@Override
 		public String toString() {
-			return "VisitorData [currentVisitorName=" + currentVisitorName + ", currentVistorEmail="
-					+ currentVistorEmail + ", visitors=" + visitors + "]";
+			return "VisitorData [currentVisitorName=" + currentVisitorName + ", currentVisitorEmail="
+					+ currentVisitorEmail + ", visitors=" + visitors + "]";
 		}
 }
