@@ -1,0 +1,44 @@
+label{
+    font-size: 15px;
+}
+ 
+input[type=text]{
+    padding: 7px;
+    margin: 7px;
+    font-size: 15px
+}
+ 
+input[type=submit]{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    margin: 16px;
+    cursor: pointer;
+    font-size: 20px
+}
+ 
+h1, h2{
+    color: #08298A;
+    text-align: center
+}
+ 
+ul{
+    list-style-type:none;
+    margin:0;
+    padding: 0
+}
+ 
+b{
+    color:#DF0101
+}
+ 
+select{
+    padding: 7px;
+    margin: 7px;
+    font-size: 15px
+}
+ 
+div{
+    align: center
+}
