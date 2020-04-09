@@ -30,17 +30,17 @@ public class FormTagsController {
 		model.addAttribute("orgreg", orgRegistration);
 		return "test/formTagsTestViews/formTagsResult";
 	}
-	/*
+	
 	@ModelAttribute
 	public void populateFormObjectWithData(Model model) {
 		Map<String, Object> map = model.asMap();
 		map.put("turnoverlist",	orgRegService.populateTurnover());
 		map.put("typelist",	orgRegService.populateTypes());
 		map.put("serviceLengthList", orgRegService.populateServiceLengths());
-		map.put("registeredPreviouslyList", orgRegService.populateRegisteredPreviously());
-		map.put("subscriptionList", orgRegService.populateOptionalServices());
-		map.put("premiumServiceList", orgRegService.populatePremiumServices());
-		map.put("employeeStrengthList", orgRegService.populateEmployeeStrength());
+//		map.put("registeredPreviouslyList", orgRegService.populateRegisteredPreviously());
+//		map.put("subscriptionList", orgRegService.populateOptionalServices());
+//		map.put("premiumServiceList", orgRegService.populatePremiumServices());
+//		map.put("employeeStrengthList", orgRegService.populateEmployeeStrength());
 	}
-*/
+
 }

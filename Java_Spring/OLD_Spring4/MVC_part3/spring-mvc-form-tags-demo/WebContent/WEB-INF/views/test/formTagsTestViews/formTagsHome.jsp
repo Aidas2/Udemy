@@ -21,7 +21,7 @@
 					<td><form:label path="orgName">Name of Organization</form:label></td>
 					<td><form:input path="orgName" placeholder="Enter Organization name" /></td>
 				</tr>
-<%--
+
 				<tr>
 					<td><form:label path="country">Country</form:label></td>
 					<td><form:select path="country">
@@ -52,6 +52,7 @@
 					<td><form:select path="serviceLength"
 							items="${serviceLengthList}" /></td>
 				</tr>
+<%--				
 				<tr>
 					<td><form:label path="registeredPreviously">Registered Previously?</form:label></td>
 					<td><form:checkbox path="registeredPreviously"

@@ -17,11 +17,11 @@
 		<h3>
 			Organization Name: <b>${orgreg.orgName}</b>
 		</h3>
-<%--
+
 		<h3>
 			Country: <b>${orgreg.country}</b>
 		</h3>
-
+		
 		<h3>
 			Turnover:
 			<c:forEach var="entry" items="${turnoverlist}">
@@ -30,6 +30,7 @@
 				</c:if>
 			</c:forEach>
 		</h3>
+
 		<h3>
 			Type:
 			<c:forEach var="entry" items="${typelist}">
@@ -38,6 +39,7 @@
 				</c:if>
 			</c:forEach>
 		</h3>
+		
 		<h3>
 			Organization Age:
 			<c:forEach var="entry" items="${serviceLengthList}">
@@ -46,6 +48,7 @@
 				</c:if>
 			</c:forEach>
 		</h3>
+<%--		
 		<h3>
 			Registered Previously:
 			<c:forEach var="entry" items="${registeredPreviouslyList}">
