@@ -33,7 +33,7 @@ public class OrganizationRegistrationService {
 	public Map<String, String> populateServiceLengths() {
 		return new TreeMap<String, String>(serviceLengthList);
 	}
-	/*	
+
 	public Map<String, String> populateRegisteredPreviously() {
 		Map<String, String> registeredPreviously = new LinkedHashMap<String, String>();
 		registeredPreviously.put("true",  "Yes");
@@ -56,7 +56,7 @@ public class OrganizationRegistrationService {
 		premiumServices.put("revenueAnalyticsService",  "Revenue Analytics");
 		return premiumServices;
 	}
-	
+			
 	public Map<String, String> populateEmployeeStrength() {
 		Map<String, String> employeeStrength = new LinkedHashMap<String, String>();
 		employeeStrength.put("small",  "Less than 100");
@@ -65,6 +65,4 @@ public class OrganizationRegistrationService {
 		return employeeStrength;
 	}	
 	
-	
-	*/
 }
