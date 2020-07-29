@@ -7,10 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf2c9af-a823-4bdd-95b3-563a10dd80b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CodingBat/src/com/codingbat/map/Map1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingBat/src/com/codingbat/map/Map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingBat/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingBat/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingBat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingBat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingBat/src/com/codingbat/string1/String1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingBat/src/com/codingbat/string1/String1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstPackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyFirstPackage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +42,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -52,138 +55,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>com.udemy.section14.io.example02.</find>
-      <find>com.udemy.section14.io.example03_BufferedWriter.</find>
-      <find>InputStreamReader</find>
-      <find>example05</find>
-      <find>com.udemy.section14.io.example05_ObjectIOStream.</find>
-      <find>com.udemy.section14.io.example05_ObjectIOStreamREAL.</find>
-      <find>REAL</find>
-      <find>com.udemy.section14.io.example06_RandomAccessFile.</find>
-      <find>FileCha</find>
-      <find>assertArrayEquals</find>
-      <find>exc</find>
-      <find>Comparat</find>
-      <find>compare</find>
-      <find>.add(</find>
-      <find>for</find>
-      <find>ThreadColor</find>
-      <find>EOF</find>
-      <find>Balance =</find>
-      <find>tryLock</find>
-      <find>suduk</find>
-      <find>synchronized (this)</find>
-      <find>$</find>
-      <find>match</find>
-      <find>\t</find>
-      <find>?</find>
-      <find>des</find>
-      <find>quer</find>
-      <find>.setString</find>
-      <find>ATENTION</find>
-      <find>catch (</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>tempExits.put</replace>
-      <replace>temp.getKey()</replace>
-      <replace>planet.getKey()</replace>
-      <replace>body.getKey()</replace>
-      <replace>Planet</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas</dir>
-      <dir>C:\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/udemy/section19/databases/example09_javaFX/sample/model/Album.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section19/databases/example09_javaFX/sample/model/Datasource.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section19/databases/example09_javaFX/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section19/databases/example09_javaFX/sample/main.fxml" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section19/databases/example09_javaFX/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/EchoServer/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/EchoServer/Echoer.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example01/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/EchoClient/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example01_TCP/EchoClient/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example01/EchoClient/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example02_UDP/UDPServer/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example02_UDP/UDPClient/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main2.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main1.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main4.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section20/networking/example04_alternatives/ApacheTest.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java9/sample/model/Album.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java9/sample/model/Datasource.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java9/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java9/sample/main.fxml" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java11/sample/model/Datasource.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java9/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/example01_java8.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/example01_java8/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java8/sample/main.fxml" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java8/java8/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java8/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java8/sample/model/Datasource.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/module/common/Album.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/module/db/Datasource.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/module/common/Artist.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/module/ui/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/module/ui/main.fxml" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/module/ui/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/main.fxml" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/academy/learnprogramming/common/Artist.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/academy/learnprogramming/ui/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/academy/learnprogramming/ui/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/academy/learnprogramming/ui/main.fxml" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.db/src/academy/learnprogramming/db/Datasource.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.db/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java8/sample/Main8.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/section22/java8/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/udemy/casualMiniTasks/prefixPostfix/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="189" />
-    <option name="y" value="1237" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
-  </component>
+  <component name="ProjectId" id="1f4zIYVn5i2gTutnqbH6rN1M336" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -195,6 +77,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -205,7 +88,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last.edited.regexp" value="abcDeee" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/challengeAidas" />
-    <property name="last_opened_file_path" value="C:/Versli_Lietuva/vlkcis2-eservices/eservices-back" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -242,18 +125,6 @@
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section20\networking\EchoServer" />
       <recent name="C:\Users\AidasP\Projects\Udemy_etc\Java_Tutorial\Section_ALL\src\com\udemy\section20\networking\EchoClient" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -327,19 +198,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udemy.section22.java9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge04.Main" />
-      <module name="Section_ALL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.section15.concurency.challenge04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -530,6 +388,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.section15.concurency.challenge04.Main" />
+      <module name="Section_ALL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.section15.concurency.challenge04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
@@ -547,6 +418,18 @@
         <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -638,6 +521,8 @@
       <workItem from="1574063476609" duration="400000" />
       <workItem from="1574063897694" duration="132000" />
       <workItem from="1574156209028" duration="223000" />
+      <workItem from="1595492075557" duration="558000" />
+      <workItem from="1595499028332" duration="45000" />
     </task>
     <servers />
   </component>
@@ -673,9 +558,6 @@
       <configuration name="UtilitiesTest3Parametrized" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431010000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -685,47 +567,18 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="348" y="1105" width="1317" height="743" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.660596" visible="true" weight="0.18332022" />
-      <window_info id="Structure" order="1" sideWeight="0.339404" side_tool="true" weight="0.19867183" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="DB Browser" order="7" weight="0.32924226" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30985916" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39219016" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32963374" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.39111593" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32855567" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.4171181" />
-      <window_info anchor="bottom" id="Graph Database Console" order="12" weight="0.3303671" />
-      <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="14" weight="0.37486458" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32982844" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32872164" />
-      <window_info anchor="right" id="Graph Database" order="10" weight="0.160487" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="825" y="431" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1595492182734">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="825" y="431" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1080/0.1080.1366.768/49.27.1871.1053@49.27.1871.1053" timestamp="1595492182734" />
+    <state x="629" y="137" width="1012" height="804" key="find.popup" timestamp="1595492158602">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="629" y="137" width="1012" height="804" key="find.popup/1920.0.1920.1080/0.1080.1366.768/49.27.1871.1053@49.27.1871.1053" timestamp="1595492158602" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,13 +586,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/Main.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/udemy/section18/debuggerJunit/example01/StringUtilities.java</url>
           <line>9</line>
-          <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
@@ -775,216 +626,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/EchoClient/echo.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/echo2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example01/EchoServer/Echoer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example01/EchoClient/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example01/EchoServer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example02_UDP/txt.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example02_UDP/UDPServer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example02_UDP/UDPClient/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example04_alternatives/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section19/databases/example09_javaFX/sample/model/Datasource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="84" lean-forward="true" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example04_alternatives/ApacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section20/networking/example03_highLevelAPI/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section19/databases/example09_javaFX/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/example01_java8.java" />
-    <entry file="jar://C:/Program Files/Java/java8/javafx-src.zip!/javafx/application/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/module.common/src/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/academy.learnprogramming.common/src/module/db/Datasource.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/academy.learnprogramming.common/src/module/ui/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/academy.learnprogramming.common/src/module/common/Album.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/academy.learnprogramming.common/src/module/ui/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/academy.learnprogramming.common/src/module/ui/main.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/academy.learnprogramming.common/src/module/common/Artist.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/modulesForJava11/academy.learnprogramming.common/src/module-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/module-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/main.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/academy/learnprogramming/common/Album.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/academy/learnprogramming/common/Artist.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/transitive.png" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.db/src/academy/learnprogramming/db/Datasource.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/academy/learnprogramming/ui/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.common/src/module-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.db/src/module-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/module-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/java8/sample/model/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/java8/sample/model/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/academy/learnprogramming/ui/main.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/java8/sample/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section15/concurency/example08_javaFX2/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/academy.learnprogramming.ui/src/academy/learnprogramming/ui/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/java8/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/java8/sample/model/Datasource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section22/java8/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture151_CHALLENGEAidas1_WRITEDOWN/HeavenlyBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/section12/collections/lecture135_CollectionsOverview/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/prefixPostfix/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/udemy/casualMiniTasks/SAXSParser/ReadXMLFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
