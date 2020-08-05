@@ -1,6 +1,6 @@
 package section_09_class_design.polymorphic_parameters.main;
 
-import academy.learnprogramming.*;
+import section_09_class_design.polymorphic_parameters.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,12 +1,9 @@
 package section_09_class_design.polymorphic_parameters.main;
 
-import academy.learnprogramming.Animal;
-import academy.learnprogramming.Cat;
-import academy.learnprogramming.Husky;
-import academy.learnprogramming.Rabbit;
-
-import java.util.Arrays;
-import java.util.Collections;
+import section_09_class_design.polymorphic_parameters.Animal;
+import section_09_class_design.polymorphic_parameters.Cat;
+import section_09_class_design.polymorphic_parameters.Husky;
+import section_09_class_design.polymorphic_parameters.Rabbit;
 
 /**
  * @author goran on 18/07/2017.

@@ -3,7 +3,7 @@ package section_03_operators;
 /**
  * @author goran on 30/06/2017.
  */
-public class UnaryOperators {
+public class  UnaryOperators {
 
     public static void main(String[] args) {
         int x = +3; // + sign is redundant

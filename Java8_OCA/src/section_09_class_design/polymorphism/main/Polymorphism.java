@@ -1,6 +1,6 @@
 package section_09_class_design.polymorphism.main;
 
-import academy.learnprogramming.*;
+import section_09_class_design.polymorphism.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package section_08_methods.methods_with_variable_arguments.accessModifiers;
 
-import academy.learnprogramming.common.Common;
+import section_08_methods.methods_with_variable_arguments.accessModifiers.common.Common;
 
 /**
  * @author goran on 12/07/2017.

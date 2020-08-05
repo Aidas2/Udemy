@@ -1,4 +1,4 @@
-package section_09_class_design;
+package section_09_class_design.overloading_constructors;
 
 /**
  * @author goran on 14/07/2017.
@@ -44,13 +44,13 @@ class Dog {
 public class OverloadingConstructors {
 
     public static void main(String[] args) {
-        section_09_class_design.class_constructors.Dog dog1 = new section_09_class_design.class_constructors.Dog("Jimmy");
+        Dog dog1 = new Dog("Jimmy");
         dog1.print();
 
-        section_09_class_design.class_constructors.Dog dog2 = new section_09_class_design.class_constructors.Dog("Anthony", "shepard");
+        Dog dog2 = new Dog("Anthony", "shepard");
         dog2.print();
 
-        section_09_class_design.class_constructors.Dog dog3 = new section_09_class_design.class_constructors.Dog("Rex", "german shepard", 40);
+        Dog dog3 = new Dog("Rex", "german shepard", 40);
         dog3.print();
     }
 }
