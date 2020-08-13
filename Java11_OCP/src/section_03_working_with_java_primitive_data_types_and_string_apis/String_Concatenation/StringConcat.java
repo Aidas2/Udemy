@@ -1,3 +1,4 @@
+package section_03_working_with_java_primitive_data_types_and_string_apis.String_Concatenation;
 /*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
@@ -27,7 +28,7 @@ public class StringConcat {
         // concatenating to an object (not null)
         Object ourObject = new OurSimpleClass();
 
-        // fourthString will be "hello Our Simple Class"
+        // fourthString will be "hello Our Simple Class Boom"
         String fourthString = helloString + " " + ourObject;
         System.out.println("fourthString = " + fourthString);
 
@@ -46,6 +47,6 @@ public class StringConcat {
 
 class OurSimpleClass {
     public String toString() {
-        return "Our Simple Class";
+        return "Our Simple Class Boom";
     }
 }

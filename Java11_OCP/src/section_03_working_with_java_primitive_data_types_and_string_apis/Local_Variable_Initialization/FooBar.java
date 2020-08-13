@@ -1,3 +1,4 @@
+package section_03_working_with_java_primitive_data_types_and_string_apis.Local_Variable_Initialization;
 /*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
