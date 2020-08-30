@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.function.Predicate;
 
-public class ForEachExamples {
+public class   ForEachExamples {
 
     // We create a method that will be used to set values
     // in a String array.  The parameter is the array index.

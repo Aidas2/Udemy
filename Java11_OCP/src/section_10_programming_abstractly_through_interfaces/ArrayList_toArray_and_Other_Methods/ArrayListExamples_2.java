@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ArrayListExamples {
+public class ArrayListExamples_2 {
     public static void main(String[] args) {
 
         ArrayList<String> firstArray = new ArrayList(List.of("ABC", "DEF", "GHI", "JKL", "MNO"));
