@@ -1,4 +1,4 @@
-package com.luv2code.random;
+package com.luv2code.practice;
 
 import com.luv2code.springdemo.Coach;
 import com.luv2code.springdemo.FortuneService;

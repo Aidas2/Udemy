@@ -21,11 +21,11 @@
     
     <!-- ============PRACTICE============ -->
     <bean id="myFortuneService"
-    	class="com.luv2code.random.RandomFortuneService">
+    	class="com.luv2code.practice.RandomFortuneService">
     </bean>
     	
     <bean id = "myGolfCoach"
-    	class="com.luv2code.random.GolfCoach"
+    	class="com.luv2code.practice.GolfCoach"
     	init-method="doMyStartupStuff"
  		destroy-method="doMyCleanupStuffYoYo">
     	

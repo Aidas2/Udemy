@@ -28,6 +28,7 @@ public class PracticeFortuneService implements FortuneService {
 		data[0]=fortune_01;
 		data[1]=fortune_02;
 		data[2]=fortune_03;
+		System.out.println("@PostConstruct in PracticeFortuneService was called!");
 	}
 
 	private Random myRandom = new Random();

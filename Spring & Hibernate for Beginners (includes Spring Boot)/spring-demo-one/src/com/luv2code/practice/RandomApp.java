@@ -1,4 +1,4 @@
-package com.luv2code.random;
+package com.luv2code.practice;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -6,7 +6,7 @@ public class RandomApp {
 	
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext context = 
-		new ClassPathXmlApplicationContext("random-applicationContext.xml");
+		new ClassPathXmlApplicationContext("practice-applicationContext.xml");
 	 
 		GolfCoach theCoach = context.getBean("myGolfCoach", GolfCoach.class);
 		

@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import javax.annotation.PostConstruct;
+
 import org.springframework.stereotype.Component;
 
 import com.luv2code.springdemo.FortuneService;
@@ -22,7 +24,7 @@ public class FileFortuneService implements FortuneService {
 	private Random myRandom = new Random();
 
 	public FileFortuneService() {
-
+		/*
 		File theFile = new File(fileName);
 		
 		System.out.println("Reading fortunes from file: " + theFile);
@@ -44,6 +46,28 @@ public class FileFortuneService implements FortuneService {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		*/
+	}
+	
+	@PostConstruct
+	private void readFortunesFromFile() {
+		File theFile = new File(fileName);
+		System.out.println("Reading fortunes from file: " + theFile);
+		System.out.println("File exists: " + theFile.exists());
+		theFortunes = new ArrayList<String>();
+		try (BufferedReader br = new BufferedReader(
+				new FileReader(theFile))) {
+
+			String tempLine;
+
+			while ((tempLine = br.readLine()) != null) {
+				theFortunes.add(tempLine);
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("@PostConstruct in FileFortuneService was called!");
 	}
 
 	@Override

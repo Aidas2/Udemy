@@ -1,4 +1,4 @@
-package com.luv2code.random;
+package com.luv2code.practice;
 
 import java.util.Random;
 
