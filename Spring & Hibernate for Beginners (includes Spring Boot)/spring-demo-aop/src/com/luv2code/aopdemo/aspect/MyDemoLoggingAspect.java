@@ -1,11 +1,14 @@
 package com.luv2code.aopdemo.aspect;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -114,7 +117,7 @@ public class MyDemoLoggingAspect {
 	}
 	
 	
-	//	====== @AfterReturning ======
+	//	====== @AfterReturning advice======
 	// add a new advice for @AfterReturning on the findAccounts method
 	
 	@AfterReturning(
@@ -154,7 +157,7 @@ public class MyDemoLoggingAspect {
 
 	}
 	
-	//	====== @AfterThrowing ======
+	//	====== @AfterThrowing advice======
 	@AfterThrowing(
 			pointcut="execution(* com.luv2code.aopdemo.dao.AccountDAO.findAccounts(..))",
 			throwing="theExc")
@@ -170,7 +173,7 @@ public class MyDemoLoggingAspect {
 	
 	}
 	
-	//	====== @After ======
+	//	====== @After advice ======
 	@After("execution(* com.luv2code.aopdemo.dao.AccountDAO.findAccounts(..))")
 	public void afterFinallyFindAccountsAdvice(JoinPoint theJoinPoint) {
 		
@@ -178,7 +181,47 @@ public class MyDemoLoggingAspect {
 		String method = theJoinPoint.getSignature().toShortString();
 		System.out.println("\n=====>>> Executing @After (finally) on method: " 
 							+ method);
+	}
 	
+	//	====== @Around advice ======
+	private Logger myLogger = Logger.getLogger(getClass().getName());
+	
+	@Around("execution(* com.luv2code.aopdemo.service.*.getFortune(..))")	
+	public Object aroundGetFortune(
+			ProceedingJoinPoint theProceedingJoinPoint) throws Throwable {
+		
+		// print out method we are advising on
+		String method = theProceedingJoinPoint.getSignature().toShortString();
+		myLogger.info("\n=====>>> Executing @Around on method: " + method); // instead of System.out.println()
+		
+		// get begin timestamp
+		long begin = System.currentTimeMillis();
+		
+		// now, let's execute the method
+		Object result = null;
+		
+		try {
+			result = theProceedingJoinPoint.proceed();
+		} catch (Exception e) {
+			// log the exception
+			myLogger.warning(e.getMessage());
+			
+			// give user a custom message
+			result = "Custom exeption message in advise: "
+					+ "Major accident! But no worries, your private AOP helicopter in on the way!";
+
+			// rethrow exception
+			throw e;
+		}
+		
+		// get end timestamp
+		long end = System.currentTimeMillis();
+		
+		// compute duration and display it
+		long duration = end - begin;
+		myLogger.info("\n=====> Duration: " + duration / 1000.0 + " seconds");
+		
+		return result;
 	}
 }
 
