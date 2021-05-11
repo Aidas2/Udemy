@@ -53,14 +53,38 @@ public class StudentRestController {
 		
 		// check the studentId against list size
 		
-//		if ( (studentId >= theStudents.size()) || (studentId < 0) ) {
-//			throw new StudentNotFoundException("Student id not found - " + studentId);
-//		}
+		if ( (studentId >= theStudents.size()) || (studentId < 0) ) {
+			throw new StudentNotFoundException("Student id not found - " + studentId);
+		}
 			
 		return theStudents.get(studentId);
 		
 	}	
-	
+	/*  moved to separate class StudentRestExceptionHandler.java (as AOP with @ControllerAdvice)
+	@ExceptionHandler
+	public ResponseEntity<StudentErrorResponse> handleException(StudentNotFoundException exc) {
+		
+		StudentErrorResponse error = new StudentErrorResponse();
+		
+		error.setStatus(HttpStatus.NOT_FOUND.value());
+		error.setMessage(exc.getMessage());
+		error.setTimeStamp(System.currentTimeMillis());
+		
+		return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+	 }
+
+	@ExceptionHandler
+	public ResponseEntity<StudentErrorResponse> handleException(Exception exc) {
+		
+		StudentErrorResponse error = new StudentErrorResponse();
+		
+		error.setStatus(HttpStatus.BAD_REQUEST.value());
+		error.setMessage(exc.getMessage());
+		error.setTimeStamp(System.currentTimeMillis());
+		
+		return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+	}
+	*/
 }
 
 
