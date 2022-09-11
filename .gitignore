@@ -26,6 +26,7 @@ local.properties
 
 # dependencies
 /node_modules
+*/node_modules
 
 Javascript/9-forkify/starter/node_modules/
 Angular/00_angular-tour-of-heroes/node_modules/
