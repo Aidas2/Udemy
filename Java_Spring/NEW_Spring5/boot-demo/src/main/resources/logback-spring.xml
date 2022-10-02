@@ -1,8 +1,0 @@
-<configuration>
-
-    <include resource="org/springframework/boot/logging/logback/base.xml"/>
-
-    <logger name="academy.learnprogramming" level="TRACE"/>
-    <logger name="org.springframework" level="INFO"/>
-
-</configuration>

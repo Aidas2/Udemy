@@ -1,6 +1,0 @@
-<thlogic>
-    <attr sel="#footerId"
-    th:fragment="footerFragment"/>
-    <!--    this line is for translation according to localization-->
-    <attr sel="#created-by" th:text="|#{game.createdBy} Learn Programming Academy|"/>
-</thlogic>
