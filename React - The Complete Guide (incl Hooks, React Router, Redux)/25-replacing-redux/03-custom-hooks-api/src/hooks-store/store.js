@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 
+// IMPORTANT: defined outside to enable use and SAME for all components !
 let globalState = {};
 let listeners = [];
 let actions = {};
 
 export const useStore = (shouldListen = true) => {
-  const setState = useState(globalState)[1];
+  const setState = useState(globalState)[1]; // [0] stands for 'state', [1] stands for 'setState' in [state, setState]
 
   const dispatch = (actionIdentifier, payload) => {
     const newState = actions[actionIdentifier](globalState, payload);
@@ -33,7 +34,7 @@ export const useStore = (shouldListen = true) => {
 
 export const initStore = (userActions, initialState) => {
   if (initialState) {
-    globalState = { ...globalState, ...initialState };
+    globalState = { ...globalState, ...initialState }; // merging syntax
   }
   actions = { ...actions, ...userActions };
 };

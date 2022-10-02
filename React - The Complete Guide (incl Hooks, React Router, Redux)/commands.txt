@@ -1,3 +1,5 @@
+npm install --save react@latest react-dom@latest
+
 npm install react-redux
 npm install @reduxjs/toolkit
 npm install react-router-dom@5
