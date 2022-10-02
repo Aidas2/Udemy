@@ -1,3 +1,0 @@
-p:not(:first-of-type):not(:last-of-type){
-	color: red;
-}

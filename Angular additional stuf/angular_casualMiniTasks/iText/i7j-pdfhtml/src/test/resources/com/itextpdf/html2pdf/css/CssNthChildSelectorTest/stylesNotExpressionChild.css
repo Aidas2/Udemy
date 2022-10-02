@@ -1,3 +1,0 @@
-p:not(:first-child):not(:last-child){
-	color: red;
-}
