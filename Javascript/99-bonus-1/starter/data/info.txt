@@ -1,9 +1,0 @@
-node -v
-node
-node index.js
-
-sudo npm install nodemon -g
-
-nodemon
-
-http://127.0.0.1:1337/
