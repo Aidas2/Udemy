@@ -1,0 +1,10 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.2.RELEASE'
+}
+
+dependencies {
+    compile project(':core')
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+}

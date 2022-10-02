@@ -1,0 +1,5 @@
+com/timbuchalka/springdemo/dao/OrganizationDao.class
+com/timbuchalka/springdemo/daoimpl/OrganizationRowMapper.class
+com/timbuchalka/springdemo/daoimpl/OrganizationDaoImpl.class
+com/timbuchalka/springdemo/domain/Organization.class
+com/timbuchalka/springdemo/JdbcTemplateClassicApp1.class
