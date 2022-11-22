@@ -1,0 +1,52 @@
+## Section 1:
+docker build . // writing image sha256:0636ca685267d726608056a19c63bca6be0c03a1f79a7062389ff855d0d753a8
+docker run -p 3000:3000 0636ca685267d726608056a19c63bca6be0c03a1f79a7062389ff855d0d753a8
+# visit localhost:3000
+docker ps
+docker stop <name> // docker stop hardcore_mendel
+
+## Section 2:
+docker build . 
+docker run -p 3000:80 <container_name> // attached mode (default) 
+docker run -p 3000:80 -d <container_name> // detached mode (means no logs, etc.)
+docker ps // listening running containers
+docker ps -a // listening all (running & & stopped) containers; // ps ---> proceses; -a ---> all
+docker ps --help
+docker stop <container_name>
+docker start <container_name> // detached mode (default) 
+docker start -a <container_name> // attached mode
+docker start -a -i <container_name> // attached & & interactive mode
+docker container attach <container_name>
+docker --help
+docker <COMMAND> --help
+docker logs <container_name>
+docker logs -f <container_name> // -f is follow
+
+docker run -i -t <container_name> // -i is interactive
+docker run -it <container_name> // combined -i and -t
+
+docker rm <container_name>
+docker images
+docker rmi <image_ID>
+docker image prune 			// removes all images
+docker image prune -a
+docker run -p 3000:80 -d --rm <container_name> // --rm removes automatically after stopping
+
+docker image inspect <image_ID>
+
+docker cp dummy/test.txt <container_name>/test 	// copying to container
+docker cp dummy/. <container_name>/test
+docker cp <container_name>/test dummy			// copying from container
+docker cp <container_name>/test/test.txt dummy
+
+# naming of containers and taging of images:
+docker run -p 3000:80 -d --rm --name <your_own_container_name>	// docker run -p 3000:80 -d --rm --name goals_app
+docker build -t <your_own_image_tag> . 							// docker build -t goals:latest .
+docker run -p 3000:80 -d --rm --name <your_own_container_name> <your_own_image_tag>	// docker run -p 3000:80 -d --rm --name goals_app goals:latest
+
+# create account in hub.docker.com for that:
+docker tag node-demo:latest academind/node-hello-world:latest	// renaming (retaging)
+docker login													// enter username and password
+docker logout
+docker push <image_ID> 											// docker push academind/node-hello-world:latest
+docker pull <image_ID>											// docker pull academind/node-hello-world:latest

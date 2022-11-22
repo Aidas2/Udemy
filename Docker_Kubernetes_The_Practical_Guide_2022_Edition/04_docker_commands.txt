@@ -1,0 +1,50 @@
+// 1) Prerequisites: install and run mondo db server locally.
+docker build -t favorites-node .
+docker run --name favorites -d --rm -p 3000:3000 favorites-node	// getting connection to db, which is running locally, error;
+docker ps 														// no containers running
+// replace domain in app.js: 
+	// mongoose.connect(
+		// 'mongodb://host.docker.internal:27017/swfavorites',
+  
+// 2) Creating mongo db container (by using mongo image from docker hub):
+docker run mongo
+docker stop 583991f187e7
+docker run -d --name mongodb mongo
+docker container inspect mongodb
+// find line "IPAddress": "172.17.0.2" in "NetworkSettings": {......
+// replace domain in app.js:
+	// mongoose.connect(
+		// 'mongodb://172.17.0.2:27017/swfavorites',
+
+docker build -t favorites-node .
+docker run --name favorites -d --rm -p 3000:3000 favorites-node
+// run requests with Postman
+	
+// 3) Running docker nerwork
+docker stop favorites
+docker stop mongodb
+docker container prune
+docker rm mongodb
+docker network create favorites-net
+docker network ls
+docker run -d --name mongodb --network favorites-net mongo // names of container, network, image
+
+// replace domain in app.js:
+mongoose.connect(
+  // 'mongodb://mongodb:27017/swfavorites',               // for usual connection to to db, running on local machine
+  // 'mongodb://host.docker.internal:27017/swfavorites',  // for connecting from docker image to db, running on local machine
+  // 'mongodb://172.17.0.2:27017/swfavorites',            // for connecting from docker image to db, running on dockr container
+  'mongodb://mongodb:27017/swfavorites',                  // for connecting from docker network (container to container), "mongodb" is name of running db container 
+  { useNewUrlParser: true },
+  (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      app.listen(3000);
+    }
+  }
+);
+
+// repeat steps of building and running (but with network flag):
+docker build -t favorites-node .
+docker run --name favorites --network favorites-net -d --rm -p 3000:3000 favorites-node

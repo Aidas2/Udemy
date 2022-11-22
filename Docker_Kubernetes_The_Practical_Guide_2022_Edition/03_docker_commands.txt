@@ -1,0 +1,78 @@
+## Section 3:
+docker run -d -p 3000:80 --rm 
+	--name feedback-app				// container (named)
+	feedback-node:volumes			// image (taged, format "name:tag")
+	
+docker volumes ls					// list of volumes
+
+docker run -d -p 3000:80 --rm
+	--name feedback-app
+	-v feedback:/app/feedback		// -v stands for volume (named, format "name:path"), named survives container removal
+	feedback-node:volumes 
+	
+docker volume rm VOL_NAME			// removes volume by name
+docker volume prune					// remove all unused volumes
+
+docker run -d -p 3000:80 --rm 
+	--name feedback-app																			// container (named)
+	-v feedback:/app/feedback																	// volume (named, format "name:path")
+	-v "/Users/maximilianschwarzmuller/development/teaching/udemy/docker-complete:/app"			// bind mount
+	feedback-node:volumes																		// image (taged, format "name:tag")
+	// volumes is for data persisance, bind mounts is for providing "live data" to the container (without rebuilding)
+ 
+docker run -d -p 3000:80 --rm
+	--name feedback-app
+	-v feedback:/app/feedback
+	-v "/Users/maximilianschwarzmuller/development/teaching/udemy/docker-complete:/app"
+	-v /app/node_modules				// anonymous volume, added here to survive rewriting (longer path will win against shorter path), 
+	feedback-node:volumes
+	//	anonymous volume is useful to prioritize continer-internal path higher than external paths
+	
+docker logs feedback-app
+
+docker run -d -p 3000:80 --rm
+	--name feedback-app
+	-v feedback:/app/feedback
+	-v "/Users/maximilianschwarzmuller/development/teaching/udemy/docker-complete:/app:ro"  // ro is "read only", useful to prevent docker to write to code
+	-v /app/node_modules
+	feedback-node:volumes
+	
+docker run -d -p 3000:80 --rm 
+	--name feedback-app
+	-v feedback:/app/feedback
+	-v "/Users/maximilianschwarzmuller/development/teaching/udemy/docker-complete:/app:ro"
+	-v /app/temp						// anonymous volume 
+	-v /app/node_modules				// anonymous volume
+	feedback-node:volumes
+	
+docker volume create feedback-files		// manually creating volume (but better do not, leave creation to docker)
+docker run -d -p 3000:80 --rm 
+	--name feedback-app
+	-v feedback-files:/app/feedback 	// running manually created volume
+	-v "/Users/maximilianschwarzmuller/development/teaching/udemy/docker-complete:/app:ro"
+	-v /app/temp
+	-v /app/node_modules
+	feedback-node:volumes
+	
+docker volume inspect <volume_name>		// docker volume inspect feedback
+
+## .dockerinore file may contain node_modules, Dockerfile .git
+
+## ARGuments & ENVironment Variables:
+docker run -d -p 3000:8000 --rm
+	--env PORT=8000 					// env variable, which sets post to 8000; no need to rebuild image; "--env" can be shortened to "-e"
+	--name feedback-app
+	-v feedback:/app/feedback
+	-v "/Users/maximilianschwarzmuller/development/teaching/udemy/docker-complete:/app:ro"
+	-v /app/temp
+	-v /app/node_modules
+	feedback-node:volumes:env			// env is readed from Dockerfile (having text "ENV PORT 80", "EXPOSE $PORT")
+	
+docker run -d -p 3000:8000 --rm
+	--env-file ./.env					// reads port from .env file (having text "PORT=8000")
+	..........
+	feedback-node:volumes:env
+
+docker build -t feedback-node:web-app 	// reads port from Dockerfile (having text "ARG DEFAULT_PORT=80",  "ENV PORT $DEFAULT_PORT", "EXPOSE $PORT")
+docker build -t feedback-node:dev --build-arg DEFAULT_PORT=8000		// sets posts via arg 	
+	

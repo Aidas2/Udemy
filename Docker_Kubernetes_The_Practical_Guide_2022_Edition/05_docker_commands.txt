@@ -1,0 +1,98 @@
+// 1.DOCKERIZING:
+// 1.1.dockerizing db:
+docker container prune
+docker run --name mongodb --rm -d -p 27017:27017 mongo
+docker ps
+
+// 1.2.dockerizing backend:
+cd backend
+// 'mongodb://host.docker.internal:27017/course-goals'
+docker image prune -a
+docker build -t goals-node .
+docker run --name goals-backend --rm goals-node
+docker stop goals-backend
+docker run --name goals-backend --rm -d -p 80:80 goals-node
+
+// 1.3.dockerizing frontend:
+cd frontend
+docker build -t goals-react .
+docker run --name goals-frontend --rm -p 3000:3000 -it goals-react
+// localhost:3000
+
+// 2.NETWORKING:
+docker stop goals-frontend
+docker stop goals-backend
+docker stop mongodb
+docker ps -a
+
+cd backend
+// 'mongodb://mongodb:27017/course-goals',
+docker build -t goals-node .
+
+cd frontend
+// const response = await fetch('http://goals-backend/goals'); // container name
+docker build -t goals-react .
+
+docker network ls
+docker network create goals-net
+docker run --name mongodb --rm -d --network goals-net mongo
+docker run --name goals-backend --rm -d --network goals-net goals-node
+docker run --name goals-frontend --network goals-net --rm -p 3000:3000 -it goals-react
+// localhost:3000 // receiving ERR_NAME_NOT_RESOLVED, not ok
+
+// stopping/rebuilding/rerunning:
+// const response = await fetch('http://localhost/goals'); // for browser to understand
+docker build -t goals-react .
+docker run --name goals-frontend --rm -p 3000:3000 -it goals-react		// with localhost in App.js, wihout network flag
+docker run --name goals-backend --rm -d -p 80:80 --network goals-net goals-node	// with publishing port
+// localhost:3000 // ok now
+
+3.DATA PERSISTANCE WITH VOLUMES:
+// 3.1.db:
+docker stop mongodb
+docker run --name mongodb
+	-v data:/data/db		// adding named volume (not bind-mount)
+	--rm -d --network goals-net mongo 
+docker stop mongodb
+// 'mongodb://max:secret@mongodb:27017/course-goals?authSource=admin', // rebuild & restart backend
+docker run --name mongodb
+	-v data:/data/db
+	--rm -d --network goals-net
+	-e MONGO_INITDB_ROOT_USERNAME=max  // adding environment values
+	-e MONGO_INITDB_ROOT_PASSWORD=secret
+	mongo
+
+docker run --name mongodb -v data:/data/db --rm -d --network goals-net -e MONGO_INITDB_ROOT_USERNAME=max -e MONGO_INITDB_ROOT_PASSWORD=secret mongo
+
+// 3.2.backend bind-mount:
+docker run --name goals-backend
+	-v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/05_Multi_container_app/multi-02-finished/backend:/app // absolute path, bind-mount
+	-v logs:/app/logs
+	-v /app/node_modules
+	--rm -d -p 80:80 --network goals-net goals-node
+
+docker run --name goals-backend -v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/05_Multi_container_app/multi-02-finished/backend:/app -v logs:/app/logs -v /app/node_modules --rm -d -p 80:80 --network goals-net goals-node
+
+docker run --name goals-backend
+	-v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/05_Multi_container_app/multi-02-finished/backend:/app // absolute path, bind-mount
+	-v logs:/app/logs
+	-v /app/node_modules
+	-e MONGODB_USERNAME=max
+	--rm -d -p 80:80 --network goals-net goals-node
+	
+docker run --name goals-backend -v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/05_Multi_container_app/multi-02-finished/backend:/app -v logs:/app/logs -v /app/node_modules -e MONGODB_USERNAME=max --rm -d -p 80:80 --network goals-net goals-node
+// not working ...
+// npm ERR! enoent ENOENT: no such file or directory, open '/app/package.json'
+	
+// 3.3.frontend bind-mount:
+docker run
+	-v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/05_Multi_container_app/multi-02-finished/frontend/src:/app/src
+	--name goals-frontend --rm -p 3000:3000 -it goals-react
+	
+docker run -v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/05_Multi_container_app/multi-02-finished/frontend/src:/app/src --name goals-frontend --rm -p 3000:3000 -it goals-react
+// not working ....
+docker run -v "/Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/05_Multi_container_app/multi-02-finished/frontend/src:/app/src" --name goals-frontend --rm -p 3000:3000 -it goals-react
+docker run -v \Coding\DEV_Code\Udemy\Docker_Kubernetes_The_Practical_Guide_2022_Edition\05_Multi_container_app\multi-02-finished\frontend\src:\app\src --name goals-frontend --rm -p 3000:3000 -it goals-react
+// Could not find a required file.
+//  Name: index.js
+//  Searched in: /app/src
