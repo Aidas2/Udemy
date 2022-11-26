@@ -1,0 +1,31 @@
+docker run -it node
+docker container prune
+
+docker run -it -d node
+docer exec -it <container-name> npm init	// docer exec vigorous_dewdney npm init
+docker stop vigorous_dewdney
+docker run -it node npm init
+
+
+// create Dockerfile with lines "FROM node:14-alpine" and "WORKDIR /app"
+docker build -t node-util .
+docker run -it node-util npm init	// creates project only in container
+docker run -it
+	-v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/07_Utility_containers/utility:app/ // creates project in container && local machine
+	node-util npm init
+	
+// add line "ENTRYPOINT [ "npm" ]"
+docker build -t mynpm .
+docker run -it
+	-v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/07_Utility_containers/utility:app/
+	mynpm init	// no need to write "npm" (command "init" will be appended to command provided in ENTRYPOINT)
+docker run -it
+	-v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/07_Utility_containers/utility:app/
+	mynpm install	// to install dependencies provided in package.json
+docker run -it
+	-v /Coding/DEV_Code/Udemy/Docker_Kubernetes_The_Practical_Guide_2022_Edition/07_Utility_containers/utility:app/
+	mynpm install express --save	// to install specific dependency
+	
+// create docker-compose.yaml file
+docker-compose run --rm npm init // "npm" service name from file, "init" comand to execute for tht service; creates project (generates package.json file)
+docker container prune

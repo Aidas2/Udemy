@@ -1,0 +1,27 @@
+docker-compose run --rm composer create-project --prefer-dist laravel/laravel .			// 117 lecture 1:56
+
+// change in src/.env:					// lecture 119 0:05
+// 	DB_CONNECTION=mysql
+// 	DB_HOST=mysql
+// 	DB_PORT=3306
+// 	DB_DATABASE=homestead
+// 	DB_USERNAME=homestead
+// 	DB_PASSWORD=secret
+// change in src/resources/views/welcome.blade.php:
+//	<h1>Hello!!!</h1>
+
+docker-compose up server php mysql 	// starts only those three servises (not all), use if no "depends_on:" added; lecture 119 4:58
+docker-compose up server			// after adding "depends_on: - php - mysql", lecture 119 7:25
+// visit localhost:8000				// not working .... some parsing eror in "Finder.php"
+// laravel-04-fixed-artisan-1   | In Finder.php line 588:
+// laravel-04-fixed-artisan-1   |
+// laravel-04-fixed-artisan-1   |   syntax error, unexpected token ")"
+
+docker-compose up -d --build server			// "--build" <-- forces to recreate images, lecture 119 9:51
+docker-compose run --rm artisan migrate		// lecture 120 5:11, not working ...
+// In Finder.php line 588:
+//  syntax error, unexpected token ")"
+
+docker-compose down
+docker container prune
+docker image prune -a
