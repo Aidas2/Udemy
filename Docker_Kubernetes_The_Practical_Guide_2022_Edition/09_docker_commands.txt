@@ -1,0 +1,78 @@
+docker build -t node-dep-example .
+docker run -d --rm --name node-dep -p 80:80 node-dep-example
+
+// I. DEPLOYING IN CLOUD with AWS EC2 (backend + db, managing manually, but free).
+// Lessons 124 - 137, code in folder "deployment-03-final-single-container-example"
+
+// create Instance in AWS, download *.pem file,
+// in AWS console:
+// press "Connect" to Instance, observe tab "SSH client", run described commands:
+// 		chmod 400 example-1.pem // skip for Windows/Putty
+//		ssh -i "example-1.pem" ec2-user@ec2-18-130-250-210.eu-west-2.compute.amazonaws.com // skip for Windows/Putty
+// for Windows/Putty folow https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+
+// in Putty terminal (connecting to AWS Instance):
+sudo yum update
+sudo amazon-linux-extras install docker
+sudo service docker start
+docker run --help
+
+// create repository in Docker Hub (https://hub.docker.com/)
+// in local terminal (creating image locally and deploying to Docker hub):
+docker build -t node-dep-example-1 .
+docker tag node-dep-example-1 aidaspupelis/node-example-1 // renaming image ("aidaspupelis/node-example-1" is from docker hub repository)
+docker images	// observe that new image appears
+docker login	// aidaspupelis & arbata555
+docker push aidaspupelis/node-example-1
+
+// in Putty terminal (running image in AWS):
+sudo docker run -d --rm -p 80:80 aidaspupelis/node-example-1
+sudo docker ps
+
+// in AWS console:
+// Network & Security --> Security Groups --> select --> Inbound rules --> Edit inbound rules --> Add rule:
+// HTTP, Anywhere-IPv4, --> Save rules
+// copy from Instance tab "Public IPv4 address", enter in the browser // e.g. 18.130.250.210
+
+// REFLECTING TO CODE CHANGES:
+// in local terminal:
+docker build -t node-dep-example-1 .
+docker tag node-dep-example-1 aidaspupelis/node-example-1
+docker push aidaspupelis/node-example-1
+// in Putty terminal:
+sudo docker ps
+sudo docker stop ecstatic_snyder
+sudo docker pull aidaspupelis/node-example-1 // forces to use updated/latest image
+sudo docker run -d --rm -p 80:80 aidaspupelis/node-example-1
+// refresh browser 18.130.250.210
+
+
+// II. DEPLOYING IN CLOUD with AWS ECS (Elastic Container Service, backend + db, managed automatically, but not free).
+// Lessons 138 - 148 code in folder "deployment-05-ecs-two-containers-node-mongo"
+// Not much to documment, a lot stuff specific only to ECS
+
+
+// III. DEPLOYING DATABASE IN CLOUD (MongoDB Atlas).
+// Lessons 148 - 149, code in folder "deployment-06-switched-to-mongodb-atlas"
+
+// Create account. Create Cluster. https://cloud.mongodb.com/
+// Security --> Database Access --> Database Users --> chech rights, name, password
+// Security --> Network Access --> Add Ip Adress
+// in app.js change link according to suggested in Atlas:
+//		mongoose.connect(
+//	    `mongodb://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_URL}:27017/course-goals?authSource=admin`,
+//		`mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_URL}/${process.env.MONGODB_NAME}?retryWrites=true&w=majority`,
+// in backend.env change username and password and url to match in Atlas:
+//		MONGODB_USERNAME=admin
+// 		MONGODB_PASSWORD=4Lam6NNtva8GoaW7
+//		MONGODB_URL=cluster0.3o4xe.mongodb.net
+// in docker-compose.yaml comment out local mongo db
+docker compose up
+// in browser go to http://localhost/goals"
+
+// IV. DEPLOYING ALL IN CLOUDS (frontend + backend + db).
+// Lesson 150: deleting mongo db resources in AWS ECS, replacing with mongo db from MongoDB Atlas
+// Lessons 151 - 161 adding frontend part (with multistage building)
+// code in "deployment-09-finished"
+docker build -f frontend/Dockerfile.prod -t academind/goals-react ./frontend
+docker push acadaemind/goals-react
