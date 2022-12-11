@@ -1,0 +1,116 @@
+// install Chocolatey https://chocolatey.org/install
+// install kubectl (via Chocolatey) https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/,
+//		create file C:\Users\aidas\.kube\config
+// install VirtualBox https://www.virtualbox.org/ (or skip, not working with 'minikube start --driver=virtualbox');
+// install minikube https://minikube.sigs.k8s.io/docs/start/
+
+// minikube start --driver=virtualbox	// not working, run 'minikube delete'
+// minikube start --driver=hyperv		// not working, run 'minikube delete'
+minikube start --driver=docker			// working
+minikube status
+minikube dashboard						// opens browser, but empty
+
+// 1.IMPERATIVE APPROACH:
+// code in folder 'kub-action-01-starting-setup'
+docker build -t kub-first-app .
+minikube status
+kubectl help
+
+// deployment object:
+kubectl create deployment first-app --image=kub-first-app	// creating deployment object
+															// will not work, should point not to local image,
+															// but to local image deployed to dockerhub repository
+kubectl get deployments
+kubectl get pods
+kubectl delete deployment first-app
+// create repository in gith hub: aidaspupelis/kub-first-app
+docker tag kub-first-app aidaspupelis/kub-first-app // just renaming
+docker push aidaspupelis/kub-first-app
+kubectl create deployment first-app --image=aidaspupelis/kub-first-app // creating deployment object from image in dockerhub
+kubectl get deployments
+kubectl get pods
+minikube dashboard
+
+// exposing with service object:
+kubectl expose deployment first-app --type=LoadBalancer --port=8080 		// creating service object
+kubectl get services
+minikube service first-app // opens browser in http://127.0.0.1:63486/		// servicing deployment object
+// visit http://127.0.0.1:63486/error										// crashes intentionally
+// visit http://127.0.0.1:63486/ and wait for a while						// still works (because pod was restarted)
+kubectl get pods
+
+// scaling:
+kubectl scale deployment/first-app --replicas=3
+kubectl get pods
+// visit http://127.0.0.1:63486/error							// crashes intentionally again
+// visit http://127.0.0.1:63486/ and NOT wait for a while		// still works (because of replicas)
+kubectl scale deployment/first-app --replicas=1 				// others two pod will be terminated
+
+// updating deployment:
+docker build -t aidaspupelis/kub-first-app:2 . // using tag '2' to trigger update
+docker push aidaspupelis/kub-first-app:2
+kubectl get deployments
+kubectl set image deployment/first-app kub-first-app=aidaspupelis/kub-first-app:2  // old name from kubernates console = name of updated image
+kubectl rollout status deployment/first-app
+// visit http://127.0.0.1:56142/ (run 'minikube service first-app' if not running yet)
+// visit kubernetes dashbord (run 'minikube dashboard' if not running yet)
+
+kubectl set image deployment/first-app kub-first-app=aidaspupelis/kub-first-app:3	// fails intentionally
+kubectl rollout status deployment/first-app
+kubectl get pods
+kubectl rollout undo deployment/first-app		// undoing wrong deployment (latest)
+kubectl get pods
+kubectl rollout status deployment/first-app
+// visit http://127.0.0.1:64893/				// working again
+kubectl rollout history deployment/first-app
+kubectl rollout history deployment/first-app --revision=3
+kubectl rollout undo deployment/first-app --to-revision=1	// undoing to selected deployment
+// refresh http://127.0.0.1:64893/			// should display initial version
+kubectl delete service first-app
+kubectl delete deployment first-app
+
+
+// 2.DECLARATIVE APPROACH:
+//code in folder 'kub-action-02-declarative-approach-basics'
+kubectl get deployments		// should return 'No resources found in default namespace.', if not run 'kubectl delete deployment first-app'
+kubectl get pods			// should return 'No resources found in default namespace.'
+kubectl get services		// should retun only 'kubernetes'
+minikube status				// should be up and running
+
+// create file deployment.yaml
+kubectl apply -f=deployment.yaml
+kubectl get deployments
+kubectl get pods
+
+// create file service.yaml
+kubectl apply -f service.yaml
+kubectl get services
+minikube service backend		// exposes, opens http://127.0.0.1:49479/ with page
+
+// for updating: just modify deployment.yaml file and run 'kubectl apply -f=deployment.yaml' (and wait for a while)
+// for deleting: kubectl delete -f=deployment.yaml -f=service.yaml	// deletes not file, but resources created based on it
+
+3. MULTIPLE VS SINGLE CONFIG FILES:
+// code in folder 'kub-action-03-merging-config-files'
+// create file master-deployment.yaml, first copy content of service.yaml, then content of deployment.yaml and separated by ---
+kubectl delete -f=deployment.yaml -f=service.yaml
+kubectl apply -f=master-deployment.yaml
+minikube service backend		// exposes
+kubectl delete -f=master-deployment.yaml
+
+4. LABELS & SELECTORS:
+// code in folder 'kub-action-04-more-on-labels-and-selectors'
+kubectl apply -f=deployment.yaml -f=service.yaml
+kubectl get deployments
+kubectl get services
+kubectl delete deployments,services -l group=example	// deleting by label (-l stands for label)
+kubectl get deployments
+kubectl get services
+
+5. LIVENESS PROBE:
+// code in folder 'kub-action-05-finished'
+kubectl apply -f=deployment.yaml -f=service.yaml
+minikube service backend
+// visit http://127.0.0.1:56004/error										// crashes intentionally
+kubectl get pods															// observe RESTARTS
+kubectl delete -f=deployment.yaml -f=service.yaml
