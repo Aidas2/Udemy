@@ -1,0 +1,86 @@
+// code in folder 'kub-data-01-starting-setup'
+docker-compose up -d --build
+// in Postman: POST localhost/story; GET localhost/story
+docker-compose down
+docker container prune
+docker-compose up -d --build
+// in Postman GET localhost/story, observe that text persisted
+docker-compose down
+
+
+// code in folder 'kub-data-02-deployment-and-service'
+docker build -t aidaspupelis/kub-data-demo .
+docker push aidaspupelis/kub-data-demo
+minikube status
+minikube start --driver=docker
+kubectl apply -f=service.yaml -f=deployment.yaml
+kubectl get deployments
+minikube service story-service
+// in Postman:POST http://127.0.0.1:65086/story, GET http://127.0.0.1:65086/story 
+
+
+// code in folder 'kub-data-03-first-volume'
+docker build -t aidaspupelis/kub-data-demo:1 .		
+docker push aidaspupelis/kub-data-demo:1
+minikube status
+minikube start --driver=docker
+kubectl apply -f=service.yaml -f=deployment.yaml
+kubectl get pods
+minikube service story-service
+// in Postman: POST http://127.0.0.1:56965/story, GET http://127.0.0.1:56965/story	// works as before
+// in Postman: GET http://127.0.0.1:56965/error		// crashes intentionally
+// in Postman: GET http://127.0.0.1:56965/story		// empty, because container restarted and data lost
+// adding volumes (of type 'emptyDir') in deployment.yaml and re-deploying 
+kubectl apply -f=deployment.yaml
+// repeating steps in Postman, observe that data is not lost
+
+
+// code in folder 'kub-data-04-hostpath'
+minikube start --driver=docker		// repeating steps if computer/server was shut down
+minikube service story-service		// repeating steps if computer/server was shut down
+kubectl apply -f=deployment.yaml
+kubectl get pods						// observe there are two pods (because 'replicas: 2')
+// in Postman: GET http://127.0.0.1:56965/story		// still getting data
+// in Postman: GET http://127.0.0.1:56965/error		// crashes intentionally
+// in Postman: GET http://127.0.0.1:56965/story		// again "Failed to open file", because using another pod (while crashed restarts)
+// adding volumess (of type 'hostPath') in deployment.yaml and re-deploying
+kubectl apply -f=deployment.yaml
+// repeating steps in Postman, observe that data is not lost (because multiple pods sharing same volume on the host machine)
+
+
+// code in folder 'kub-data-05-pv-and-pvc'
+minikube start --driver=docker		// repeating steps if computer/server was shut down
+minikube service story-service		// repeating steps if computer/server was shut down
+kubectl get sc		// storage classes
+kubectl apply -f=service.yaml -f=deployment.yaml
+kubectl apply -f=host-pv.yaml
+kubectl apply -f=host-pvc.yaml
+kubectl get pv		// persistent volumes
+kubectl get pvc		// persistent volume claims
+kubectl get deployments
+// in Postman: GET http://127.0.0.1:56471/story // visually works like before, but already using separate-independent pv outside pod
+
+
+// code in folder 'kub-data-06-env'
+docker build -t aidaspupelis/kub-data-demo:2 .		
+docker push aidaspupelis/kub-data-demo:2
+kubectl apply -f=deployment.yaml
+kubectl get pods
+// in Postman: GET http://127.0.0.1:56471/story // visually works like before, but already using environment variables
+
+
+// code in folder 'kub-data-07-finished'
+kubectl apply -f=environment.yaml
+kubectl get configmap
+kubectl apply -f=deployment.yaml
+kubectl get deployments
+kubectl get pods
+// in Postman: GET http://127.0.0.1:56471/story // visually works like before, but already using environment variables && configMaps
+
+
+
+
+
+
+
+

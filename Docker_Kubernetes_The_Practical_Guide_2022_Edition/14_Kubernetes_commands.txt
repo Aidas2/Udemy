@@ -1,0 +1,119 @@
+// code in folder 'kub-network-02-dummy-user-service'
+minikube status
+minikube start --driver=docker
+kubectl get deployments	// delete if exist, e.g. 'kubectl delete deployments story-deployment'
+kubectl get services 	// delete if exist, e.g. 'kubectl delete services story-service'
+// create repository in dockerhub 'kub-demo-users'
+cd users-api
+docker build -t aidaspupelis/kub-demo-users .
+docker push aidaspupelis/kub-demo-users
+cd ..
+cd kubernetes
+kubectl apply -f=users-deployment.yaml
+kubectl get pods
+kubectl apply -f=users-service.yaml
+minikube service users-service		//creates url http://127.0.0.1:63453 (for using in Postman)
+// in Postman:POST http://127.0.0.1:63453/login		// working as dummy
+// in Postman:POST http://127.0.0.1:63453/signup
+
+
+// code in folder 'kub-network-03-pod-internal'
+// assuming that minicube and users-service are running (from previous commands of above folder)
+// create repository in dockerhub 'kub-demo-auth'
+cd auth-api
+docker build -t aidaspupelis/kub-demo-auth .
+docker push aidaspupelis/kub-demo-auth
+cd ..
+cd users-api
+docker build -t aidaspupelis/kub-demo-users .
+docker push aidaspupelis/kub-demo-users
+cd ..
+cd kubernetes
+kubectl apply -f=users-deployment.yaml
+kubectl get pods
+// in Postman:POST http://127.0.0.1:63453/signup	// still working, but not as dummy, because communicating 'auth' and 'users' containers in same pod
+// in Postman:POST http://127.0.0.1:63453/login
+
+
+// code in 'kub-network-04-automatic-domain-names'
+// AUTH_ADDRESS is manually generated, e.g. "10.99.104.252" displayed by 'kubectl get services'
+// AUTH_SERVICE_SERVICE_HOST is automatically generated environment variable
+// "auth-service.default" is DNS (Domain Name System) + namespace (dispalyed by 'kubectl get namespaces')
+// ClusterIp - cluster internal ip adress, LoadBalancer - exposed to world  ip adress
+minikube start --driver=docker
+cd users-api
+docker build -t aidaspupelis/kub-demo-users .
+docker push aidaspupelis/kub-demo-users
+cd ..
+cd kubernetes
+kubectl get services
+kubectl get deployments
+kubectl get pods
+kubectl delete -f=users-deployment.yaml
+kubectl apply -f=users-deployment.yaml
+kubectl apply -f=auth-service.yaml -f=auth-deployment.yaml
+kubectl get services
+// in Postman:POST http://127.0.0.1:63453/signup	// still working, but 'auth' and 'users' containers are in separate pods (and as separate services)
+// in Postman:POST http://127.0.0.1:63453/login
+kubectl get namespaces
+
+
+// code in 'kub-network-05-all-services-connected'
+// create repository in dockerhub 'kub-demo-tasks'
+// create folder tasks-api/tasks
+cd tasks-api
+docker build -t aidaspupelis/kub-demo-tasks .
+docker push aidaspupelis/kub-demo-tasks
+cd ..
+cd kubernetes
+// kubectl delete -f=users-deployment.yaml -f=auth-deployment.yaml
+// kubectl delete -f=users-service.yaml -f=auth-service.yaml
+// kubectl apply -f=users-service.yaml -f=auth-service.yaml
+// kubectl apply -f=users-deployment.yaml -f=auth-deployment.yaml
+kubectl apply -f=tasks-service.yaml -f=tasks-deployment.yaml
+kubectl get services
+kubectl get deployments
+kubectl get pods
+minikube service users-service		// creates url http://127.0.0.1:50883 (for using in Postman)
+minikube service tasks-service		// creates url http://127.0.0.1:50903 (for using in Postman)
+// in Postman:POST http://127.0.0.1:50883/signup
+// in Postman:POST http://127.0.0.1:50883/login
+// in Postman:POST http://127.0.0.1:50903/tasks
+// in Postman:GET http://127.0.0.1:50903/tasks
+
+
+// code in 'kub-network-06-added-frontend'
+// assuming that everything running from previous folder
+// change urls in frontens/src.App.js to used in Postman
+cd frontend
+docker build -t aidaspupelis/kub-demo-frontend .		
+docker run -p 80:80 --rm -d aidaspupelis/kub-demo-frontend		// using just docker, not kubernates yet
+// in browser go to http://localhost/		// getting CORS error (need to add headers in tasks-api anf redeploy)
+cd ..
+cd tasks-api
+docker build -t aidaspupelis/kub-demo-tasks .
+docker push aidaspupelis/kub-demo-tasks
+cd ..
+cd kubernetes
+kubectl delete -f=tasks-deployment.yaml
+kubectl apply -f=tasks-deployment.yaml
+// in browser reload http://localhost/	// crashes, "401 Unauthorized" error, need to add headers in frontend/src/App.js line next urls)
+// rebuild and rerun container if headers was added:
+docker build -t aidaspupelis/kub-demo-frontend .
+docker stop <container_name>
+docker run -p 80:80 --rm -d aidaspupelis/kub-demo-frontend
+// in browser reload http://localhost/ 		// runs ok (but fails on '.map on undefined' if there in no tasks)
+docker stop agitated_perlman				// stopping to prepare for deploying with kubernetes yaml file
+
+
+// code in 'kub-network-07-finished'
+// assuming that everything running from previous folder
+// observe modified file frontend/conf/nginx.conf/nginx (reversed proxy) and modified urls in frontend/src/App.js
+// create repository in dockerhub 'kub-demo-frontend'
+docker push aidaspupelis/kub-demo-frontend
+cd kubernetes
+kubectl apply -f=frontend-service.yaml -f=frontend-deployment.yaml
+kubectl get pods		// all four pods should be running
+minikube service frontend-service	// gives url  http://127.0.0.1:52966 and opens in the browser automatically
+// add and feth third task in browser
+
