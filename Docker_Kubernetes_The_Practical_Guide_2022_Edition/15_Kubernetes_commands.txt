@@ -1,0 +1,69 @@
+// code in folder 'kub-deploy-01-starting-setup'
+// create cluster in https://cloud.mongodb.com/ or use created earlier
+// Projects --> Project0 --> Cluster0 --> 'Connect' --> 'Connect your application'  --> copy and paste connection string in users.yaml
+// mongodb+srv://<userName>:<password>@cluster0.3o4xe.mongodb.net/?retryWrites=true&w=majority
+// Database Access --> copy and paste User Name ('admin'), get and paste password (availabe only on editing user and password), write db name ('users')
+// mongodb+srv://admin:wuLuzSflVshNbJye@cluster0.3o4xe.mongodb.net/users?retryWrites=true&w=majority
+// create repositories in dockerhub 'kub-dep-users' and 'kub-dep-auth'
+cd users-api
+docker build -t aidaspupelis/kub-dep-users .
+docker push aidaspupelis/kub-dep-users
+cd ..
+cd auth-api
+docker build -t aidaspupelis/kub-dep-auth .
+docker push aidaspupelis/kub-dep-auth
+
+// not using minikube anymore, instead using AWS EKS (Elastic Kubernetes Service)
+// https://eu-west-2.console.aws.amazon.com/eks/home?region=eu-west-2#
+// create EKS cluster 'kub-dep-demo', not documented, various staff specific to AWS (available only on paid version)
+C:\Users\aidas\.kube\config this if file responsible for using minikube or AWS, copy and rename to 'config.minikube'
+// install https://aws.amazon.com/cli/, generate and use Assess Key (command 'aws configure')
+aws eks --region eu-west-2 update-kubeconfig --name kub-dep-demo		// updates config file to use AWS EKS
+kubectl get pods		// founds nothing, because already talking to AWS (not locall to minikube)
+minikube delete			// 'Removed all traces of the "minikube" cluster'
+// add Node Group, add permissions, etc.	// not documented, various staff related specific to AWS
+
+cd kubernetes
+kubectl apply -f=auth.yaml -f=users.yaml
+kubectl get deployments
+kubectl get pods
+kubectl get services
+kubectl get namespaces
+
+
+// code in folder 'kub-deploy-02-added-efs-volume'
+// https://eu-west-2.console.aws.amazon.com/efs/home?region=eu-west-2#/get-started	// EFS - Elastic File System
+// follow 'Installation' on https://github.com/kubernetes-sigs/aws-efs-csi-driver
+kubectl apply -k "github.com/kubernetes-sigs/aws-efs-csi-driver/deploy/kubernetes/overlays/stable/?ref=release-1.4"
+// create EFS (Elastic File System), VPC (Virtual Private Cloud), etc.		// not documented, various staff specific to AWS
+
+
+// code in folder 'kub-deploy-03-read-write-to-fs', 'kub-deploy-04-volumes-finished'
+// rebuild, repush image 'aidaspupelis/kub-dep-users'
+// delete and redeploy 'users-deployment'
+// reapply 'kubectl apply -f=users.yaml'
+kubectl get pods
+// in Postman: POST blablabla5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/signup
+// in Postman: GET blablabla5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/logs
+
+
+// code in folder 'kub-deploy-05-added-tasks-service', 'kub-deploy-06-finished'
+// create repository in dockerhub 'kub-dep-tasks'
+cd tasks-api
+docker build -t aidaspupelis/kub-dep-tasks .
+docker push aidaspupelis/kub-dep-tasks
+cd ..
+cd kubernetes
+kubectl apply -f=tasks.yaml
+// rebuild, repush, delete/redeploy, reapply 'users' and 'auth'
+kubectl get deployments
+kubectl get pods
+kubectl get services
+// in Postman: GET yadayada5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/tasks		// returns that user in unauthenticared
+// in Postman: POST blablabla5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/login 	// returns token
+// copy and paste token to GET request (Headers --> Key:Authorization; Value:Bearer token)
+// in Postman: GET yadayada5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/tasks		// return empty list of tasks
+// in Postman: POST yadayada5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/tasks	// creates new task
+// in Postman: GET yadayada5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/tasks		// return list with newly created task
+// try login and get with different user --> list must be empty again
+// in Postman: DELETE yadayada5faghdjfj47fukfyudtdkhgh658djdyj734djf8xjd...amazonaws.com/tasks/<id_of_the_task> // works, but deletes only for user witch created
